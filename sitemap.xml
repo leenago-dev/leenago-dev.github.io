@@ -2,48 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blooming-daisy.github.io/page/archives/archives/</loc>
+    <loc>https://blooming-daisy.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
   </url><url>
     <loc>https://blooming-daisy.github.io/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
   </url><url>
     <loc>https://blooming-daisy.github.io/page/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
   </url><url>
-    <loc>https://blooming-daisy.github.io/page/about/about/</loc>
+    <loc>https://blooming-daisy.github.io/about/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
   </url><url>
-    <loc>https://blooming-daisy.github.io/post/test-post/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+    <loc>https://blooming-daisy.github.io/p/</loc>
   </url><url>
     <loc>https://blooming-daisy.github.io/categories/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
   </url><url>
-    <loc>https://blooming-daisy.github.io/page/links/links/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+    <loc>https://blooming-daisy.github.io/links/</loc>
   </url><url>
     <loc>https://blooming-daisy.github.io/post/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
   </url><url>
-    <loc>https://blooming-daisy.github.io/page/search/search/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+    <loc>https://blooming-daisy.github.io/search/</loc>
   </url><url>
     <loc>https://blooming-daisy.github.io/tags/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
   </url>
 </urlset>
