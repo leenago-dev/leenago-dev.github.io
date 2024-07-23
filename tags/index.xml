@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Leena&#39;s Place</title>
-        <link>http://localhost:1313/tags/</link>
+        <link>https://blooming-daisy.github.io/tags/</link>
         <description>Recent content in Tags on Leena&#39;s Place</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
         <copyright>Leena</copyright>
-        <lastBuildDate>Fri, 08 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 08 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blooming-daisy.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Css</title>
-        <link>http://localhost:1313/tags/css/</link>
+        <link>https://blooming-daisy.github.io/tags/css/</link>
         <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/css/</guid>
+        <guid>https://blooming-daisy.github.io/tags/css/</guid>
         <description></description>
         </item>
         <item>
         <title>Html</title>
-        <link>http://localhost:1313/tags/html/</link>
+        <link>https://blooming-daisy.github.io/tags/html/</link>
         <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/html/</guid>
+        <guid>https://blooming-daisy.github.io/tags/html/</guid>
         <description></description>
         </item>
         <item>
         <title>Markdown</title>
-        <link>http://localhost:1313/tags/markdown/</link>
+        <link>https://blooming-daisy.github.io/tags/markdown/</link>
         <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/markdown/</guid>
+        <guid>https://blooming-daisy.github.io/tags/markdown/</guid>
         <description></description>
         </item>
         <item>
         <title>Emoji</title>
-        <link>http://localhost:1313/tags/emoji/</link>
+        <link>https://blooming-daisy.github.io/tags/emoji/</link>
         <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/emoji/</guid>
+        <guid>https://blooming-daisy.github.io/tags/emoji/</guid>
         <description></description>
         </item>
         
