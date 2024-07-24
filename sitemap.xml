@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blooming-daisy.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blooming-daisy.github.io/p/tutorial-markdown-syntax-guide/</loc>
+    <loc>http://localhost:1313/p/tutorial-markdown-syntax-guide/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blooming-daisy.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blooming-daisy.github.io/tags/first_blog/</loc>
+    <loc>http://localhost:1313/tags/first_blog/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blooming-daisy.github.io/tags/markdown/</loc>
+    <loc>http://localhost:1313/tags/markdown/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blooming-daisy.github.io/categories/markdown/</loc>
+    <loc>http://localhost:1313/categories/markdown/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blooming-daisy.github.io/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blooming-daisy.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blooming-daisy.github.io/tags/tutorial/</loc>
+    <loc>http://localhost:1313/tags/tutorial/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blooming-daisy.github.io/categories/tutorial/</loc>
+    <loc>http://localhost:1313/categories/tutorial/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blooming-daisy.github.io/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blooming-daisy.github.io/page/</loc>
+    <loc>http://localhost:1313/page/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blooming-daisy.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blooming-daisy.github.io/links/</loc>
+    <loc>http://localhost:1313/links/</loc>
   </url><url>
-    <loc>https://blooming-daisy.github.io/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>
