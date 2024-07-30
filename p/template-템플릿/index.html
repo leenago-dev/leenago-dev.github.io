@@ -246,6 +246,7 @@
             <li><a href="#기울임체-링크">기울임체 (링크)</a></li>
             <li><a href="#기울임체-no-링크">기울임체 (no 링크)</a></li>
             <li><a href="#일반-no-링크">일반 (no 링크)</a></li>
+            <li><a href="#다른-인용구-작성-방법">다른 인용구 작성 방법</a></li>
           </ol>
         </li>
       </ol>
@@ -282,25 +283,42 @@
         </li>
       </ol>
     </li>
-    <li><a href="#other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark</a></li>
-    <li><a href="#hyperlinked-image">Hyperlinked image</a>
+    <li><a href="#other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark</a>
+      <ol>
+        <li>
+          <ol>
+            <li><a href="#abbr">abbr</a></li>
+            <li><a href="#sub">sub</a></li>
+            <li><a href="#sup">sup</a></li>
+            <li><a href="#kbd">kbd</a></li>
+            <li><a href="#mark">mark</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#hyperlinked-image">Hyperlinked image</a></li>
+    <li><a href="#emoji">Emoji</a></li>
+    <li><a href="#mathematical-notation">Mathematical Notation</a>
       <ol>
         <li><a href="#examples">Examples</a></li>
       </ol>
     </li>
-    <li><a href="#youtube-privacy-enhanced-shortcode">YouTube Privacy Enhanced Shortcode</a></li>
-    <li><a href="#twitter-simple-shortcode">Twitter Simple Shortcode</a></li>
-    <li><a href="#vimeo-simple-shortcode">Vimeo Simple Shortcode</a></li>
-    <li><a href="#instagram-shortcode">instagram Shortcode</a></li>
-    <li><a href="#gist-shortcode">Gist Shortcode</a></li>
-    <li><a href="#gitlab-snippets-shortcode">Gitlab Snippets Shortcode</a></li>
-  </ol>
-
-  <ol>
-    <li><a href="#mane-refeci-capiebant-unda-mulcebat">Mane refeci capiebant unda mulcebat</a></li>
-    <li><a href="#正文测试">正文测试</a></li>
-    <li><a href="#引用">引用</a></li>
-    <li><a href="#图片">图片</a></li>
+    <li><a href="#enhanced-shortcode">Enhanced Shortcode</a>
+      <ol>
+        <li>
+          <ol>
+            <li><a href="#youtube">YouTube</a></li>
+            <li><a href="#twitter">Twitter</a></li>
+            <li><a href="#vimeo-simple-shortcode">Vimeo Simple Shortcode</a></li>
+            <li><a href="#instagram-shortcode">instagram Shortcode</a></li>
+            <li><a href="#gist-shortcode">Gist Shortcode</a></li>
+            <li><a href="#gitlab-snippets-shortcode">Gitlab Snippets Shortcode</a></li>
+          </ol>
+        </li>
+        <li><a href="#직접-그림-그리기">직접 그림 그리기</a></li>
+        <li><a href="#html에서-특수기호-사용하기">HTML에서 특수기호 사용하기</a></li>
+      </ol>
+    </li>
   </ol>
 </nav>
         </div>
@@ -381,7 +399,7 @@
 
 
                 <time class="article-time--reading">
-                    5분이면 충분해요!🕐
+                    4분이면 충분해요!🕐
                 </time>
             </div>
         
@@ -397,6 +415,11 @@
     
     
     <p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
+<p>참고)</p>
+<p>&mdash;&mdash;&mdash;&mdash;&mdash; 북마크 &mdash;&mdash;&mdash;&mdash;&mdash;</p>
+<ul>
+<li>이렇게 밑줄도 그을 수 있군요</li>
+</ul>
 <h2 id="headings">Headings
 </h2><ul>
 <li>목차 Numbering은 <code>##(H2)</code>부터 시작이 됩니다.</li>
@@ -447,6 +470,16 @@
 </h4><blockquote>
     <p>Hugo 기반 블로그 참 좋구만!</p><span class="cite"><span>― </span><span>Leena</span><cite></cite></span></blockquote>
 <p>※참고: quote author에는 url이 붙지 않습니다~</p>
+<h4 id="다른-인용구-작성-방법">다른 인용구 작성 방법
+</h4><ul>
+<li><kbd>&gt;</kbd> 를 이용해서 인용 part를 만들 수 있습니다.</li>
+</ul>
+<blockquote>
+<p>思念是最暖的忧伤像一双翅膀<br>
+让我停不了飞不远在过往游荡</p>
+<p><em><a class="link" href="https://www.youtube.com/watch?v=3aypp_YlBzI"  target="_blank" rel="noopener"
+    >最暖的憂傷 - 田馥甄</a></em></p>
+</blockquote>
 <h2 id="tables">Tables
 </h2><ul>
 <li>표는 <strong>-</strong> 와 <strong>|</strong> 로 구분하는군요!</li>
@@ -499,9 +532,9 @@
 <div class="table-wrapper"><table>
 <thead>
 <tr>
-<th>A</th>
-<th>B</th>
-<th>C</th>
+<th style="text-align:center">A</th>
+<th style="text-align:right">B</th>
+<th style="text-align:left">C</th>
 <th>D</th>
 <th>E</th>
 <th>F</th>
@@ -509,16 +542,18 @@
 </thead>
 <tbody>
 <tr>
-<td>참 길다 1</td>
-<td>참 길다 2</td>
-<td>참 길다 3</td>
+<td style="text-align:center">참 길다 1</td>
+<td style="text-align:right">참 길다 2</td>
+<td style="text-align:left">참 길다 3</td>
 <td>참 길다 4</td>
 <td>참 길다 5</td>
 <td>참 길다 6</td>
 </tr>
 </tbody>
 </table></div>
-<p>&mdash;&mdash;&mdash;&mdash;&mdash;- 북마크 &mdash;&mdash;&mdash;&mdash;&mdash;-</p>
+<ul>
+<li><mark>:</mark>로 정렬 설정을 할 수 있습니다.</li>
+</ul>
 <h2 id="code-blocks">Code Blocks
 </h2><h4 id="code-block-with-backticks">Code block with backticks
 </h4><div class="highlight"><div class="chroma">
@@ -618,6 +653,9 @@
 </ul>
 <h4 id="nested-list">Nested list
 </h4><ul>
+<li>Tab으로 단락을 구분하면 됩니다.</li>
+</ul>
+<ul>
 <li>Fruit
 <ul>
 <li>Apple</li>
@@ -633,15 +671,38 @@
 </li>
 </ul>
 <h2 id="other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark
-</h2><p><abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.</p>
-<p>H<sub>2</sub>O</p>
-<p>X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>
-<p>Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.</p>
-<p>Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures. 줄바꿈 테스트를 해보겠습니다. 이렇게 길게 적으면 과연 줄바꿈이 될는지, 제가 설정한 그 줄바꿈 기능이 작동할지 궁금하네요 호호호</p>
+</h2><h4 id="abbr">abbr
+</h4><ul>
+<li><kbd>&lt;abbr</kbd> 사이에 뜻을 입력한 후, 닫아주면 hover로 full text가 뜨게 됩니다.</li>
+</ul>
+<p>ex) <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.</p>
+<h4 id="sub">sub
+</h4><ul>
+<li><kbd>&lt;sub</kbd> 를 사용하면, 아래첨자를 사용할 수 있습니다.</li>
+</ul>
+<p>ex) H<sub>2</sub>O</p>
+<h4 id="sup">sup
+</h4><ul>
+<li><kbd>&lt;sup</kbd> 를 사용하면, 위첨자를 사용할 수 있습니다.</li>
+</ul>
+<p>ex) X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>
+<h4 id="kbd">kbd
+</h4><ul>
+<li><kbd>&lt;kbd</kbd> 는 button type을 만들어주는 기능입니다.</li>
+</ul>
+<p>ex) Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.</p>
+<h4 id="mark">mark
+</h4><ul>
+<li><kbd>&lt;mark</kbd> 기능은, highlight를 해주는 기능입니다.</li>
+</ul>
+<p>ex) Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures. <mark>줄바꿈 테스트</mark>를 해보겠습니다. 이렇게 길게 적으면 과연 줄바꿈이 될는지, 제가 설정한 그 줄바꿈 기능이 작동할지 궁금하네요 호호호</p>
 <h2 id="hyperlinked-image">Hyperlinked image
-</h2><!-- 뒤에 픽셀이랑 550X750 수정하면 이미지 사이즈 조절이 가능 -->
+</h2><ul>
+<li>이렇게 이미지 안에 링크 바로가기도 심을 수 있습니다.</li>
+</ul>
+<!-- 뒤에 픽셀이랑 550X750 수정하면 이미지 사이즈 조절이 가능 -->
 <p><a class="link" href="https://google.com"  target="_blank" rel="noopener"
-    ><img src="https://ih1.redbubble.net/image.2555384443.1294/bg,f8f8f8-flat,550x,075,f-pad,550x750,f8f8f8.jpg"
+    ><img src="https://ih1.redbubble.net/image.2555384443.1294/bg,f8f8f8-flat,550x,075,f-pad,550x550,f8f8f8.jpg"
 	
 	
 	
@@ -651,6 +712,12 @@
 	
 	
 ></a></p>
+<hr>
+<h2 id="emoji">Emoji
+</h2><ul>
+<li>사실 아래는 <code>Emoji</code>에 대한 문구이지만, 글자에 link를 심는 방법이 잘 표현되어 있어, 예시로 사용하고자 내용을 변경하지 않고 그대로 두었습니다.</li>
+<li><kbd>Windows (CMD)</kbd> + <kbd>;</kbd> 로 바로 이모지를 심을 수 있는데, 왜 이렇게 표시를 한걸까요? 이유가 있을 것 같긴 합니다만 아직 이해가 되진 않습니다.</li>
+</ul>
 <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
 <!--more-->
 <p>The <a class="link" href="https://gohugo.io/functions/emojify/"  target="_blank" rel="noopener"
@@ -658,26 +725,13 @@
     >Inline Shortcodes</a>.</p>
 <p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a class="link" href="https://gohugo.io/getting-started/configuration/"  target="_blank" rel="noopener"
     >configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
+<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p> 🫡
 <br>
 <p>The <a class="link" href="http://www.emoji-cheat-sheet.com/"  target="_blank" rel="noopener"
     >Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
 <hr>
-<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">.emoji {
-</span></span><span class="line"><span class="cl">  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-</span></span><span class="line"><span class="cl">}</span></span></code></pre></td></tr></table>
-</div>
-</div>
-
-<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+<h2 id="mathematical-notation">Mathematical Notation
+</h2><p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
 <!--more-->
 <p>In this example we will be using <a class="link" href="https://katex.org/"  target="_blank" rel="noopener"
     >KaTeX</a></p>
@@ -704,7 +758,9 @@
 <li>To enable KaTeX on a per page basis include the parameter <code>math: true</code> in content files</li>
 </ul>
 <p><strong>Note:</strong> Use the online reference of <a class="link" href="https://katex.org/docs/supported.html"  target="_blank" rel="noopener"
-    >Supported TeX Functions</a></p>
+    >1) Supported TeX Functions, </a>
+<a class="link" href="https://katex.org/docs/support_table"  target="_blank" rel="noopener"
+    >2) Supported TeX Functions</a></p>
 
 <h3 id="examples">Examples
 </h3><p>Inline math: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$</p>
@@ -712,8 +768,12 @@
 $$
 \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
 $$</p>
-<h2 id="youtube-privacy-enhanced-shortcode">YouTube Privacy Enhanced Shortcode
-</h2><div class="video-wrapper">
+<h2 id="enhanced-shortcode">Enhanced Shortcode
+</h2><ul>
+<li><kbd>Enhanced Shortcode</kbd>를 이용해서 게시글에 추가 할수도 있습니다.</li>
+</ul>
+<h4 id="youtube">YouTube
+</h4><div class="video-wrapper">
     <iframe loading="lazy" 
             src="https://www.youtube.com/embed/0RKpf3rK57I" 
             allowfullscreen 
@@ -724,14 +784,14 @@ $$</p>
 
 <br>
 <hr>
-<h2 id="twitter-simple-shortcode">Twitter Simple Shortcode
-</h2><blockquote class="twitter-tweet"><p lang="en" dir="ltr">“In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.”<br>— Jan Tschichold <a href="https://t.co/gcv7SrhvJb">pic.twitter.com/gcv7SrhvJb</a></p>&mdash; Design Reviewed | Graphic Design History (@DesignReviewed) <a href="https://twitter.com/DesignReviewed/status/1085870671291310081?ref_src=twsrc%5Etfw">January 17, 2019</a></blockquote>
+<h4 id="twitter">Twitter
+</h4><blockquote class="twitter-tweet"><p lang="en" dir="ltr">“In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.”<br>— Jan Tschichold <a href="https://t.co/gcv7SrhvJb">pic.twitter.com/gcv7SrhvJb</a></p>&mdash; Design Reviewed | Graphic Design History (@DesignReviewed) <a href="https://twitter.com/DesignReviewed/status/1085870671291310081?ref_src=twsrc%5Etfw">January 17, 2019</a></blockquote>
 
 
 <br>
 <hr>
-<h2 id="vimeo-simple-shortcode">Vimeo Simple Shortcode
-</h2><style>
+<h4 id="vimeo-simple-shortcode">Vimeo Simple Shortcode
+</h4><style>
 .__h_video {
    position: relative;
    padding-bottom: 56.23%;
@@ -763,8 +823,8 @@ $$</p>
             </div>
           </a>
         </div>
-<h2 id="instagram-shortcode">instagram Shortcode
-</h2><blockquote
+<h4 id="instagram-shortcode">instagram Shortcode
+</h4><blockquote
     class="instagram-media"
     data-instgrm-captioned
     data-instgrm-permalink="https://www.instagram.com/p/CxOWiQNP2MO"
@@ -994,105 +1054,34 @@ $$</p>
       ></a>
     </div>
   </blockquote><script async src="//www.instagram.com/embed.js"></script>
-<h2 id="gist-shortcode">Gist Shortcode
-</h2><script src="https://gist.github.com/spf13/7896402.js"></script>
+<h4 id="gist-shortcode">Gist Shortcode
+</h4><script src="https://gist.github.com/spf13/7896402.js"></script>
 
-<h2 id="gitlab-snippets-shortcode">Gitlab Snippets Shortcode
-</h2><script
+<h4 id="gitlab-snippets-shortcode">Gitlab Snippets Shortcode
+</h4><script
     type="application/javascript"
     src="https://gitlab.com/-/snippets/2349278.js"
 ></script>
 <hr>
-<p>Lorem est tota propiore conpellat pectoribus de pectora summo. <!--more-->Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.</p>
-<ol>
-<li>Exierant elisi ambit vivere dedere</li>
-<li>Duce pollice</li>
-<li>Eris modo</li>
-<li>Spargitque ferrea quos palude</li>
-</ol>
-<p>Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.</p>
-<ol>
-<li>Comas hunc haec pietate fetum procerum dixit</li>
-<li>Post torum vates letum Tiresia</li>
-<li>Flumen querellas</li>
-<li>Arcanaque montibus omnes</li>
-<li>Quidem et</li>
-</ol>
-<h1 id="vagus-elidunt">Vagus elidunt
-</h1><p><svg class="canon" xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 496 373" height="373" width="496"><g fill="none"><path stroke="#000" stroke-width=".75" d="M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515"></path><path stroke="#ED1C24" stroke-width=".75" d="M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z"></path><path stroke="#000" stroke-width=".75" d="M.479.375h495v372h-495zM247.979.875v372"></path><ellipse cx="498.729" cy="177.625" rx=".75" ry="1.25"></ellipse><ellipse cx="247.229" cy="377.375" rx=".75" ry="1.25"></ellipse></g></svg></p>
+<h3 id="직접-그림-그리기">직접 그림 그리기
+</h3><ul>
+<li>이런 기능도 있구나~ 하고 넘어가려고 합니다. <del>(언젠간 쓰겠죠..?)</del></li>
+</ul>
+<p><svg class="canon" xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 496 373" height="373" width="496"><g fill="none"><path stroke="#000" stroke-width=".75" d="M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515"></path><path stroke="#ED1C24" stroke-width=".75" d="M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z"></path><path stroke="#000" stroke-width=".75" d="M.479.375h495v372h-495zM247.979.875v372"></path><ellipse cx="498.729" cy="177.625" rx=".75" ry="1.25"></ellipse><ellipse cx="247.229" cy="377.375" rx=".75" ry="1.25"></ellipse></g></svg></p>
 <p><a class="link" href="https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon"  target="_blank" rel="noopener"
     >The Van de Graaf Canon</a></p>
-<h2 id="mane-refeci-capiebant-unda-mulcebat">Mane refeci capiebant unda mulcebat
-</h2><p>Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. <strong>Faces illo pepulere</strong> tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.</p>
-<p>Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.</p>
-<p>Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel <strong>mitis temploque</strong> vocatus, inque alis, <em>oculos nomen</em> non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides <strong>parte</strong>.</p>
-
 <hr>
-<h2 id="正文测试">正文测试
-</h2><p>而这些并不是完全重要，更加重要的问题是， 带着这些问题，我们来审视一下学生会退会。 既然如何， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 我们不得不面对一个非常尴尬的事实，那就是， 可是，即使是这样，学生会退会的出现仍然代表了一定的意义。 学生会退会，发生了会如何，不发生又会如何。 经过上述讨论， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 学生会退会，到底应该如何实现。 这样看来， 在这种困难的抉择下，本人思来想去，寝食难安。 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 就我个人来说，学生会退会对我的意义，不能不说非常重大。 莎士比亚曾经提到过，人的一生是短的，但如果卑劣地过这一生，就太长了。这似乎解答了我的疑惑。 莫扎特说过一句富有哲理的话，谁和我一样用功，谁就会和我一样成功。这启发了我， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 学生会退会，到底应该如何实现。 一般来说， 从这个角度来看， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 在这种困难的抉择下，本人思来想去，寝食难安。 了解清楚学生会退会到底是一种怎么样的存在，是解决一切问题的关键。 一般来说， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 问题的关键究竟为何？ 而这些并不是完全重要，更加重要的问题是。</p>
-<p>奥斯特洛夫斯基曾经说过，共同的事业，共同的斗争，可以使人们产生忍受一切的力量。　带着这句话，我们还要更加慎重的审视这个问题： 一般来讲，我们都必须务必慎重的考虑考虑。 既然如此， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 带着这些问题，我们来审视一下学生会退会。 我认为， 我认为， 在这种困难的抉择下，本人思来想去，寝食难安。 问题的关键究竟为何？ 每个人都不得不面对这些问题。 在面对这种问题时， 要想清楚，学生会退会，到底是一种怎么样的存在。 我认为， 既然如此， 每个人都不得不面对这些问题。 在面对这种问题时， 那么， 我认为， 学生会退会因何而发生。</p>
-<h2 id="引用">引用
-</h2><blockquote>
-<p>思念是最暖的忧伤像一双翅膀<br>
-让我停不了飞不远在过往游荡<br>
-不告而别的你 就算为了我着想<br>
-这么沉痛的呵护 我怎么能翱翔</p>
-<p><em><a class="link" href="https://www.youtube.com/watch?v=3aypp_YlBzI"  target="_blank" rel="noopener"
-    >最暖的憂傷 - 田馥甄</a></em></p>
-</blockquote>
-<h2 id="图片">图片
-</h2><p><img src="/florian-klauer-nptLmg6jqDo-unsplash.jpg"
-	
-	
-	
-	loading="lazy"
-	
-		alt="Photo by Florian Klauer on Unsplash"
-	
-	
->  <img src="/luca-bravo-alS7ewQ41M8-unsplash.jpg"
-	
-	
-	
-	loading="lazy"
-	
-		alt="Photo by Luca Bravo on Unsplash"
-	
-	
-></p>
-<p><img src="/helena-hertz-wWZzXlDpMog-unsplash.jpg"
-	
-	
-	
-	loading="lazy"
-	
-		alt="Photo by Helena Hertz on Unsplash"
-	
-	
->  <img src="/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg"
-	
-	
-	
-	loading="lazy"
-	
-		alt="Photo by Hudai Gayiran on Unsplash"
-	
-	
-></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">![<span class="nt">Photo by Florian Klauer on Unsplash</span>](<span class="na">florian-klauer-nptLmg6jqDo-unsplash.jpg</span>)  ![<span class="nt">Photo by Luca Bravo on Unsplash</span>](<span class="na">luca-bravo-alS7ewQ41M8-unsplash.jpg</span>) 
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">![<span class="nt">Photo by Helena Hertz on Unsplash</span>](<span class="na">helena-hertz-wWZzXlDpMog-unsplash.jpg</span>)  ![<span class="nt">Photo by Hudai Gayiran on Unsplash</span>](<span class="na">hudai-gayiran-3Od_VKcDEAA-unsplash.jpg</span>)
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>相册语法来自 <a class="link" href="https://typlog.com/"  target="_blank" rel="noopener"
-    >Typlog</a></p>
+<h3 id="html에서-특수기호-사용하기">HTML에서 특수기호 사용하기
+</h3><ul>
+<li>HTML 기반의 글을 작성할 때, 일반적인 방법으로 특수기호를 입력하면 인식이 되지 않습니다.</li>
+<li>아래 잘 정리 되어있는 HTML code 페이지가 있으니, 여길 참고하면 되겠습니다.
+<a class="link" href="https://www.ascii-code.com/"  target="_blank" rel="noopener"
+    >HTML code</a></li>
+</ul>
+<hr>
+<p>지금까지 Markdown으로 해볼 수 있는 다양한 표현법들을 정리해보았습니다.
+이 모든 코드들을 다 외울 수 없으니, <code>Reference</code>로 잘 활용하면 양질의 컨텐츠를 만드는 데 도움이 될 것 같습니다 ☺️</p>
+<p><em>(참고로, 아래 링크는 template 맨 상단에서 설정할 수 있고, 예시로 추가해놓은 페이지입니다!)</em></p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
