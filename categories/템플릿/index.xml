@@ -13,7 +13,7 @@
         <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
         
         <guid>https://blooming-daisy.github.io/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/</guid>
-        <description>&lt;img src="https://images.unsplash.com/photo-1496891242845-c5fecc5f6fac?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE5NzM4NzZ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post [Template] 템플릿" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
+        <description>&lt;img src="https://blooming-daisy.github.io/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/about.jpg" alt="Featured image of post [Template] 템플릿" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
 &lt;p&gt;참고)&lt;/p&gt;
 &lt;p&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; 북마크 &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
 &lt;ul&gt;
@@ -220,6 +220,19 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;h4 id=&#34;code-block-with-highlightjs-shortcode&#34;&gt;Code block with highlight.js shortcode
+&lt;/h4&gt;&lt;head&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/tomorrow-night-bright.min.css&#34;&gt; 
+  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js&#34;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;!-- 테마 변경 가능합니다 --&gt;
+&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;
+def greet(name):
+  print(&#34;Hello,&#34;, name)
+
+greet(&#34;World&#34;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;script&gt;hljs.highlightAll();&lt;/script&gt;
 &lt;h4 id=&#34;diff-code-block&#34;&gt;Diff code block
 &lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
