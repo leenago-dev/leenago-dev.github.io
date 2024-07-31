@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://blooming-daisy.github.io/p/unsplash-api-%EC%97%B0%EA%B2%B0/'>
 
-<link rel="stylesheet" href="/scss/style.min.7eead14c3bf0ccf5328bfce16f365cb05beaf40117285d540c09963616fda4c8.css"><meta property='og:title' content="Unsplash API 연결">
+<link rel="stylesheet" href="/scss/style.min.4904a8d1590d246a45e60e38808fad7b0bd69e977f5e6b19c53a5ccd2c3ce86a.css"><meta property='og:title' content="Unsplash API 연결">
 <meta property='og:description' content="Unsplash API를 이용하여 webp 이미지 가지고 오는 방법">
 <meta property='og:url' content='https://blooming-daisy.github.io/p/unsplash-api-%EC%97%B0%EA%B2%B0/'>
 <meta property='og:site_name' content='Leena&#39;s Place'>
@@ -237,16 +237,15 @@
         <li><a href="#step-3-api-access-key-발급-완료">Step 3: API Access Key 발급 완료</a></li>
       </ol>
     </li>
-    <li><a href="#필요한-library-호출">필요한 Library 호출</a>
+    <li><a href="#part-2-코드-작성하기">Part 2. 코드 작성하기</a>
       <ol>
-        <li>
-          <ol>
-            <li><a href="#part-1-api-key-발급받기-1">Part 1: API Key 발급받기</a></li>
-          </ol>
-        </li>
-        <li><a href="#전체-코드">전체 코드</a></li>
+        <li><a href="#step-1-필요-라이브러리-불러오기">Step 1: 필요 라이브러리 불러오기</a></li>
+        <li><a href="#step-2-함수-만들기---endpoint와-access-key-추가">Step 2: 함수 만들기 - endpoint와 access key 추가</a></li>
+        <li><a href="#step-3-함수-만들기---params-setting">Step 3: 함수 만들기 - params setting</a></li>
+        <li><a href="#step-4-함수-만들기---api-응답-확인-및-url-추출">Step 4: 함수 만들기 - API 응답 확인 및 URL 추출</a></li>
       </ol>
     </li>
+    <li><a href="#part-3-전체-코드-확인하기">Part 3. 전체 코드 확인하기</a></li>
   </ol>
 </nav>
         </div>
@@ -331,7 +330,7 @@
 
 
                 <time class="article-time--reading">
-                    1분이면 충분해요!🕐
+                    3분이면 충분해요!🕐
                 </time>
             </div>
         
@@ -347,22 +346,47 @@
     
     
     <h2 id="part-1-api-key-발급받기">Part 1: API Key 발급받기
-</h2><h3 id="step-1-회원가입">Step 1: 회원가입
+</h2><p>
+<h3 id="step-1-회원가입">Step 1: 회원가입
 </h3><p>Access Key 발급을 받기 위해선, 먼저 <a class="link" href="https://unsplash.com/developers"  target="_blank" rel="noopener"
-    >Unsplash Developer Page</a>로 이동합니다.</p>
-<p>화면 맨 우측 상단에 있는 <code>Register as a developer</code>를 눌러, 회원가입을 해줍니다.</p>
-<img src="step1.png" alt="Step 1: Register Unsplash API account as a developer " width="550" height="550">
+    >Unsplash Developer Page</a>로 이동합니다. <br> 화면 맨 우측 상단에 있는 <kbd>Register as a developer</kbd>를 눌러, 회원가입을 해줍니다.</p>
+<img src="step1.png" alt="Step 1: Register Unsplash API account as a developer " width="550" height="550" class="my-image">
+</p>
+<p>
 <h3 id="step-2-app-build-신청서-작성하기">Step 2: App Build 신청서 작성하기
-</h3><p>회원가입 후,</p>
-<img src="step2.png" alt="Step 2: Build App project " width="550" height="550">
-<img src="step3.png" alt="Step 3: Build App project " width="550" height="550">
+</h3><ol>
+<li>회원가입 후, 노랑색으로 표시된 <kbd>Your apps</kbd>를 클릭합니다.</li>
+</ol>
+<img src="step2.png" alt="Step 2: Go to 'Your apps'" width="550" height="550" class="my-image">
+<ol start="2">
+<li>그럼 아래 화면처럼 뜰텐데요, <kbd>New Application</kbd>을 눌러줍니다.</li>
+</ol>
+<img src="step3.png" alt="Step 3: Build App project " width="550" height="550" class="my-image">
+<ol start="3">
+<li><code>API Use and Guidelines</code>에 모두 체크를 한 뒤, <kbd>Accept terms</kbd>를 클릭합니다.</li>
+</ol>
+<img src="step4.png" alt="Step 3: Build App project " width="550" height="550" class="my-image">
+<ol start="4">
+<li><code>Application Information</code> 팝업이 뜨면, 두 칸 모두 작성해줍니다. <br> 참고로, 저는 <em>Personal blog</em> 라고 입력했습니다!</li>
+</ol>
+<img src="step4-1.png" alt="Step 3: Build App project " width="550" height="550" class="my-image">
+</p>
+<p>
 <h3 id="step-3-api-access-key-발급-완료">Step 3: API Access Key 발급 완료
-</h3><img src="step4.png" alt="Step 3: Build App project " width="550" height="550">
-<p>이렇게 Personal Access Key 발급이 완료 되었습니다.</p>
-<p>주의할 점은, Access Key를 <mark><strong>외부에 공개하면 안된단 것</strong></mark>입니다!</p>
+</h3><p>그럼, 이렇게 Personal Access Key 발급이 됩니다. <br> 코드에서는 <code>Access Key</code>를 사용하면 됩니다.</p>
+<img src="step5.png" alt="Step 3: Build App project " width="550" height="550" class="my-image">
+<p>Access Key를 <mark><strong>외부에 공개하면 안된단 것</strong></mark>, 잊지 마세요❗</p>
+</p>
 <hr>
-<h2 id="필요한-library-호출">필요한 Library 호출
-</h2><head>
+<p>
+<h2 id="part-2-코드-작성하기">Part 2. 코드 작성하기
+</h2><p>이제 본격적으로, 이미지 호출 API 코드를 작성해봅시다. <br> API에서 제공하는 기능들 중, 우리는 <a class="link" href="https://unsplash.com/documentation#get-a-random-photo"  target="_blank" rel="noopener"
+    >Get a random photo</a>를 사용하여 코드를 짜볼거예요!</p>
+<img src="step6.png" alt="Step 3: Build App project " width="550" height="550">
+</p>
+<p>
+<h3 id="step-1-필요-라이브러리-불러오기">Step 1: 필요 라이브러리 불러오기
+</h3><head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/tomorrow-night-bright.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
 </head>
@@ -370,22 +394,145 @@
 import requests
 </code></pre>
 <script>hljs.highlightAll();</script>
-<head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/tomorrow-night-bright.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
-</head>
-<hr>
-<h4 id="part-1-api-key-발급받기-1">Part 1: API Key 발급받기
-</h4><pre><code class="python">
-def get_image_url(search_keyword, color):
-  # Unsplash API 엔드포인트 및 API 키 설정
+</p>
+<p>
+<h3 id="step-2-함수-만들기---endpoint와-access-key-추가">Step 2: 함수 만들기 - endpoint와 access key 추가
+</h3><pre><code class="python">
+
+def get_image_url(search_keyword, orientation):
+
+  # Unsplash API endpoint 및 API 키 설정
   api_endpoint = "https://api.unsplash.com/photos/random"
   access_key = YOUR ACCESS KEY # Unsplash에서 발급받은 API 키를 입력하세요.
 </code></pre>
 <script>hljs.highlightAll();</script>
-<h3 id="전체-코드">전체 코드
-</h3><pre><code class="python">
-def get_image_url(search_keyword, color):
+</p>
+<p>
+<h3 id="step-3-함수-만들기---params-setting">Step 3: 함수 만들기 - params setting
+</h3><p>이제 파라미터 setting을 해봅시다. <br> <a class="link" href="https://unsplash.com/documentation#get-a-random-photo"  target="_blank" rel="noopener"
+    >Get a random photo</a>에서 사용할 수 있는 파라미터는 다음과 같습니다.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align:center">Param</th>
+<th style="text-align:center">설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><code>collections</code></td>
+<td style="text-align:center">특정 collection에 있는 사진 가지고 오기</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>topics</code></td>
+<td style="text-align:center">특정 주제에 관련된 사진 가지고 오기</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>query</code></td>
+<td style="text-align:center">특정 검색어에 관련된 사진 가지고 오기</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>count</code></td>
+<td style="text-align:center">가지고 올 사진의 개수 <em>(1~30 사이)</em></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>orientation</code></td>
+<td style="text-align:center">사진 방향 지정 (<kbd>landscape</kbd>, <kbd>portrait</kbd>, <kbd>squarish</kbd>)</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>content_filter</code></td>
+<td style="text-align:center">콘텐츠 필터 수준 지정 (<kbd>low</kbd>, <kbd>high</kbd>)</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>username</code></td>
+<td style="text-align:center">특정 사용자의 사진을 가지고 올 때</td>
+</tr>
+</tbody>
+</table></div>
+<p><code>topics</code>와 <code>query</code>의 차이가 잘 이해가 되지 않아, Gemini에게 한번 물어봤습니다.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align:center">특징</th>
+<th style="text-align:center">Topics (주제)</th>
+<th style="text-align:center">Query (검색어)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">필터링 방식</td>
+<td style="text-align:center">미리 정의된 주제를 기반으로<br>광범위하게 필터링</td>
+<td style="text-align:center">사용자가 입력한 키워드를 기반으로<br>구체적으로 필터링</td>
+</tr>
+<tr>
+<td style="text-align:center">일관성</td>
+<td style="text-align:center">동일한 주제를 사용하면<br>일관된 스타일의 사진을 얻을 수 있음</td>
+<td style="text-align:center">검색어에 따라 결과가 달라질 수 있음</td>
+</tr>
+<tr>
+<td style="text-align:center">유연성</td>
+<td style="text-align:center">여러 주제를 조합하여 세분화된 필터링 가능</td>
+<td style="text-align:center">원하는 사진을 찾는 데 더욱 유연하게 활용 가능</td>
+</tr>
+<tr>
+<td style="text-align:center">사용 시점</td>
+<td style="text-align:center">특정 주제에 맞는 사진을 찾거나,<br>여러 주제를 조합하여 필터링할 때</td>
+<td style="text-align:center">특정 개체, 장소, 상황 등을 나타내는<br>사진을 찾을 때</td>
+</tr>
+</tbody>
+</table></div>
+<p>두 가지의 param을 사용해봤을 때, <code>query</code>가 Specific한 자료를 사용할 수 있어 편리했습니다.<br>
+여기에선 <code>query</code> param을 사용해보겠습니다!</p>
+<pre><code class="python">
+  # 요청 Params 설정 (선택 사항)
+
+ params = {
+    "query": search_keyword,       # 검색 키워드 (예: nature)
+    "orientation": orientation,    # 사진 방향 (예: landscape, portrait, squarish)
+    "count": 1,                    # 가져올 이미지 개수
+    "fm": "jpg"                    # 이미지 형식 요청
+    }
+
+    # API 요청 헤더 설정
+  headers = {
+      "Authorization": f"Client-ID {access_key}"
+      }
+
+</code></pre>
+<script>hljs.highlightAll();</script>
+</p>
+<p>
+<h3 id="step-4-함수-만들기---api-응답-확인-및-url-추출">Step 4: 함수 만들기 - API 응답 확인 및 URL 추출
+</h3><p>Blog에 이미지를 바로 삽입하기 위해, <code>webp</code> 형식으로 URL을 출력하는 코드를 작성했습니다.</p>
+<pre><code class="python">
+# API 요청 보내기
+  response = requests.get(api_endpoint, headers=headers, params=params)
+
+  # 응답 확인 및 이미지 URL 추출
+
+  if response.status_code == 200:
+    data = response.json()
+    image_url = data[0]["urls"]["regular"] +"?fm=webp" # WebP 이미지 URL
+
+    return image_url
+
+  else:
+    return ("Error fetching image:", response.status_code)
+</code></pre>
+<script>hljs.highlightAll();</script>
+</p>
+<!-- w와 h를 이용해서 사진 사이즈를 조절 -->
+<figure>
+  <img src="https://images.unsplash.com/photo-1638290046742-b5030c6b56b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMjU0MDF8&ixlib=rb-4.0.3&q=80&w=1080&w=500&h=300?fm=webp" alt="Paris" class="my-image">
+  <figcaption><cite>출처: Unsplash</cite></figcaption>
+</figure>
+<p>
+<h2 id="part-3-전체-코드-확인하기">Part 3. 전체 코드 확인하기
+</h2><pre><code class="python">
+
+import requests
+
+def get_image_url(search_keyword, orientation):
   # Unsplash API 엔드포인트 및 API 키 설정
   api_endpoint = "https://api.unsplash.com/photos/random"
   access_key = YOUR ACCESS KEY # Unsplash에서 발급받은 API 키를 입력하세요.
@@ -393,11 +540,10 @@ def get_image_url(search_keyword, color):
   # 요청 매개변수 설정 (선택 사항)
 
   params = {
-    "query": search_keyword,       # 검색어 (예: nature)
-    "orientation": "landscape",  # 가로 사진
-    "count": 1,             # 가져올 이미지 개수
-    "fm": "jpg" ,           # WebP 형식 요청
-    "color" : color
+    "query": search_keyword,       # 검색 키워드 (예: nature)
+    "orientation": orientation,    # 사진 방향 (예: landscape, portrait, squarish)
+    "count": 1,                    # 가져올 이미지 개수
+    "fm": "jpg"                    # 이미지 형식 요청
     }
 
     # API 요청 헤더 설정
@@ -412,14 +558,28 @@ def get_image_url(search_keyword, color):
 
   if response.status_code == 200:
     data = response.json()
-    image_url = data[0]["urls"]["regular"]  # WebP 이미지 URL
+    image_url = data[0]["urls"]["regular"] +"?fm=webp" # WebP 이미지 URL
 
     return image_url
 
   else:
     return ("Error fetching image:", response.status_code)
+
+
 </code></pre>
 <script>hljs.highlightAll();</script>
+</p>
+<p><a class="link" href="https://gemini.google.com/app"  target="_blank" rel="noopener"
+    ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/64px-Google_Gemini_logo.svg.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Google Gemini"
+	
+	
+></a> 가 작성해준 코드를 토대로 작성하였습니다!</p>
 
 </section>
 
