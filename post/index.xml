@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Leena&#39;s Place</title>
-        <link>http://localhost:1313/post/</link>
+        <link>https://blooming-daisy.github.io/post/</link>
         <description>Recent content in Posts on Leena&#39;s Place</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
         <copyright>Leena</copyright>
-        <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blooming-daisy.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Unsplash API 연결</title>
-        <link>http://localhost:1313/p/unsplash-api-%EC%97%B0%EA%B2%B0/</link>
+        <link>https://blooming-daisy.github.io/p/unsplash-api-%EC%97%B0%EA%B2%B0/</link>
         <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/unsplash-api-%EC%97%B0%EA%B2%B0/</guid>
-        <description>&lt;img src="http://localhost:1313/p/unsplash-api-%EC%97%B0%EA%B2%B0/italy_market.jpg" alt="Featured image of post Unsplash API 연결" /&gt;&lt;h2 id=&#34;part-1-api-key-발급받기&#34;&gt;Part 1: API Key 발급받기
+        <guid>https://blooming-daisy.github.io/p/unsplash-api-%EC%97%B0%EA%B2%B0/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1637448025640-f609b8d2d3f1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMjQxMTN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;fm=webp" alt="Featured image of post Unsplash API 연결" /&gt;&lt;h2 id=&#34;part-1-api-key-발급받기&#34;&gt;Part 1: API Key 발급받기
 &lt;/h2&gt;&lt;p&gt;
 &lt;h3 id=&#34;step-1-회원가입&#34;&gt;Step 1: 회원가입
 &lt;/h3&gt;&lt;p&gt;Access Key 발급을 받기 위해선, 먼저 &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/developers&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -188,12 +188,21 @@ def get_image_url(search_keyword, orientation):
     return (&#34;Error fetching image:&#34;, response.status_code)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;script&gt;hljs.highlightAll();&lt;/script&gt;
-&lt;/p&gt;
+&lt;h3 id=&#34;step-5-함수-사용해보기&#34;&gt;Step 5: 함수 사용해보기
+&lt;/h3&gt;&lt;p&gt;그럼 완성된 함수를 가지고, webp URL을 출력해봅시다.&lt;br&gt;가로 사진의 Paris 사진을 Argument로 넣어봤습니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;
+get_image_url(&#39;Paris&#39;, &#39;landscape&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;script&gt;hljs.highlightAll();&lt;/script&gt;
+&lt;p&gt;그럼 &lt;code&gt;webp URL&lt;/code&gt;이 출력되고, 이것을 blog img로 삽입을 해보면&amp;hellip;.&lt;/p&gt;
 &lt;!-- w와 h를 이용해서 사진 사이즈를 조절 --&gt;
 &lt;figure&gt;
   &lt;img src=&#34;https://images.unsplash.com/photo-1638290046742-b5030c6b56b4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMjU0MDF8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;w=500&amp;h=300?fm=webp&#34; alt=&#34;Paris&#34; class=&#34;my-image&#34;&gt;
   &lt;figcaption&gt;&lt;cite&gt;출처: Unsplash&lt;/cite&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
+&lt;p&gt;짜잔! 예쁜 사진이 삽입이 되었습니다📸
+&lt;br&gt;&lt;br&gt;Random image는 말 그대로 이미지를 랜덤하게 보여주기 때문에,&lt;br&gt;코드를 실행할 때마다 결과값이 달라지게 됩니다. &lt;br&gt;따라서 마음에 드는 사진이 있다면, URL을 잘 간직하는 것을 추천해요 ☺️&lt;/p&gt;
+&lt;/p&gt;
 &lt;p&gt;
 &lt;h2 id=&#34;part-3-전체-코드-확인하기&#34;&gt;Part 3. 전체 코드 확인하기
 &lt;/h2&gt;&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;
@@ -252,11 +261,11 @@ def get_image_url(search_keyword, orientation):
         </item>
         <item>
         <title>[Template] 템플릿</title>
-        <link>http://localhost:1313/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/</link>
+        <link>https://blooming-daisy.github.io/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/</link>
         <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/</guid>
-        <description>&lt;img src="http://localhost:1313/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/about.jpg" alt="Featured image of post [Template] 템플릿" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
+        <guid>https://blooming-daisy.github.io/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/</guid>
+        <description>&lt;img src="https://blooming-daisy.github.io/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/about.jpg" alt="Featured image of post [Template] 템플릿" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
 &lt;p&gt;참고)&lt;/p&gt;
 &lt;p&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; 북마크 &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
 &lt;ul&gt;
