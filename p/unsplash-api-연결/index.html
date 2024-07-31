@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ko-kr" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Unsplash API를 이용하여 webp 이미지 가지고 오는 방법">
 <title>Unsplash API 연결</title>
 
-<link rel='canonical' href='https://blooming-daisy.github.io/p/unsplash-api-%EC%97%B0%EA%B2%B0/'>
+<link rel='canonical' href='http://localhost:1313/p/unsplash-api-%EC%97%B0%EA%B2%B0/'>
 
 <link rel="stylesheet" href="/scss/style.min.4904a8d1590d246a45e60e38808fad7b0bd69e977f5e6b19c53a5ccd2c3ce86a.css"><meta property='og:title' content="Unsplash API 연결">
 <meta property='og:description' content="Unsplash API를 이용하여 webp 이미지 가지고 오는 방법">
-<meta property='og:url' content='https://blooming-daisy.github.io/p/unsplash-api-%EC%97%B0%EA%B2%B0/'>
+<meta property='og:url' content='http://localhost:1313/p/unsplash-api-%EC%97%B0%EA%B2%B0/'>
 <meta property='og:site_name' content='Leena&#39;s Place'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-07-30T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-07-30T00:00:00&#43;00:00'/><meta property='og:image' content='https://blooming-daisy.github.io/p/unsplash-api-%EC%97%B0%EA%B2%B0/italy_market.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-07-30T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-07-30T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/p/unsplash-api-%EC%97%B0%EA%B2%B0/italy_market.jpg' />
 <meta name="twitter:title" content="Unsplash API 연결">
 <meta name="twitter:description" content="Unsplash API를 이용하여 webp 이미지 가지고 오는 방법"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://blooming-daisy.github.io/p/unsplash-api-%EC%97%B0%EA%B2%B0/italy_market.jpg' />
+    <meta name="twitter:image" content='http://localhost:1313/p/unsplash-api-%EC%97%B0%EA%B2%B0/italy_market.jpg' />
   
 
 
@@ -243,6 +243,7 @@
         <li><a href="#step-2-함수-만들기---endpoint와-access-key-추가">Step 2: 함수 만들기 - endpoint와 access key 추가</a></li>
         <li><a href="#step-3-함수-만들기---params-setting">Step 3: 함수 만들기 - params setting</a></li>
         <li><a href="#step-4-함수-만들기---api-응답-확인-및-url-추출">Step 4: 함수 만들기 - API 응답 확인 및 URL 추출</a></li>
+        <li><a href="#step-5-함수-사용해보기">Step 5: 함수 사용해보기</a></li>
       </ol>
     </li>
     <li><a href="#part-3-전체-코드-확인하기">Part 3. 전체 코드 확인하기</a></li>
@@ -520,12 +521,21 @@ def get_image_url(search_keyword, orientation):
     return ("Error fetching image:", response.status_code)
 </code></pre>
 <script>hljs.highlightAll();</script>
-</p>
+<h3 id="step-5-함수-사용해보기">Step 5: 함수 사용해보기
+</h3><p>그럼 완성된 함수를 가지고, webp URL을 출력해봅시다.<br>가로 사진의 Paris 사진을 Argument로 넣어봤습니다.</p>
+<pre><code class="python">
+get_image_url('Paris', 'landscape')
+</code></pre>
+<script>hljs.highlightAll();</script>
+<p>그럼 <code>webp URL</code>이 출력되고, 이것을 blog img로 삽입을 해보면&hellip;.</p>
 <!-- w와 h를 이용해서 사진 사이즈를 조절 -->
 <figure>
   <img src="https://images.unsplash.com/photo-1638290046742-b5030c6b56b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMjU0MDF8&ixlib=rb-4.0.3&q=80&w=1080&w=500&h=300?fm=webp" alt="Paris" class="my-image">
   <figcaption><cite>출처: Unsplash</cite></figcaption>
 </figure>
+<p>짜잔! 예쁜 사진이 삽입이 되었습니다📸
+<br><br>Random image는 말 그대로 이미지를 랜덤하게 보여주기 때문에,<br>코드를 실행할 때마다 결과값이 달라지게 됩니다. <br>따라서 마음에 드는 사진이 있다면, URL을 잘 간직하는 것을 추천해요 ☺️</p>
+</p>
 <p>
 <h2 id="part-3-전체-코드-확인하기">Part 3. 전체 코드 확인하기
 </h2><pre><code class="python">

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>API on Leena&#39;s Place</title>
-        <link>https://blooming-daisy.github.io/categories/api/</link>
+        <link>http://localhost:1313/categories/api/</link>
         <description>Recent content in API on Leena&#39;s Place</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
         <copyright>Leena</copyright>
-        <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blooming-daisy.github.io/categories/api/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/api/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Unsplash API 연결</title>
-        <link>https://blooming-daisy.github.io/p/unsplash-api-%EC%97%B0%EA%B2%B0/</link>
+        <link>http://localhost:1313/p/unsplash-api-%EC%97%B0%EA%B2%B0/</link>
         <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://blooming-daisy.github.io/p/unsplash-api-%EC%97%B0%EA%B2%B0/</guid>
-        <description>&lt;img src="https://blooming-daisy.github.io/p/unsplash-api-%EC%97%B0%EA%B2%B0/italy_market.jpg" alt="Featured image of post Unsplash API 연결" /&gt;&lt;h2 id=&#34;part-1-api-key-발급받기&#34;&gt;Part 1: API Key 발급받기
+        <guid>http://localhost:1313/p/unsplash-api-%EC%97%B0%EA%B2%B0/</guid>
+        <description>&lt;img src="http://localhost:1313/p/unsplash-api-%EC%97%B0%EA%B2%B0/italy_market.jpg" alt="Featured image of post Unsplash API 연결" /&gt;&lt;h2 id=&#34;part-1-api-key-발급받기&#34;&gt;Part 1: API Key 발급받기
 &lt;/h2&gt;&lt;p&gt;
 &lt;h3 id=&#34;step-1-회원가입&#34;&gt;Step 1: 회원가입
 &lt;/h3&gt;&lt;p&gt;Access Key 발급을 받기 위해선, 먼저 &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/developers&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
