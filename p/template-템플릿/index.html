@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="ko-kr" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Hugo에 글을 작성할 때 필요한 기본 템플릿을 소개합니다!">
+<title>[Template] 템플릿</title>
+
+<link rel='canonical' href='http://localhost:1313/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/'>
+
+<link rel="stylesheet" href="/scss/style.min.4904a8d1590d246a45e60e38808fad7b0bd69e977f5e6b19c53a5ccd2c3ce86a.css"><meta property='og:title' content="[Template] 템플릿">
+<meta property='og:description' content="Hugo에 글을 작성할 때 필요한 기본 템플릿을 소개합니다!">
+<meta property='og:url' content='http://localhost:1313/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/'>
+<meta property='og:site_name' content='Leena&#39;s Place'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-07-26T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-07-26T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/about.jpg' />
+<meta name="twitter:title" content="[Template] 템플릿">
+<meta name="twitter:description" content="Hugo에 글을 작성할 때 필요한 기본 템플릿을 소개합니다!"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/about.jpg' />
+  
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="메뉴">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu22fca61b3041cfb7fb7107a31f6d6ac1_23010_300x0_resize_q75_box.jpg" width="300"
+                            height="291" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍀</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Leena&#39;s Place</a></h1>
+            <h2 class="site-description">여기에 어떤 글을 적어볼까</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://blog.naver.com/leena_hk'
+                        target="_blank"
+                        title="Blog"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<path fill="currentColor" d="M368.4 18.3L312.7 74.1 437.9 199.3l55.7-55.7c21.9-21.9 21.9-57.3 0-79.2L447.6 18.3c-21.9-21.9-57.3-21.9-79.2 0zM288 94.6l-9.2 2.8L134.7 140.6c-19.9 6-35.7 21.2-42.3 41L3.8 445.8c-3.8 11.3-1 23.9 7.3 32.4L164.7 324.7c-3-6.3-4.7-13.3-4.7-20.7c0-26.5 21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48c-7.4 0-14.4-1.7-20.7-4.7L33.7 500.9c8.6 8.3 21.1 11.2 32.4 7.3l264.3-88.6c19.7-6.6 35-22.4 41-42.3l43.2-144.1 2.7-9.2L288 94.6z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/blooming-daisy'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+<path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/leenagohk/'
+                        target="_blank"
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+<path fill="currentColor" d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">]
+<path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l293.1 0c-3.1-8.8-3.7-18.4-1.4-27.8l15-60.1c2.8-11.3 8.6-21.5 16.8-29.7l40.3-40.3c-32.1-31-75.7-50.1-123.9-50.1l-91.4 0zm435.5-68.3c-15.6-15.6-40.9-15.6-56.6 0l-29.4 29.4 71 71 29.4-29.4c15.6-15.6 15.6-40.9 0-56.6l-14.4-14.4zM375.9 417c-4.1 4.1-7 9.2-8.4 14.9l-15 60.1c-1.4 5.5 .2 11.2 4.2 15.2s9.7 5.6 15.2 4.2l60.1-15c5.6-1.4 10.8-4.3 14.9-8.4L576.1 358.7l-71-71L375.9 417z"/></svg>
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<path fill="currentColor" d="M32 32l448 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96L0 64C0 46.3 14.3 32 32 32zm0 128l448 0 0 256c0 35.3-28.7 64-64 64L96 480c-35.3 0-64-28.7-64-64l0-256zm128 80c0 8.8 7.2 16 16 16l160 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-160 0c-8.8 0-16 7.2-16 16z"/></svg>
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode 🌙</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">목차</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#headings">Headings</a></li>
+    <li><a href="#paragraph">Paragraph</a></li>
+    <li><a href="#blockquotes--quote-shortcode">Blockquotes &amp; Quote Shortcode</a>
+      <ol>
+        <li><a href="#blockquotes">Blockquotes</a>
+          <ol>
+            <li><a href="#blockquote-without-attribution">Blockquote without attribution</a></li>
+            <li><a href="#blockquote-with-attribution">Blockquote with attribution</a></li>
+          </ol>
+        </li>
+        <li><a href="#quote-shortcode">Quote Shortcode</a>
+          <ol>
+            <li><a href="#일반--기울임체-링크">일반 + 기울임체 (링크)</a></li>
+            <li><a href="#기울임체-링크">기울임체 (링크)</a></li>
+            <li><a href="#기울임체-no-링크">기울임체 (no 링크)</a></li>
+            <li><a href="#일반-no-링크">일반 (no 링크)</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#tables">Tables</a>
+      <ol>
+        <li>
+          <ol>
+            <li><a href="#inline-markdown-within-tables">Inline Markdown within tables</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#code-blocks">Code Blocks</a>
+      <ol>
+        <li>
+          <ol>
+            <li><a href="#code-block-with-backticks">Code block with backticks</a></li>
+            <li><a href="#code-block-indented-with-four-spaces">Code block indented with four spaces</a></li>
+            <li><a href="#code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</a></li>
+            <li><a href="#code-block-with-highlightjs-shortcode">Code block with highlight.js shortcode</a></li>
+            <li><a href="#diff-code-block">Diff code block</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#list-types">List Types</a>
+      <ol>
+        <li>
+          <ol>
+            <li><a href="#ordered-list">Ordered List</a></li>
+            <li><a href="#unordered-list">Unordered List</a></li>
+            <li><a href="#nested-list">Nested list</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark</a>
+      <ol>
+        <li>
+          <ol>
+            <li><a href="#abbr">abbr</a></li>
+            <li><a href="#sub">sub</a></li>
+            <li><a href="#sup">sup</a></li>
+            <li><a href="#kbd">kbd</a></li>
+            <li><a href="#mark">mark</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#hyperlinked-image">Hyperlinked image</a></li>
+    <li><a href="#이미지-아래-캡션을-추가하는-방법">이미지 아래 캡션을 추가하는 방법</a></li>
+    <li><a href="#emoji">Emoji</a></li>
+    <li><a href="#mathematical-notation">Mathematical Notation</a>
+      <ol>
+        <li><a href="#examples">Examples</a></li>
+      </ol>
+    </li>
+    <li><a href="#enhanced-shortcode">Enhanced Shortcode</a>
+      <ol>
+        <li>
+          <ol>
+            <li><a href="#youtube">YouTube</a></li>
+            <li><a href="#twitter">Twitter</a></li>
+            <li><a href="#vimeo-simple-shortcode">Vimeo Simple Shortcode</a></li>
+            <li><a href="#instagram-shortcode">instagram Shortcode</a></li>
+            <li><a href="#gist-shortcode">Gist Shortcode</a></li>
+            <li><a href="#gitlab-snippets-shortcode">Gitlab Snippets Shortcode</a></li>
+          </ol>
+        </li>
+        <li><a href="#직접-그림-그리기">직접 그림 그리기</a></li>
+        <li><a href="#html에서-특수기호-사용하기">HTML에서 특수기호 사용하기</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/">
+                <img src="/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/about_hu8c1a3ba5c314d6cc6b9002f640e2a872_108362_800x0_resize_q75_box.jpg"
+                        srcset="/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/about_hu8c1a3ba5c314d6cc6b9002f640e2a872_108362_800x0_resize_q75_box.jpg 800w, /p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/about_hu8c1a3ba5c314d6cc6b9002f640e2a872_108362_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="451" 
+                        loading="lazy"
+                        alt="Featured image of post [Template] 템플릿" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%ED%85%9C%ED%94%8C%EB%A6%BF/" >
+                템플릿
+            </a>
+        
+            <a href="/categories/markdown/" >
+                Markdown
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/">[Template] 템플릿</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Hugo에 글을 작성할 때 필요한 기본 템플릿을 소개합니다!
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2024/07/26</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    4분이면 충분해요!🕐
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
+<p>참고)</p>
+<p>&mdash;&mdash;&mdash;&mdash;&mdash; 북마크 &mdash;&mdash;&mdash;&mdash;&mdash;</p>
+<ul>
+<li>이렇게 밑줄도 그을 수 있군요</li>
+</ul>
+<h2 id="headings">Headings
+</h2><ul>
+<li>목차 Numbering은 <code>##(H2)</code>부터 시작이 됩니다.</li>
+<li><code># (H1)</code>부터 <code>###### (H6)</code>까지 있습니다.</li>
+</ul>
+<h2 id="paragraph">Paragraph
+</h2><ul>
+<li>단락 설정은 <mark>Enter</mark> 로 설정할 수 있습니다.</li>
+</ul>
+<p>글을 이렇게 작성하다가&hellip;</p>
+<p>Enter 두 번으로 완성!</p>
+<h2 id="blockquotes--quote-shortcode">Blockquotes &amp; Quote Shortcode
+</h2><ul>
+<li>인용구 삽입 방법입니다.</li>
+<li>아래 <strong>Quote Shortcode</strong>와 같이 알아보겠습니다.</li>
+</ul>
+<h3 id="blockquotes">Blockquotes
+</h3><h4 id="blockquote-without-attribution">Blockquote without attribution
+</h4><blockquote>
+<p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>
+</blockquote>
+<h4 id="blockquote-with-attribution">Blockquote with attribution
+</h4><blockquote>
+<p>Don&rsquo;t communicate by sharing memory, share memory by communicating.<br>
+— <cite>Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
+</blockquote>
+<h3 id="quote-shortcode">Quote Shortcode
+</h3><ul>
+<li>맨 상단에서 아래 4가지 type을 선택할 수 있습니다.
+<ol>
+<li>quote author: 일반체</li>
+<li>source: 기울임체</li>
+<li>url: 링크까지 연결</li>
+</ol>
+</li>
+</ul>
+<h4 id="일반--기울임체-링크">일반 + 기울임체 (링크)
+</h4><blockquote>
+    <p>Hugo 기반 블로그 참 좋구만!</p><span class="cite"><span>― </span><span>Leena, </span><a href="https://m.blog.naver.com/leena_hk/223521655994"><cite>비개발자의 테크블로그 재개발 w/Gemini (2)</cite></a></span></blockquote>
+<h4 id="기울임체-링크">기울임체 (링크)
+</h4><blockquote>
+    <p>Hugo 기반 블로그 참 좋구만!</p><span class="cite"><span>― </span><a href="https://m.blog.naver.com/leena_hk/223521655994"><cite>비개발자의 테크블로그 재개발 w/Gemini (2)</cite></a></span></blockquote>
+<h4 id="기울임체-no-링크">기울임체 (no 링크)
+</h4><blockquote>
+    <p>Hugo 기반 블로그 참 좋구만!</p><span class="cite"><span>― </span><cite>비개발자의 테크블로그 재개발 w/Gemini (2)</cite></span></blockquote>
+<h4 id="일반-no-링크">일반 (no 링크)
+</h4><blockquote>
+    <p>Hugo 기반 블로그 참 좋구만!</p><span class="cite"><span>― </span><span>Leena</span><cite></cite></span></blockquote>
+<p>※참고: quote author에는 url이 붙지 않습니다~</p>
+<h2 id="tables">Tables
+</h2><ul>
+<li>표는 <strong>-</strong> 와 <strong>|</strong> 로 구분하는군요!</li>
+<li>표의 색상은 저절로 구분이 되어 표시가 됩니다. 참 신기하네요!
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bob</td>
+<td>27</td>
+</tr>
+<tr>
+<td>Alice</td>
+<td>23</td>
+</tr>
+<tr>
+<td>James</td>
+<td>34</td>
+</tr>
+<tr>
+<td>Lisa</td>
+<td>25</td>
+</tr>
+</tbody>
+</table></div>
+</li>
+</ul>
+<h4 id="inline-markdown-within-tables">Inline Markdown within tables
+</h4><div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Italics</th>
+<th>Bold</th>
+<th>Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>italics</em></td>
+<td><strong>bold</strong></td>
+<td><code>code</code></td>
+</tr>
+</tbody>
+</table></div>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align:center">A</th>
+<th style="text-align:right">B</th>
+<th style="text-align:left">C</th>
+<th>D</th>
+<th>E</th>
+<th>F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">참 길다 1</td>
+<td style="text-align:right">참 길다 2</td>
+<td style="text-align:left">참 길다 3</td>
+<td>참 길다 4</td>
+<td>참 길다 5</td>
+<td>참 길다 6</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li><mark>:</mark>로 정렬 설정을 할 수 있습니다.</li>
+</ul>
+<h2 id="code-blocks">Code Blocks
+</h2><h4 id="code-block-with-backticks">Code block with backticks
+</h4><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="cp">&lt;!doctype html&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;utf-8&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces
+</h4><pre><code>&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Test&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode
+</h4><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="cp">&lt;!doctype html&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;utf-8&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+<h4 id="code-block-with-highlightjs-shortcode">Code block with highlight.js shortcode
+</h4><head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/tomorrow-night-bright.min.css"> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+</head>
+<!-- 테마 변경 가능합니다 -->
+<pre><code class="python">
+def greet(name):
+  print("Hello,", name)
+
+greet("World")
+</code></pre>
+<script>hljs.highlightAll();</script>
+<h4 id="diff-code-block">Diff code block
+</h4><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-diff" data-lang="diff"><span class="line"><span class="cl">[dependencies.bevy]
+</span></span><span class="line"><span class="cl">git = &#34;https://github.com/bevyengine/bevy&#34;
+</span></span><span class="line"><span class="cl">rev = &#34;11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13&#34;
+</span></span><span class="line"><span class="cl"><span class="gd">- features = [&#34;dynamic&#34;]
+</span></span></span><span class="line"><span class="cl"><span class="gd"></span><span class="gi">+ features = [&#34;jpeg&#34;, &#34;dynamic&#34;]
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="list-types">List Types
+</h2><h4 id="ordered-list">Ordered List
+</h4><ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<h4 id="unordered-list">Unordered List
+</h4><ul>
+<li>List item</li>
+<li>Another item</li>
+<li>And another item</li>
+</ul>
+<h4 id="nested-list">Nested list
+</h4><ul>
+<li>Tab으로 단락을 구분하면 됩니다.</li>
+</ul>
+<ul>
+<li>Fruit
+<ul>
+<li>Apple</li>
+<li>Orange</li>
+<li>Banana</li>
+</ul>
+</li>
+<li>Dairy
+<ul>
+<li>Milk</li>
+<li>Cheese</li>
+</ul>
+</li>
+</ul>
+<h2 id="other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark
+</h2><h4 id="abbr">abbr
+</h4><ul>
+<li><kbd>&lt;abbr</kbd> 사이에 뜻을 입력한 후, 닫아주면 hover로 full text가 뜨게 됩니다.</li>
+</ul>
+<p>ex) <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.</p>
+<h4 id="sub">sub
+</h4><ul>
+<li><kbd>&lt;sub</kbd> 를 사용하면, 아래첨자를 사용할 수 있습니다.</li>
+</ul>
+<p>ex) H<sub>2</sub>O</p>
+<h4 id="sup">sup
+</h4><ul>
+<li><kbd>&lt;sup</kbd> 를 사용하면, 위첨자를 사용할 수 있습니다.</li>
+</ul>
+<p>ex) X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>
+<h4 id="kbd">kbd
+</h4><ul>
+<li><kbd>&lt;kbd</kbd> 는 button type을 만들어주는 기능입니다.</li>
+</ul>
+<p>ex) Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.</p>
+<h4 id="mark">mark
+</h4><ul>
+<li><kbd>&lt;mark</kbd> 기능은, highlight를 해주는 기능입니다.</li>
+</ul>
+<p>ex) Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures. <mark>줄바꿈 테스트</mark>를 해보겠습니다. 이렇게 길게 적으면 과연 줄바꿈이 될는지, 제가 설정한 그 줄바꿈 기능이 작동할지 궁금하네요 호호호</p>
+<h2 id="hyperlinked-image">Hyperlinked image
+</h2><ul>
+<li>이렇게 이미지 안에 링크 바로가기도 심을 수 있습니다.</li>
+</ul>
+<!-- 뒤에 픽셀이랑 550X750 수정하면 이미지 사이즈 조절이 가능 -->
+<p><a class="link" href="https://google.com"  target="_blank" rel="noopener"
+    ><img src="https://ih1.redbubble.net/image.2555384443.1294/bg,f8f8f8-flat,550x,075,f-pad,550x550,f8f8f8.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Google"
+	
+	
+></a></p>
+<h2 id="이미지-아래-캡션을-추가하는-방법">이미지 아래 캡션을 추가하는 방법
+</h2><!-- w와 h를 이용해서 사진 사이즈를 조절 -->
+<figure>
+  <img src="https://images.unsplash.com/photo-1638290046742-b5030c6b56b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMjU0MDF8&ixlib=rb-4.0.3&q=80&w=1080&w=500&h=300?fm=webp" alt="Step 1">
+  <figcaption><cite>출처: Unsplash</cite></figcaption>
+</figure>
+<hr>
+<h2 id="emoji">Emoji
+</h2><ul>
+<li>사실 아래는 <code>Emoji</code>에 대한 문구이지만, 글자에 link를 심는 방법이 잘 표현되어 있어, 예시로 사용하고자 내용을 변경하지 않고 그대로 두었습니다.</li>
+<li><kbd>Windows (CMD)</kbd> + <kbd>;</kbd> 로 바로 이모지를 심을 수 있는데, 왜 이렇게 표시를 한걸까요? 이유가 있을 것 같긴 합니다만 아직 이해가 되진 않습니다.</li>
+</ul>
+<p>Emoji can be enabled in a Hugo project in a number of ways.</p>
+<!--more-->
+<p>The <a class="link" href="https://gohugo.io/functions/emojify/"  target="_blank" rel="noopener"
+    ><code>emojify</code></a> function can be called directly in templates or <a class="link" href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes"  target="_blank" rel="noopener"
+    >Inline Shortcodes</a>.</p>
+<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a class="link" href="https://gohugo.io/getting-started/configuration/"  target="_blank" rel="noopener"
+    >configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
+<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p> 🫡
+<br>
+<p>The <a class="link" href="http://www.emoji-cheat-sheet.com/"  target="_blank" rel="noopener"
+    >Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
+<hr>
+<h2 id="mathematical-notation">Mathematical Notation
+</h2><p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+<!--more-->
+<p>In this example we will be using <a class="link" href="https://katex.org/"  target="_blank" rel="noopener"
+    >KaTeX</a></p>
+<ul>
+<li>Create a partial under <code>/layouts/partials/math.html</code></li>
+<li>Within this partial reference the <a class="link" href="https://katex.org/docs/autorender.html"  target="_blank" rel="noopener"
+    >Auto-render Extension</a> or host these scripts locally.</li>
+<li>Include the partial in your templates like so:</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">{{</span> <span class="k">if</span> or .Params.math .Site.Params.math <span class="o">}}</span>
+</span></span><span class="line"><span class="cl"><span class="o">{{</span> partial <span class="s2">&#34;math.html&#34;</span> . <span class="o">}}</span>
+</span></span><span class="line"><span class="cl"><span class="o">{{</span> end <span class="o">}}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>To enable KaTeX globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
+<li>To enable KaTeX on a per page basis include the parameter <code>math: true</code> in content files</li>
+</ul>
+<p><strong>Note:</strong> Use the online reference of <a class="link" href="https://katex.org/docs/supported.html"  target="_blank" rel="noopener"
+    >1) Supported TeX Functions, </a>
+<a class="link" href="https://katex.org/docs/support_table"  target="_blank" rel="noopener"
+    >2) Supported TeX Functions</a></p>
+
+<h3 id="examples">Examples
+</h3><p>Inline math: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$</p>
+<p>Block math:
+$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$</p>
+<h2 id="enhanced-shortcode">Enhanced Shortcode
+</h2><ul>
+<li><kbd>Enhanced Shortcode</kbd>를 이용해서 게시글에 추가 할수도 있습니다.</li>
+</ul>
+<h4 id="youtube">YouTube
+</h4><div class="video-wrapper">
+    <iframe loading="lazy" 
+            src="https://www.youtube.com/embed/0RKpf3rK57I" 
+            allowfullscreen 
+            title="YouTube Video"
+    >
+    </iframe>
+</div>
+
+<br>
+<hr>
+<h4 id="twitter">Twitter
+</h4><blockquote class="twitter-tweet"><p lang="en" dir="ltr">“In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.”<br>— Jan Tschichold <a href="https://t.co/gcv7SrhvJb">pic.twitter.com/gcv7SrhvJb</a></p>&mdash; Design Reviewed | Graphic Design History (@DesignReviewed) <a href="https://twitter.com/DesignReviewed/status/1085870671291310081?ref_src=twsrc%5Etfw">January 17, 2019</a></blockquote>
+
+
+<br>
+<hr>
+<h4 id="vimeo-simple-shortcode">Vimeo Simple Shortcode
+</h4><style>
+.__h_video {
+   position: relative;
+   padding-bottom: 56.23%;
+   height: 0;
+   overflow: hidden;
+   width: 100%;
+   background: #000;
+}
+.__h_video img {
+   width: 100%;
+   height: auto;
+   color: #000;
+}
+.__h_video .play {
+   height: 72px;
+   width: 72px;
+   left: 50%;
+   top: 50%;
+   margin-left: -36px;
+   margin-top: -36px;
+   position: absolute;
+   cursor: pointer;
+}
+</style><div class="s_video_simple __h_video">
+          <a href="https://vimeo.com/4.8912912e&#43;07" rel="noopener" target="_blank">
+            <img src="https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640" srcset="https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640 1x, https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640 2x" alt="Sing Jan Swing - Kinetic Type">
+            <div class="play">
+              <svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 61"><circle cx="30.5" cy="30.5" r="30.5" opacity=".8" fill="#000"></circle><path d="M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z" fill="#fff"></path></svg>
+            </div>
+          </a>
+        </div>
+<h4 id="instagram-shortcode">instagram Shortcode
+</h4><blockquote
+    class="instagram-media"
+    data-instgrm-captioned
+    data-instgrm-permalink="https://www.instagram.com/p/CxOWiQNP2MO"
+    data-instgrm-version="14"
+    style="
+      background: #fff;
+      border: 0;
+      border-radius: 3px;
+      box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+      margin: 1px;
+      max-width: 540px;
+      min-width: 326px;
+      padding: 0;
+      width: 99.375%;
+      width: -webkit-calc(100% - 2px);
+      width: calc(100% - 2px);
+    "
+  >
+    <div style="padding: 16px">
+      <a
+        href="https://www.instagram.com/p/CxOWiQNP2MO"
+        style="
+          background: #ffffff;
+          line-height: 0;
+          padding: 0 0;
+          text-align: center;
+          text-decoration: none;
+          width: 100%;
+        "
+        target="_blank"
+      >
+        <div style="display: flex; flex-direction: row; align-items: center">
+          <div
+            style="
+              background-color: #f4f4f4;
+              border-radius: 50%;
+              flex-grow: 0;
+              height: 40px;
+              margin-right: 14px;
+              width: 40px;
+            "
+          ></div>
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              flex-grow: 1;
+              justify-content: center;
+            "
+          >
+            <div
+              style="
+                background-color: #f4f4f4;
+                border-radius: 4px;
+                flex-grow: 0;
+                height: 14px;
+                margin-bottom: 6px;
+                width: 100px;
+              "
+            ></div>
+            <div
+              style="
+                background-color: #f4f4f4;
+                border-radius: 4px;
+                flex-grow: 0;
+                height: 14px;
+                width: 60px;
+              "
+            ></div>
+          </div>
+        </div>
+        <div style="padding: 19% 0"></div>
+        <div
+          style="display: block; height: 50px; margin: 0 auto 12px; width: 50px"
+        >
+          <svg
+            width="50px"
+            height="50px"
+            viewBox="0 0 60 60"
+            version="1.1"
+            xmlns="https://www.w3.org/2000/svg"
+            xmlns:xlink="https://www.w3.org/1999/xlink"
+          >
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                <g>
+                  <path
+                    d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"
+                  ></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div style="padding-top: 8px">
+          <div
+            style="
+              color: #3897f0;
+              font-family: Arial, sans-serif;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 550;
+              line-height: 18px;
+            "
+          >
+            View this post on Instagram
+          </div>
+        </div>
+        <div style="padding: 12.5% 0"></div>
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 14px;
+            align-items: center;
+          "
+        >
+          <div>
+            <div
+              style="
+                background-color: #f4f4f4;
+                border-radius: 50%;
+                height: 12.5px;
+                width: 12.5px;
+                transform: translateX(0px) translateY(7px);
+              "
+            ></div>
+            <div
+              style="
+                background-color: #f4f4f4;
+                height: 12.5px;
+                transform: rotate(-45deg) translateX(3px) translateY(1px);
+                width: 12.5px;
+                flex-grow: 0;
+                margin-right: 14px;
+                margin-left: 2px;
+              "
+            ></div>
+            <div
+              style="
+                background-color: #f4f4f4;
+                border-radius: 50%;
+                height: 12.5px;
+                width: 12.5px;
+                transform: translateX(9px) translateY(-18px);
+              "
+            ></div>
+          </div>
+          <div style="margin-left: 8px">
+            <div
+              style="
+                background-color: #f4f4f4;
+                border-radius: 50%;
+                flex-grow: 0;
+                height: 20px;
+                width: 20px;
+              "
+            ></div>
+            <div
+              style="
+                width: 0;
+                height: 0;
+                border-top: 2px solid transparent;
+                border-left: 6px solid #f4f4f4;
+                border-bottom: 2px solid transparent;
+                transform: translateX(16px) translateY(-4px) rotate(30deg);
+              "
+            ></div>
+          </div>
+          <div style="margin-left: auto">
+            <div
+              style="
+                width: 0px;
+                border-top: 8px solid #f4f4f4;
+                border-right: 8px solid transparent;
+                transform: translateY(16px);
+              "
+            ></div>
+            <div
+              style="
+                background-color: #f4f4f4;
+                flex-grow: 0;
+                height: 12px;
+                width: 16px;
+                transform: translateY(-4px);
+              "
+            ></div>
+            <div
+              style="
+                width: 0;
+                height: 0;
+                border-top: 8px solid #f4f4f4;
+                border-left: 8px solid transparent;
+                transform: translateY(-4px) translateX(8px);
+              "
+            ></div>
+          </div>
+        </div>
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: center;
+            margin-bottom: 24px;
+          "
+        >
+          <div
+            style="
+              background-color: #f4f4f4;
+              border-radius: 4px;
+              flex-grow: 0;
+              height: 14px;
+              margin-bottom: 6px;
+              width: 224px;
+            "
+          ></div>
+          <div
+            style="
+              background-color: #f4f4f4;
+              border-radius: 4px;
+              flex-grow: 0;
+              height: 14px;
+              width: 144px;
+            "
+          ></div></div
+      ></a>
+    </div>
+  </blockquote><script async src="//www.instagram.com/embed.js"></script>
+<h4 id="gist-shortcode">Gist Shortcode
+</h4><script src="https://gist.github.com/spf13/7896402.js"></script>
+
+<h4 id="gitlab-snippets-shortcode">Gitlab Snippets Shortcode
+</h4><script
+    type="application/javascript"
+    src="https://gitlab.com/-/snippets/2349278.js"
+></script>
+<hr>
+<h3 id="직접-그림-그리기">직접 그림 그리기
+</h3><ul>
+<li>이런 기능도 있구나~ 하고 넘어가려고 합니다. <del>(언젠간 쓰겠죠..?)</del></li>
+</ul>
+<p><svg class="canon" xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 496 373" height="373" width="496"><g fill="none"><path stroke="#000" stroke-width=".75" d="M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515"></path><path stroke="#ED1C24" stroke-width=".75" d="M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z"></path><path stroke="#000" stroke-width=".75" d="M.479.375h495v372h-495zM247.979.875v372"></path><ellipse cx="498.729" cy="177.625" rx=".75" ry="1.25"></ellipse><ellipse cx="247.229" cy="377.375" rx=".75" ry="1.25"></ellipse></g></svg></p>
+<p><a class="link" href="https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon"  target="_blank" rel="noopener"
+    >The Van de Graaf Canon</a></p>
+<hr>
+<h3 id="html에서-특수기호-사용하기">HTML에서 특수기호 사용하기
+</h3><ul>
+<li>HTML 기반의 글을 작성할 때, 일반적인 방법으로 특수기호를 입력하면 인식이 되지 않습니다.</li>
+<li>아래 잘 정리 되어있는 HTML code 페이지가 있으니, 여길 참고하면 되겠습니다.
+<a class="link" href="https://www.ascii-code.com/"  target="_blank" rel="noopener"
+    >HTML code</a></li>
+</ul>
+<hr>
+<p>지금까지 Markdown으로 해볼 수 있는 다양한 표현법들을 정리해보았습니다.
+이 모든 코드들을 다 외울 수 없으니, <code>Reference</code>로 잘 활용하면 양질의 컨텐츠를 만드는 데 도움이 될 것 같습니다 ☺️</p>
+<p><em>(참고로, 아래 링크는 template 맨 상단에서 설정할 수 있고, 예시로 추가해놓은 페이지입니다!)</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The above quote is excerpted from Rob Pike&rsquo;s <a class="link" href="https://www.youtube.com/watch?v=PAAkCSZUG1c"  target="_blank" rel="noopener"
+    >talk</a> during Gopherfest, November 18, 2015.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+        <div class="article-list--compact links">
+    
+        <article>
+            <a href="https://new.land.naver.com/complexes/1179?ms=37.5426592,127.0146267,16&amp;a=APT:ABYG:JGC:PRE&amp;e=RETAIL" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title">Naver 부동산</h2>
+                    <footer class="article-time">
+                        
+                            네이버 부동산 바로 가기
+                        
+                    </footer>
+                </div>
+        
+                
+                    
+                    
+                    <div class="article-image">
+                        <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1583672606/noticon/zx2ynqjxvrvige9pfsso.svg" loading="lazy">
+                    </div>
+                
+            </a>
+        </article>
+    
+        <article>
+            <a href="https://highlightjs.org/demo" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title">highlight.js</h2>
+                    <footer class="article-time">
+                        
+                            highlight.js Theme Demo
+                        
+                    </footer>
+                </div>
+        
+                
+                    
+                    
+                    <div class="article-image">
+                        <img src="https://avatars.githubusercontent.com/u/9039821?s=200&amp;v=4" loading="lazy">
+                    </div>
+                
+            </a>
+        </article>
+    
+</div>
+    
+
+    
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="blooming-daisy/blooming-daisy.github.io"
+    data-repo-id="R_kgDOMZZW8Q"
+    data-category=""
+    data-category-id="DIC_kwDOMZZW8c4ChE52"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="github-light"
+    data-lang="en"
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('github-light');
+            } else {
+                setGiscusTheme('github-dark');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 Leena
+    </section>
+    
+    <section class="powerby">
+        <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>로 만들었습니다. <br />
+        <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>의 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> 테마 사용 중!
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
