@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Test on Leena&#39;s Place</title>
-        <link>http://localhost:1313/categories/test/</link>
-        <description>Recent content in Test on Leena&#39;s Place</description>
+        <title>회계 on Leena&#39;s Place</title>
+        <link>http://localhost:1313/tags/%ED%9A%8C%EA%B3%84/</link>
+        <description>Recent content in 회계 on Leena&#39;s Place</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
         <copyright>Leena</copyright>
-        <lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/test/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%ED%9A%8C%EA%B3%84/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>회계를 공부해봅시다 (1)</title>
         <link>http://localhost:1313/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EA%B3%B5%EB%B6%80%ED%95%B4%EB%B4%85%EC%8B%9C%EB%8B%A4-1/</link>
         <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>

@@ -3,18 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-07-30T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%ED%9A%8C%EA%B3%84/</loc>
+    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-1/</loc>
+    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-1/</loc>
+    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/api/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-07-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/image/</loc>
-    <lastmod>2024-07-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/p/unsplash-api-%EC%97%B0%EA%B2%B0/</loc>
