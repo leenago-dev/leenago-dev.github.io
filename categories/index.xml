@@ -2,49 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Leena&#39;s Place</title>
-        <link>http://localhost:1313/categories/</link>
+        <link>https://blooming-daisy.github.io/categories/</link>
         <description>Recent content in Categories on Leena&#39;s Place</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
         <copyright>Leena</copyright>
+<<<<<<< HEAD
         <lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>회계</title>
         <link>http://localhost:1313/categories/%ED%9A%8C%EA%B3%84/</link>
         <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/categories/%ED%9A%8C%EA%B3%84/</guid>
+=======
+        <lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blooming-daisy.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>회계</title>
+        <link>https://blooming-daisy.github.io/categories/%ED%9A%8C%EA%B3%84/</link>
+        <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blooming-daisy.github.io/categories/%ED%9A%8C%EA%B3%84/</guid>
+>>>>>>> 9253de134e78ac1c05db19360a56481ec0a2d9ae
         <description></description>
         </item>
         <item>
         <title>API</title>
-        <link>http://localhost:1313/categories/api/</link>
+        <link>https://blooming-daisy.github.io/categories/api/</link>
         <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/api/</guid>
+        <guid>https://blooming-daisy.github.io/categories/api/</guid>
         <description></description>
         </item>
         <item>
         <title>Image</title>
-        <link>http://localhost:1313/categories/image/</link>
+        <link>https://blooming-daisy.github.io/categories/image/</link>
         <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/image/</guid>
+        <guid>https://blooming-daisy.github.io/categories/image/</guid>
         <description></description>
         </item>
         <item>
         <title>Markdown</title>
-        <link>http://localhost:1313/categories/markdown/</link>
+        <link>https://blooming-daisy.github.io/categories/markdown/</link>
         <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/markdown/</guid>
+        <guid>https://blooming-daisy.github.io/categories/markdown/</guid>
         <description></description>
         </item>
         <item>
         <title>템플릿</title>
-        <link>http://localhost:1313/categories/%ED%85%9C%ED%94%8C%EB%A6%BF/</link>
+        <link>https://blooming-daisy.github.io/categories/%ED%85%9C%ED%94%8C%EB%A6%BF/</link>
         <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/%ED%85%9C%ED%94%8C%EB%A6%BF/</guid>
+        <guid>https://blooming-daisy.github.io/categories/%ED%85%9C%ED%94%8C%EB%A6%BF/</guid>
         <description></description>
         </item>
         

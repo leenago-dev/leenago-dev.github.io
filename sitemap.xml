@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+<<<<<<< HEAD
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -19,10 +20,30 @@
   </url><url>
     <loc>http://localhost:1313/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-1/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+=======
+    <loc>https://blooming-daisy.github.io/</loc>
+    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/api/</loc>
+    <loc>https://blooming-daisy.github.io/categories/</loc>
+    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blooming-daisy.github.io/post/</loc>
+    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blooming-daisy.github.io/categories/%ED%9A%8C%EA%B3%84/</loc>
+    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-1/</loc>
+    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blooming-daisy.github.io/categories/api/</loc>
+    <lastmod>2024-07-30T00:00:00+00:00</lastmod>
+>>>>>>> 9253de134e78ac1c05db19360a56481ec0a2d9ae
+  </url><url>
+    <loc>https://blooming-daisy.github.io/categories/image/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
   </url><url>
+<<<<<<< HEAD
     <loc>http://localhost:1313/categories/image/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -30,25 +51,31 @@
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/</loc>
+=======
+    <loc>https://blooming-daisy.github.io/p/unsplash-api-%EC%97%B0%EA%B2%B0/</loc>
+    <lastmod>2024-07-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blooming-daisy.github.io/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/</loc>
+>>>>>>> 9253de134e78ac1c05db19360a56481ec0a2d9ae
     <lastmod>2024-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/markdown/</loc>
+    <loc>https://blooming-daisy.github.io/categories/markdown/</loc>
     <lastmod>2024-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%ED%85%9C%ED%94%8C%EB%A6%BF/</loc>
+    <loc>https://blooming-daisy.github.io/categories/%ED%85%9C%ED%94%8C%EB%A6%BF/</loc>
     <lastmod>2024-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://blooming-daisy.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/page/</loc>
+    <loc>https://blooming-daisy.github.io/page/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://blooming-daisy.github.io/about/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://blooming-daisy.github.io/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://blooming-daisy.github.io/tags/</loc>
   </url>
 </urlset>
