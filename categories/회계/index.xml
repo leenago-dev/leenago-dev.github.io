@@ -2,16 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>회계 on Leena&#39;s Place</title>
-<<<<<<< HEAD
         <link>http://localhost:1313/categories/%ED%9A%8C%EA%B3%84/</link>
-=======
-        <link>https://blooming-daisy.github.io/categories/%ED%9A%8C%EA%B3%84/</link>
->>>>>>> 9253de134e78ac1c05db19360a56481ec0a2d9ae
         <description>Recent content in 회계 on Leena&#39;s Place</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
         <copyright>Leena</copyright>
-<<<<<<< HEAD
         <lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%ED%9A%8C%EA%B3%84/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>회계를 이해합시다 (1)</title>
         <link>http://localhost:1313/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-1/</link>
@@ -275,14 +270,6 @@
         <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-1/</guid>
-=======
-        <lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blooming-daisy.github.io/categories/%ED%9A%8C%EA%B3%84/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>회계를 이해합시다 (1)</title>
-        <link>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-1/</link>
-        <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-1/</guid>
->>>>>>> 9253de134e78ac1c05db19360a56481ec0a2d9ae
         <description>&lt;img src="https://images.unsplash.com/photo-1706217803053-19efb3fb1ea3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI4NDk0NjZ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (1)" /&gt;&lt;h2 id=&#34;재무제표의-구성&#34;&gt;재무제표의 구성
 &lt;/h2&gt;&lt;p&gt;재무제표는 크게 다섯 part로 구성이 되어 있습니다.&lt;/p&gt;
 &lt;ol&gt;
