@@ -7,7 +7,219 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
         <copyright>Leena</copyright>
-        <lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blooming-daisy.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blooming-daisy.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>회계를 이해합시다 (2)</title>
+        <link>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-2/</link>
+        <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-2/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1523839699072-5ec088b61a21?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwNzIzODN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (2)" /&gt;&lt;h2 id=&#34;복습&#34;&gt;복습
+&lt;/h2&gt;&lt;h3 id=&#34;회계항등식&#34;&gt;회계항등식
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;자산 = 부채 + 자본&lt;/strong&gt;&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;회계항등식.png&#34; alt=&#34;회계항등식&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;회계항등식&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;가장 기본이 되는 공식이므로, 꼭 알고 가야합니다.&lt;/p&gt;
+&lt;h4 id=&#34;아파트와-회계항등식&#34;&gt;아파트와 회계항등식
+&lt;/h4&gt;&lt;figure&gt;
+  &lt;img src=&#34;아파트와_회계항등식.png&#34; alt=&#34;아파트와 회계항등식&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;아파트와 회계항등식 간 관련성&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;자산&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;kbd&gt;자산&lt;/kbd&gt;은 나에게 &lt;mark&gt;경제적 효과 또는 이익을 가져다주는 것&lt;/mark&gt;입니다.&lt;/li&gt;
+&lt;li&gt;아파트가 가져다주는 경제적 효과 또는 이익은 크게 다음과 같습니다.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;소유권&lt;/code&gt;, &lt;code&gt;월세&lt;/code&gt;, &lt;code&gt;매각대금&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;회계에서는 &lt;kbd&gt;소유권&lt;/kbd&gt;을 &lt;kbd&gt;배타적 통제권&lt;/kbd&gt;이라고 합니다.
+&lt;ul&gt;
+&lt;li&gt;소유권은 &amp;lsquo;나&amp;rsquo;만 가질 수 있는 것이기 때문에 그렇게 부르는 것으로 추측해봅니다!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;내가 실거주를 하게 되면 &lt;strong&gt;월세&lt;/strong&gt; 부담이 없고, 임대할 경우 &lt;strong&gt;임대 수익&lt;/strong&gt;이 발생합니다.&lt;/li&gt;
+&lt;li&gt;또한 아파트를 매매하는 경우, &lt;strong&gt;현금&lt;/strong&gt;이 발생하게 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;부채&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;보통 대출을 일으켜 아파트를 구매합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;자본&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;자본은 아파트의 자산가치에서 대출을 뺀 금액입니다.&lt;/li&gt;
+&lt;li&gt;아파트의 자산가치 상승은 자본가치의 상승으로 연결됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;제품의-종류&#34;&gt;제품의 종류
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;개념&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;제품&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;완성 후 판매 대기 상태&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;반제품&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;최종 완성은 아니지만, 그 상태로도 판매가 가능한 것&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;재공품&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;최종 완성이 아니고, 그 상태로 판매가 불가능한 것&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;미착품&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;구매했으나 아직 도착하지 않은 상품&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;용어&#34;&gt;용어
+&lt;/h2&gt;&lt;h3 id=&#34;유동자산-vs-비유동자산&#34;&gt;유동자산 vs 비유동자산
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;비교&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;유동자산&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;- 재무상태표 기준일 시점에서, 1년 미만에 현금화가 가능하거나 만기가 도래하는 경우&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;비유동자산&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;재무상태표 기준일 시점에서, 1년 미만에 현금화가 가능하거나 만기가 도래하는 경우&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;Dart에는 현금화 가능 기간이 짧은 순으로 고시하는데, 이를 &lt;kbd&gt; 유동성 배열법 &lt;/kbd&gt;이라고 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;유동자산비유동자산.png&#34; alt=&#34;유동비유동자산&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;노랑풍선 2024년 1분기 dart 공시&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3 id=&#34;업종에-따라-달라지는-자산의-구성&#34;&gt;업종에 따라 달라지는 자산의 구성
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;업종에 따라 자산의 구성은 달라집니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;h4 id=&#34;lg화학&#34;&gt;LG화학
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LG화학&lt;/strong&gt;은 석유화학/첨단소재/생명과학사업을 하고 있습니다. &lt;br&gt;이런 업종의 특성상, LG화학은 &lt;code&gt;기계&lt;/code&gt;, &lt;code&gt;차량운반구&lt;/code&gt;, &lt;code&gt;공기구&lt;/code&gt; 등의 유형자산을 보유하고 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;lg화학_유형자산.png&#34; alt=&#34;LG화학유형자산&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;LG화학 2024년 1분기 dart 공시&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;h4 id=&#34;호텔신라&#34;&gt;호텔신라
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;호텔신라&lt;/strong&gt;는 면세 및 여행사업을 하고 있습니다. &lt;br&gt; 호텔신라는 면세점, 호텔의 기반이 되는 &lt;code&gt;토지/건물&lt;/code&gt;, 그리고 호텔 객실에 들어가는 &lt;code&gt;가구집기비품&lt;/code&gt; 등의 유형자산을 보유하고 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;호텔신라_유형자산(취득원가).png&#34; alt=&#34;호텔신라유형자산&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;호텔신라 2024년 1분기 dart 공시&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;호텔신라 재무제표를 보면, 재고자산 세부내역 중 &lt;code&gt;상품에 포함된 고객에서 상품을 회수할 권리&lt;/code&gt; 라는 내역이 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;호텔신라_재고자산.png&#34; alt=&#34;호텔신라재고자산&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;호텔신라 2024년 1분기 dart 공시&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;반품이 예상되는 제품은 &lt;kbd&gt;환불부채&lt;/kbd&gt;로 인식을 하는데, &lt;br&gt; 그 중 기업이 고객으로부터 상품을 회수할 권리인 &lt;kbd&gt;반환제품회수권&lt;/kbd&gt;은 자산으로 인식합니다.&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;반환제품회수권&lt;/kbd&gt;은 회수에 들어가는 원가와 반품 제품의 감가를 반영하여 측정합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;노랑풍선&#34;&gt;노랑풍선
+&lt;/h4&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;착한부채-선수금&#34;&gt;착한부채-선수금
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;회계에서 &lt;kbd&gt;부채(Liability)&lt;/kbd&gt;는 미래에 상환해야 하는 돈, 혹은 회사 소유의 자원을 사용해 &lt;strong&gt;이행해야 할 의무&lt;/strong&gt;입니다.
+&lt;ul&gt;
+&lt;li&gt;이런 관점에서 &lt;kbd&gt;선수금&lt;/kbd&gt;은 미래의 어느 시점에서는 자원이 사용되거나 인력이 투입되어야 하는 것이므로, &lt;strong&gt;부채&lt;/strong&gt;로 인식합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;개념&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;매입채무&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;제품 제조에 사용되는 부품, 원재료, 판매상품 등을 외상으로 구매한 경우 발생하는 부채&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;금융부채&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;은행 차입금, 회사채 발행 등으로 발생한 부채&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;미지급금&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;수수료, 용역비, 기계류 구매 대금을 아직 지급하지 않은 상태에서 발생하는 부채&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;선수금&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;제품/상품 납품이나 용역 제공을 약속하고 거래처로부터 대금을 미리 받은 상태&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;선수금이 유입되면 현금(자산)이 증가하고, 부채에 선수금이 잡히게 됩니다.&lt;/li&gt;
+&lt;li&gt;약속한 재고자산을 납품하거나 용역을 제공하게 되면, &lt;br&gt;선수금 부채는 삭제되고 제품/상품/용역 매출이 발생하게 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;선수금cycle.png&#34; alt=&#34;선수금cycle&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;선수금 cycle&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;부채-비교&#34;&gt;부채 비교
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;개념&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;장단기차입금/외상매입금&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;일정 시기에 현금 상환 필요하며, 이자 비용 지출 = 손익 감소&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;선수금&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;재고자산 제공 시, 부채였던 선수금 내역이 사라지고 매출로 기록 = 기업 손익 好&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
         <title>회계를 이해합니까라요룡 (1)</title>
         <link>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EB%8B%88%EA%B9%8C%EB%9D%BC%EC%9A%94%EB%A3%A1-1/</link>
         <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
