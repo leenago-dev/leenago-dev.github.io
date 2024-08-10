@@ -7,7 +7,239 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
         <copyright>Leena</copyright>
-        <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blooming-daisy.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 10 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blooming-daisy.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>회계를 이해합시다 (3)</title>
+        <link>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-3/</link>
+        <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-3/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMyNzg4ODJ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (3)" /&gt;&lt;h2 id=&#34;용어&#34;&gt;용어
+&lt;/h2&gt;&lt;h3 id=&#34;감가와-감가상각비&#34;&gt;감가와 감가상각비
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;감가와 감가상각비를 알아보기 전에, 전제를 먼저 깔아봅시다.
+&lt;ul&gt;
+&lt;li&gt;&lt;kbd&gt;@재무상태표&lt;/kbd&gt;: 기계설비에 들어가는 현금 지출을 &lt;strong&gt;일시반영&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;@손익계산서&lt;/kbd&gt;: 가치 감소분을 해마다 나누어 비용에 &lt;strong&gt;분할반영&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;kbd&gt;수익과 비용의 대응원칙&lt;/kbd&gt;: 유형자산이 창출하는 수익에 대응해 비용 처리를 하는 개념&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;감가&#34;&gt;감가
+&lt;/h4&gt;&lt;p&gt;감가는 &lt;strong&gt;시간의 흐름&lt;/strong&gt;에 따라 &lt;strong&gt;유형자산의 가치가 감소&lt;/strong&gt;하는 것입니다.&lt;/p&gt;
+&lt;h4 id=&#34;감가상각비&#34;&gt;감가상각비
+&lt;/h4&gt;&lt;p&gt;감가상각비는 감가된만큼 매년 장부에서 가치를 하향조정하고,&lt;br&gt;가치 감소분을 비용으로 반영하는 것입니다.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;감가상각회계처리.png&#34; alt=&#34;감가상각&#34; width=&#34;500&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;감가상각비 회계처리 예시&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ex) 기계설비 2천만 원을 5년간 사용한다는 가정 시, &lt;br&gt;월 400만 원을 비용으로 반영&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;감가상각이 종료되면 장부 상 가격 및 감가상각비는 0원이 됩니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;감가상각의-회계처리&#34;&gt;감가상각의 회계처리
+&lt;/h3&gt;&lt;h4 id=&#34;step-1-내용연수&#34;&gt;Step 1: 내용연수
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;유형자산을 몇 년정도 사용할 수 있는지 지정하는 것입니다.&lt;/li&gt;
+&lt;li&gt;회계 상에서 유형자산의 사용 수명이라고 생각하시면 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;step-2-잔존가치-설정&#34;&gt;Step 2: 잔존가치 설정
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;내용연수 기간 이후, 유형자산의 가치를 얼마로 볼지 정하는 것입니다.&lt;/li&gt;
+&lt;li&gt;회계처리만 종료 되었을 뿐, 기계는 그대로 사용할 수 있습니다.
+&lt;ul&gt;
+&lt;li&gt;그래서 감상비 반영은 안하면서 수익 창출 활동을 할 수 있기 때문에, 이익이 많이 발생할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;step-3-감가상각-방법-선택&#34;&gt;Step 3: 감가상각 방법 선택
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;감가상각 방법에는 두 가지가 있습니다.
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;감가상각 방법&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;정액법&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;해마다 동일 &lt;strong&gt;금액&lt;/strong&gt;을 감가상각 처리&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;정률법&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;해마다 동일 &lt;strong&gt;비율&lt;/strong&gt;을 감가상각 처리&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>github blog에 lyket 적용</title>
+        <link>https://blooming-daisy.github.io/p/github-blog%EC%97%90-lyket-%EC%A0%81%EC%9A%A9/</link>
+        <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blooming-daisy.github.io/p/github-blog%EC%97%90-lyket-%EC%A0%81%EC%9A%A9/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1654220669943-0069bb3447f6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTg3OTF8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post github blog에 lyket 적용" /&gt;&lt;p&gt;github 블로그를 개설하면서,&lt;br&gt;&lt;code&gt;giscus&lt;/code&gt; 를 추가했습니다.&lt;br&gt; &lt;em&gt;(블로그에도 소통창구가 필요하기 때문에..!)&lt;/em&gt;&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;giscus.png&#34; alt=&#34;giscus&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;giscus comment&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;하지만 다 좋아보였던 giscus에서 느낀 단점이라면.. &lt;br&gt;
+github 계정이 있는 사람만 반응을 남길 수 있다는 것..!&lt;/p&gt;
+&lt;p&gt;주변에 github 계정을 갖고 있는 사람도 없거니와 &lt;br&gt;github 계정 보유자만 반응을 남길 수 있는 것이 일종의 허들로 느껴져서,&lt;br&gt;계정이 없이도 반응을 남길 수 있는 &lt;kbd&gt;Lyket&lt;/kbd&gt;을 사용해보게 되었습니다.&lt;/p&gt;
+&lt;h2 id=&#34;lyket-설치-방법&#34;&gt;Lyket 설치 방법
+&lt;/h2&gt;&lt;h3 id=&#34;lyket-계정-생성하기&#34;&gt;Lyket 계정 생성하기
+&lt;/h3&gt;&lt;figure&gt;
+  &lt;img src=&#34;lyket_setting1.png&#34; alt=&#34;lyket&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;&lt;a href=&#34;https://lyket.dev/&#34;&gt; lyket page link 🔗&lt;/a&gt; &lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;html-api-key-복붙하기&#34;&gt;HTML API key 복붙하기
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;계정 생성 후 확인 가능한 페이지에서 &lt;code&gt;HTML API key&lt;/code&gt; 를 복사한 다음,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;lyket_setting2.png&#34; alt=&#34;lyket&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;lyket HTML&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br&gt;
+&lt;p&gt;hugo-theme-stack ▷ layouts ▷ partials ▷ head ▷ &lt;kbd&gt;head.html&lt;/kbd&gt;에 삽입을 해줍니다. &lt;br&gt; &lt;em&gt;(맨 아래 참고)&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt;- partial &lt;span class=&#34;s2&#34;&gt;&amp;#34;head/style.html&amp;#34;&lt;/span&gt; . -&lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt;- partial &lt;span class=&#34;s2&#34;&gt;&amp;#34;head/script.html&amp;#34;&lt;/span&gt; . -&lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt;- partial &lt;span class=&#34;s2&#34;&gt;&amp;#34;head/opengraph/include.html&amp;#34;&lt;/span&gt; . -&lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt;- range .AlternativeOutputFormats -&lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;link &lt;span class=&#34;nv&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;{{ .Rel }}&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;{{ .MediaType.Type }}&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;{{ .Permalink | safeURL }}&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt;- end -&lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt; with .Site.Params.favicon &lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;link &lt;span class=&#34;nv&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;shortcut icon&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;{{ . | relURL }}&amp;#34;&lt;/span&gt; /&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt; end &lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt;- template &lt;span class=&#34;s2&#34;&gt;&amp;#34;_internal/google_analytics.html&amp;#34;&lt;/span&gt; . -&lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt;- partial &lt;span class=&#34;s2&#34;&gt;&amp;#34;head/custom.html&amp;#34;&lt;/span&gt; . -&lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;script &lt;span class=&#34;nv&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://unpkg.com/@lyket/widget@latest/dist/lyket.js?apiKey=APIKEY&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;참고로 &lt;code&gt;google tag&lt;/code&gt; 코드를 삽입해둔 경우, &lt;code&gt;google tag&lt;/code&gt; 상단에 HTML을 추가해주어야 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;lyket_1.png&#34; alt=&#34;lyket&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;lyket 배치 위치&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;custom-setting&#34;&gt;Custom setting
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;그 다음, 마음에 드는 스타일로 좋아요 버튼을 만들어줍니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;lyket-container&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;font-size: 19px&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;             &lt;span class=&#34;na&#34;&gt;data-lyket-type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;clap&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;             &lt;span class=&#34;na&#34;&gt;data-lyket-id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;blooming-daisy&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;             &lt;span class=&#34;na&#34;&gt;data-lyket-namespace&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;blog&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;             &lt;span class=&#34;na&#34;&gt;data-lyket-template&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;heart&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;             &lt;span class=&#34;na&#34;&gt;data-lyket-color-icon &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;#fcba03&amp;#34;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;             &lt;span class=&#34;na&#34;&gt;data-lyket-color-text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;#fcba03&amp;#34;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;             &lt;span class=&#34;na&#34;&gt;data-lyket-color-highlight &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;#fcba03&amp;#34;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;             &lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;span&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;lyket-label&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; 응원의 박수💕&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;span&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;파라미터-정리&#34;&gt;파라미터 정리
+&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;파라미터&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;kbd&gt;data-lyket-type&lt;/kbd&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Lyket 버튼 유형 지정 (&lt;code&gt;clap&lt;/code&gt;,&lt;code&gt;like&lt;/code&gt;,&lt;code&gt;star&lt;/code&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;kbd&gt;data-lyket-id&lt;/kbd&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;각 Lyket 버튼의 ID를 지정, 페이지별 고유값이어야 함&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;kbd&gt;data-lyket-namespace&lt;/kbd&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Lyket 버튼의 스페이스 할당&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;kbd&gt;data-lyket-template&lt;/kbd&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Lyket 버튼의 스타일 지정 (&lt;code&gt;simple&lt;/code&gt;,&lt;code&gt;twitter&lt;/code&gt;,&lt;code&gt;chevron&lt;/code&gt;..)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;kbd&gt;data-lyket-color-icon&lt;/kbd&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;버튼 아이콘의 색상 지정&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;kbd&gt;data-lyket-color-text&lt;/kbd&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;버튼 텍스트 색상 지정&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;kbd&gt;data-lyket-color-highlight&lt;/kbd&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;사용자가 버튼 클릭 시 애니메이션 색상&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
         <title>회계를 이해합시다 (2)</title>
         <link>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-2/</link>
         <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
@@ -216,263 +448,6 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;hr&gt;
-</description>
-        </item>
-        <item>
-        <title>회계를 이해합니까라요룡 (1)</title>
-        <link>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EB%8B%88%EA%B9%8C%EB%9D%BC%EC%9A%94%EB%A3%A1-1/</link>
-        <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EB%8B%88%EA%B9%8C%EB%9D%BC%EC%9A%94%EB%A3%A1-1/</guid>
-        <description>&lt;img src="https://images.unsplash.com/photo-1706217803053-19efb3fb1ea3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI4NDk0NjZ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합니까라요룡 (1)" /&gt;&lt;h2 id=&#34;재무제표의-구성&#34;&gt;재무제표의 구성
-&lt;/h2&gt;&lt;p&gt;재무제표는 크게 다섯 part로 구성이 되어 있습니다.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;재무상태표 - &lt;em&gt;자산, 부채, 자본현황&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;손익계산서 - &lt;em&gt;매출, 영업이익, 당기순이익 등&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;자본변동표 - &lt;em&gt;자본금, 이익잉여금 등&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;현금흐름표 - &lt;em&gt;기업의 현금 보유/운용 현황&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;주석 - &lt;em&gt;관련 항목에 대한 상세 내용&lt;/em&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;용어&#34;&gt;용어
-&lt;/h2&gt;&lt;h3 id=&#34;재고자산&#34;&gt;재고자산
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;창고에 보관중인 제품/상품 외에, &lt;br&gt; 생산라인에서 막 생산 완료된 제품도 재고자산으로 인식합니다.&lt;/li&gt;
-&lt;li&gt;생산 시점 무관, &lt;mark&gt;판매 대기 제품&lt;/mark&gt;은 &lt;mark&gt;재고&lt;/mark&gt;로 인식합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;재고자산 상세&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;상품&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;외부에서 구매를 하여 다시 판매&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;제품&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;직접 제조하여 판매&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;제조 중인 제품&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;원재료&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;유형자산&#34;&gt;유형자산
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;형태가 있는 자산으로, 기계설비 등이 이에 해당됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;손익거래와-비손익거래&#34;&gt;손익거래와 비손익거래
-&lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;개념&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;예시&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;손익거래&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;자산/부채의 변화 有 → 자본 변화 有&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;재고 판매 &lt;em&gt;(재고자산 -)&lt;/em&gt; 후 이익이 발생 &lt;em&gt;(자본 +)&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;비손익거래&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;자산/부채의 변화 有 → 자본 변화 無&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;은행 대출&lt;br&gt;&lt;em&gt;(자산과 부채에만 영향)&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;📒&lt;strong&gt;Note&lt;/strong&gt; &lt;br&gt;
-손익이 발생하지 않는 거래 중, 자본에 변화가 생기는 경우도 있습니다. &lt;br&gt;
-&lt;em&gt;ex) 유상증자&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;손익계산서에서&#34;&gt;손익계산서에서&amp;hellip;
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;아래 둘은 &lt;kbd&gt;자본&lt;/kbd&gt; 항목으로 이동을 합니다.
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;개념&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;이익잉여금&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;이익이 발생한 경우/&lt;br&gt; 회사의 당기순이익을 해마다 자본에 누적한 수치&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;결손금&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;손실이 발생한 경우&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;수익-vs-이익&#34;&gt;수익 vs 이익
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;회계에서는 &lt;kbd&gt;수익&lt;/kbd&gt;과 &lt;kbd&gt;이익&lt;/kbd&gt;을 다른 것으로 구분합니다.
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;개념&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;수익 (收益)&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;벌어들인 돈&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;이익 (利益)&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;남긴 돈&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;제조원가-vs-매출원가&#34;&gt;제조원가 vs 매출원가
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;생산에 들어간 비용은 처음에 회사의 &lt;kbd&gt;자산&lt;/kbd&gt;으로 인식이 되었다가,&lt;br&gt; 판매가 되면 &lt;kbd&gt;매출원가&lt;/kbd&gt;로 전환이 됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;개념&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;제조원가&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;상품을 만드는 데 들어간 비용&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;매출원가&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;매출이 발생한 제품의 원가 &lt;br&gt; &lt;em&gt;(제품1개의 제조원가 X 판매 갯수)&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;ul&gt;
-&lt;li&gt;손익계산서에 &lt;kbd&gt;매출원가&lt;/kbd&gt;는 나와있지만, &lt;kbd&gt;제조원가&lt;/kbd&gt;는 나와있지 않습니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;인건비의-인식&#34;&gt;인건비의 인식
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;생산에 들어간 인건비 역시 처음에 회사의 &lt;kbd&gt;자산&lt;/kbd&gt;으로 인식이 되었다가,&lt;br&gt; 판매가 되면 &lt;kbd&gt;매출원가&lt;/kbd&gt;로 전환이 됩니다.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;구분&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;생산현장 인건비&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;제품 생산에 직접 투입이 되어 &lt;strong&gt;제조원가&lt;/strong&gt;로 인식&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;그 외 인건비&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;제품 생산에 직접 투입이 되지 않아 &lt;strong&gt;판매관리비&lt;/strong&gt;로 인식&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&amp;lt;비용의 성격별 분류&amp;gt;에는 &lt;kbd&gt;매출원가&lt;/kbd&gt;에 포함된 비용과 &lt;br&gt; &lt;kbd&gt;판관비&lt;/kbd&gt;로 포함된 비용이 합쳐져 있습니다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;비용의_성격별_분류.png&#34; alt=&#34;삼성전자 dart 공시&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;삼성전자 2024년 1분기 dart 공시&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;재고자산의-변동&#34;&gt;재고자산의 변동
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;kbd&gt;재고자산&lt;/kbd&gt;이 판매가 되어 &lt;kbd&gt;매출원가&lt;/kbd&gt;로 변동이 되었다는 의미입니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;재고자산의_변동.png&#34; alt=&#34;삼성전자 dart 공시&#34; width=&#34;550&#34; height=&#34;550&#34;  class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;삼성전자 2024년 1분기 dart 공시&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;호텔신라-재료비의-정체&#34;&gt;호텔신라 &amp;lsquo;재료비&amp;rsquo;의 정체
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;호텔신라의 재무제표에는 &lt;kbd&gt;매출원가&lt;/kbd&gt;가 아닌 &lt;kbd&gt;재료비&lt;/kbd&gt;라는 항목이 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;호텔신라_재료비_손익계산서.png&#34; alt=&#34;호텔신라 dart 공시&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;호텔신라 2024년 1분기 dart 공시&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;ul&gt;
-&lt;li&gt;이 &lt;kbd&gt;재료비&lt;/kbd&gt;는 면세점 구매 상품 중 판매가 이루어진 상품에서 발생한 비용(매출원가)입니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;호텔신라_재료비_주석.png&#34; alt=&#34;호텔신라 dart 공시&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;호텔신라 2024년 1분기 dart 공시&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;게임업체의-지급수수료-정체&#34;&gt;게임업체의 &amp;lsquo;지급수수료&amp;rsquo; 정체
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;게임업체의 경우, 기존 업체들의 지급수수료에서 추가되는 항목들이 존재합니다.
-&lt;ul&gt;
-&lt;li&gt;기존 지급수수료: &lt;kbd&gt;감사/법률 자문료&lt;/kbd&gt;, &lt;kbd&gt;용역대금&lt;/kbd&gt;, &lt;kbd&gt;시스템 구축/운영비용&lt;/kbd&gt; 외&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;게임업체_지급수수료.png&#34; alt=&#34;게임업체 지급수수료 추가&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;게임업체의 지급수수료 추가 항목&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;판매방식에-따라-달라지는-매출인식&#34;&gt;판매방식에 따라 달라지는 매출인식
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;회계기준에서는 동일 상품이더라도 &lt;mark&gt;판매하는 방식에 따라 매출 인식이 달라집니다.&lt;/mark&gt;&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;구분&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;직매입 판매&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;판매 금액 전체&lt;/strong&gt;가 매출로 인식&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;입점업체 판매&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;일정 판매(거래)수수료&lt;/strong&gt;만 매출로 인식 &lt;br&gt; &lt;em&gt;(매출원가 無)&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;매출인식기준을 변경하게 될 경우, &lt;kbd&gt;성장 착시 현상&lt;/kbd&gt;이 발생하기도 합니다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;hr&gt;
 </description>
         </item>
@@ -1201,7 +1176,20 @@ def greet(name):
 greet(&#34;World&#34;)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;script&gt;hljs.highlightAll();&lt;/script&gt;
-&lt;h4 id=&#34;diff-code-block&#34;&gt;Diff code block
+&lt;h4 id=&#34;bash-code-block&#34;&gt;Bash code block
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; or .Params.math .Site.Params.math &lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt; partial &lt;span class=&#34;s2&#34;&gt;&amp;#34;math.html&amp;#34;&lt;/span&gt; . &lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt; end &lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;diff-code-block&#34;&gt;Diff code block
 &lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -1292,6 +1280,9 @@ greet(&#34;World&#34;)
 	
 	
 &gt;&lt;/a&gt;&lt;/p&gt;
+&lt;!-- 이런식으로도 설정 가능 --&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://google.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;lyket_setting1.png&#34; alt=&#34;Lyket Settings&#34; style=&#34;width: 550px; height: 550px; object-fit: contain;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;이미지-아래-캡션을-추가하는-방법&#34;&gt;이미지 아래 캡션을 추가하는 방법
 &lt;/h2&gt;&lt;!-- w와 h를 이용해서 사진 사이즈를 조절 --&gt;
 &lt;figure&gt;

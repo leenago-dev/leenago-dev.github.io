@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="ko-kr" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="<하마터면 회계를 모르고 일할 뻔 했다>에서 필요한 내용을 정리해보았습니다.">
-<title>회계를 이해합시다 (2)</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="lyket을 hugo blog에 적용하는 방법을 알아봅시다.">
+<title>github blog에 lyket 적용</title>
 
-<link rel='canonical' href='https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-2/'>
+<link rel='canonical' href='https://blooming-daisy.github.io/p/github-blog%EC%97%90-lyket-%EC%A0%81%EC%9A%A9/'>
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 
-<link rel="stylesheet" href="/scss/style.min.1d1f09eb62bc701917e8186bdbfb88ffca483deae6c14403370615dec288f3d2.css"><meta property='og:title' content="회계를 이해합시다 (2)">
-<meta property='og:description' content="<하마터면 회계를 모르고 일할 뻔 했다>에서 필요한 내용을 정리해보았습니다.">
-<meta property='og:url' content='https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-2/'>
+<link rel="stylesheet" href="/scss/style.min.1d1f09eb62bc701917e8186bdbfb88ffca483deae6c14403370615dec288f3d2.css"><meta property='og:title' content="github blog에 lyket 적용">
+<meta property='og:description' content="lyket을 hugo blog에 적용하는 방법을 알아봅시다.">
+<meta property='og:url' content='https://blooming-daisy.github.io/p/github-blog%EC%97%90-lyket-%EC%A0%81%EC%9A%A9/'>
 <meta property='og:site_name' content='Leena&#39;s Place'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-08-06T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-08-06T00:00:00&#43;00:00'/><meta property='og:image' content='https://images.unsplash.com/photo-1523839699072-5ec088b61a21?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwNzIzODN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp' />
-<meta name="twitter:title" content="회계를 이해합시다 (2)">
-<meta name="twitter:description" content="<하마터면 회계를 모르고 일할 뻔 했다>에서 필요한 내용을 정리해보았습니다."><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://images.unsplash.com/photo-1523839699072-5ec088b61a21?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwNzIzODN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-08-08T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-08-08T00:00:00&#43;00:00'/><meta property='og:image' content='https://images.unsplash.com/photo-1654220669943-0069bb3447f6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTg3OTF8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp' />
+<meta name="twitter:title" content="github blog에 lyket 적용">
+<meta name="twitter:description" content="lyket을 hugo blog에 적용하는 방법을 알아봅시다."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://images.unsplash.com/photo-1654220669943-0069bb3447f6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTg3OTF8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp' />
   
 
 <script src="https://unpkg.com/@lyket/widget@latest/dist/lyket.js?apiKey=pt_7bd3f9bb8766deb616978eb260950e"></script>
@@ -248,28 +248,15 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#복습">복습</a>
+    <li><a href="#lyket-설치-방법">Lyket 설치 방법</a>
       <ol>
-        <li><a href="#회계항등식">회계항등식</a>
+        <li><a href="#lyket-계정-생성하기">Lyket 계정 생성하기</a></li>
+        <li><a href="#html-api-key-복붙하기">HTML API key 복붙하기</a></li>
+        <li><a href="#custom-setting">Custom setting</a>
           <ol>
-            <li><a href="#아파트와-회계항등식">아파트와 회계항등식</a></li>
+            <li><a href="#파라미터-정리">파라미터 정리</a></li>
           </ol>
         </li>
-        <li><a href="#제품의-종류">제품의 종류</a></li>
-      </ol>
-    </li>
-    <li><a href="#용어">용어</a>
-      <ol>
-        <li><a href="#유동자산-vs-비유동자산">유동자산 vs 비유동자산</a></li>
-        <li><a href="#업종에-따라-달라지는-자산의-구성">업종에 따라 달라지는 자산의 구성</a>
-          <ol>
-            <li><a href="#lg화학">LG화학</a></li>
-            <li><a href="#호텔신라">호텔신라</a></li>
-            <li><a href="#노랑풍선">노랑풍선</a></li>
-          </ol>
-        </li>
-        <li><a href="#착한부채-선수금">착한부채-선수금</a></li>
-        <li><a href="#부채-비교">부채 비교</a></li>
       </ol>
     </li>
   </ol>
@@ -286,9 +273,9 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-2/">
+            <a href="/p/github-blog%EC%97%90-lyket-%EC%A0%81%EC%9A%A9/">
                 
-                    <img src="https://images.unsplash.com/photo-1523839699072-5ec088b61a21?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwNzIzODN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" loading="lazy" alt="Featured image of post 회계를 이해합시다 (2)" />
+                    <img src="https://images.unsplash.com/photo-1654220669943-0069bb3447f6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTg3OTF8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" loading="lazy" alt="Featured image of post github blog에 lyket 적용" />
                 
             </a>
         </div>
@@ -298,8 +285,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/%ED%9A%8C%EA%B3%84/" >
-                회계
+            <a href="/categories/blog/" >
+                Blog
             </a>
         
     </header>
@@ -307,12 +294,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-2/">회계를 이해합시다 (2)</a>
+            <a href="/p/github-blog%EC%97%90-lyket-%EC%A0%81%EC%9A%A9/">github blog에 lyket 적용</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            &lt;하마터면 회계를 모르고 일할 뻔 했다&gt;에서 필요한 내용을 정리해보았습니다.
+            lyket을 hugo blog에 적용하는 방법을 알아봅시다.
         </h3>
         
     </div>
@@ -333,7 +320,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2024/08/06</time>
+                <time class="article-time--published">2024/08/08</time>
             </div>
         
 
@@ -348,7 +335,7 @@
 
 
                 <time class="article-time--reading">
-                    3분이면 충분해요!🕐
+                    2분이면 충분해요!🕐
                 </time>
             </div>
         
@@ -363,210 +350,153 @@
     <section class="article-content">
     
     
-    <h2 id="복습">복습
-</h2><h3 id="회계항등식">회계항등식
-</h3><p><strong>자산 = 부채 + 자본</strong></p>
+    <p>github 블로그를 개설하면서,<br><code>giscus</code> 를 추가했습니다.<br> <em>(블로그에도 소통창구가 필요하기 때문에..!)</em></p>
 <figure>
-  <img src="회계항등식.png" alt="회계항등식" width="550" height="550" class="my-image">
-  <figcaption><cite>회계항등식</cite></figcaption>
+  <img src="giscus.png" alt="giscus" width="550" height="550" class="my-image">
+  <figcaption><cite>giscus comment</cite></figcaption>
 </figure>
-<p>가장 기본이 되는 공식이므로, 꼭 알고 가야합니다.</p>
-<h4 id="아파트와-회계항등식">아파트와 회계항등식
-</h4><figure>
-  <img src="아파트와_회계항등식.png" alt="아파트와 회계항등식" width="550" height="550" class="my-image">
-  <figcaption><cite>아파트와 회계항등식 간 관련성</cite></figcaption>
+<p>하지만 다 좋아보였던 giscus에서 느낀 단점이라면.. <br>
+github 계정이 있는 사람만 반응을 남길 수 있다는 것..!</p>
+<p>주변에 github 계정을 갖고 있는 사람도 없거니와 <br>github 계정 보유자만 반응을 남길 수 있는 것이 일종의 허들로 느껴져서,<br>계정이 없이도 반응을 남길 수 있는 <kbd>Lyket</kbd>을 사용해보게 되었습니다.</p>
+<h2 id="lyket-설치-방법">Lyket 설치 방법
+</h2><h3 id="lyket-계정-생성하기">Lyket 계정 생성하기
+</h3><figure>
+  <img src="lyket_setting1.png" alt="lyket" width="550" height="550" class="my-image">
+  <figcaption><cite><a href="https://lyket.dev/"> lyket page link 🔗</a> </cite></figcaption>
 </figure>
-<ol>
-<li>
-<p>자산</p>
-<ul>
-<li><kbd>자산</kbd>은 나에게 <mark>경제적 효과 또는 이익을 가져다주는 것</mark>입니다.</li>
-<li>아파트가 가져다주는 경제적 효과 또는 이익은 크게 다음과 같습니다.
-<ul>
-<li><code>소유권</code>, <code>월세</code>, <code>매각대금</code>
-<ul>
-<li>회계에서는 <kbd>소유권</kbd>을 <kbd>배타적 통제권</kbd>이라고 합니다.
-<ul>
-<li>소유권은 &lsquo;나&rsquo;만 가질 수 있는 것이기 때문에 그렇게 부르는 것으로 추측해봅니다!</li>
-</ul>
-</li>
-<li>내가 실거주를 하게 되면 <strong>월세</strong> 부담이 없고, 임대할 경우 <strong>임대 수익</strong>이 발생합니다.</li>
-<li>또한 아파트를 매매하는 경우, <strong>현금</strong>이 발생하게 됩니다.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>부채</p>
-<ul>
-<li>보통 대출을 일으켜 아파트를 구매합니다.</li>
-</ul>
-</li>
-<li>
-<p>자본</p>
-<ul>
-<li>자본은 아파트의 자산가치에서 대출을 뺀 금액입니다.</li>
-<li>아파트의 자산가치 상승은 자본가치의 상승으로 연결됩니다.</li>
-</ul>
-</li>
-</ol>
-<h3 id="제품의-종류">제품의 종류
-</h3><div class="table-wrapper"><table>
-<thead>
-<tr>
-<th style="text-align:center">개념</th>
-<th style="text-align:center">설명</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">제품</td>
-<td style="text-align:center">완성 후 판매 대기 상태</td>
-</tr>
-<tr>
-<td style="text-align:center">반제품</td>
-<td style="text-align:center">최종 완성은 아니지만, 그 상태로도 판매가 가능한 것</td>
-</tr>
-<tr>
-<td style="text-align:center">재공품</td>
-<td style="text-align:center">최종 완성이 아니고, 그 상태로 판매가 불가능한 것</td>
-</tr>
-<tr>
-<td style="text-align:center">미착품</td>
-<td style="text-align:center">구매했으나 아직 도착하지 않은 상품</td>
-</tr>
-</tbody>
-</table></div>
 <br>
-<h2 id="용어">용어
-</h2><h3 id="유동자산-vs-비유동자산">유동자산 vs 비유동자산
-</h3><div class="table-wrapper"><table>
-<thead>
-<tr>
-<th style="text-align:center">비교</th>
-<th style="text-align:center">설명</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">유동자산</td>
-<td style="text-align:center">- 재무상태표 기준일 시점에서, 1년 미만에 현금화가 가능하거나 만기가 도래하는 경우</td>
-</tr>
-<tr>
-<td style="text-align:center">비유동자산</td>
-<td style="text-align:center">재무상태표 기준일 시점에서, 1년 미만에 현금화가 가능하거나 만기가 도래하는 경우</td>
-</tr>
-</tbody>
-</table></div>
-<ul>
-<li>Dart에는 현금화 가능 기간이 짧은 순으로 고시하는데, 이를 <kbd> 유동성 배열법 </kbd>이라고 합니다.</li>
-</ul>
-<figure>
-  <img src="유동자산비유동자산.png" alt="유동비유동자산" width="550" height="550" class="my-image">
-  <figcaption><cite>노랑풍선 2024년 1분기 dart 공시</cite></figcaption>
-</figure>
-<h3 id="업종에-따라-달라지는-자산의-구성">업종에 따라 달라지는 자산의 구성
+<h3 id="html-api-key-복붙하기">HTML API key 복붙하기
 </h3><ul>
-<li>업종에 따라 자산의 구성은 달라집니다.</li>
-</ul>
-<p>
-<h4 id="lg화학">LG화학
-</h4><ul>
-<li><strong>LG화학</strong>은 석유화학/첨단소재/생명과학사업을 하고 있습니다. <br>이런 업종의 특성상, LG화학은 <code>기계</code>, <code>차량운반구</code>, <code>공기구</code> 등의 유형자산을 보유하고 있습니다.</li>
+<li>계정 생성 후 확인 가능한 페이지에서 <code>HTML API key</code> 를 복사한 다음,</li>
 </ul>
 <figure>
-  <img src="lg화학_유형자산.png" alt="LG화학유형자산" width="550" height="550" class="my-image">
-  <figcaption><cite>LG화학 2024년 1분기 dart 공시</cite></figcaption>
+  <img src="lyket_setting2.png" alt="lyket" width="550" height="550" class="my-image">
+  <figcaption><cite>lyket HTML</cite></figcaption>
 </figure>
-</p>
-<p>
-<h4 id="호텔신라">호텔신라
-</h4><ul>
-<li><strong>호텔신라</strong>는 면세 및 여행사업을 하고 있습니다. <br> 호텔신라는 면세점, 호텔의 기반이 되는 <code>토지/건물</code>, 그리고 호텔 객실에 들어가는 <code>가구집기비품</code> 등의 유형자산을 보유하고 있습니다.</li>
-</ul>
-<figure>
-  <img src="호텔신라_유형자산(취득원가).png" alt="호텔신라유형자산" width="550" height="550" class="my-image">
-  <figcaption><cite>호텔신라 2024년 1분기 dart 공시</cite></figcaption>
-</figure>
-<ul>
-<li>호텔신라 재무제표를 보면, 재고자산 세부내역 중 <code>상품에 포함된 고객에서 상품을 회수할 권리</code> 라는 내역이 있습니다.</li>
-</ul>
-<figure>
-  <img src="호텔신라_재고자산.png" alt="호텔신라재고자산" width="550" height="550" class="my-image">
-  <figcaption><cite>호텔신라 2024년 1분기 dart 공시</cite></figcaption>
-</figure>
-<ul>
-<li>반품이 예상되는 제품은 <kbd>환불부채</kbd>로 인식을 하는데, <br> 그 중 기업이 고객으로부터 상품을 회수할 권리인 <kbd>반환제품회수권</kbd>은 자산으로 인식합니다.</li>
-<li><kbd>반환제품회수권</kbd>은 회수에 들어가는 원가와 반품 제품의 감가를 반영하여 측정합니다.</li>
-</ul>
-<h4 id="노랑풍선">노랑풍선
-</h4></p>
 <br>
-<h3 id="착한부채-선수금">착한부채-선수금
+<p>hugo-theme-stack ▷ layouts ▷ partials ▷ head ▷ <kbd>head.html</kbd>에 삽입을 해줍니다. <br> <em>(맨 아래 참고)</em></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">{{</span>- partial <span class="s2">&#34;head/style.html&#34;</span> . -<span class="o">}}</span>
+</span></span><span class="line"><span class="cl"><span class="o">{{</span>- partial <span class="s2">&#34;head/script.html&#34;</span> . -<span class="o">}}</span>
+</span></span><span class="line"><span class="cl"><span class="o">{{</span>- partial <span class="s2">&#34;head/opengraph/include.html&#34;</span> . -<span class="o">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">{{</span>- range .AlternativeOutputFormats -<span class="o">}}</span>
+</span></span><span class="line"><span class="cl">    &lt;link <span class="nv">rel</span><span class="o">=</span><span class="s2">&#34;{{ .Rel }}&#34;</span> <span class="nv">type</span><span class="o">=</span><span class="s2">&#34;{{ .MediaType.Type }}&#34;</span> <span class="nv">href</span><span class="o">=</span><span class="s2">&#34;{{ .Permalink | safeURL }}&#34;</span>&gt;
+</span></span><span class="line"><span class="cl"><span class="o">{{</span>- end -<span class="o">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">{{</span> with .Site.Params.favicon <span class="o">}}</span>
+</span></span><span class="line"><span class="cl">    &lt;link <span class="nv">rel</span><span class="o">=</span><span class="s2">&#34;shortcut icon&#34;</span> <span class="nv">href</span><span class="o">=</span><span class="s2">&#34;{{ . | relURL }}&#34;</span> /&gt;
+</span></span><span class="line"><span class="cl"><span class="o">{{</span> end <span class="o">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">{{</span>- template <span class="s2">&#34;_internal/google_analytics.html&#34;</span> . -<span class="o">}}</span>
+</span></span><span class="line"><span class="cl"><span class="o">{{</span>- partial <span class="s2">&#34;head/custom.html&#34;</span> . -<span class="o">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;script <span class="nv">src</span><span class="o">=</span><span class="s2">&#34;https://unpkg.com/@lyket/widget@latest/dist/lyket.js?apiKey=APIKEY&#34;</span>&gt;&lt;/script&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><br>
+<ul>
+<li>참고로 <code>google tag</code> 코드를 삽입해둔 경우, <code>google tag</code> 상단에 HTML을 추가해주어야 합니다.</li>
+</ul>
+<figure>
+  <img src="lyket_1.png" alt="lyket" width="550" height="550" class="my-image">
+  <figcaption><cite>lyket 배치 위치</cite></figcaption>
+</figure>
+<br>
+<h3 id="custom-setting">Custom setting
 </h3><ul>
-<li>회계에서 <kbd>부채(Liability)</kbd>는 미래에 상환해야 하는 돈, 혹은 회사 소유의 자원을 사용해 <strong>이행해야 할 의무</strong>입니다.
-<ul>
-<li>이런 관점에서 <kbd>선수금</kbd>은 미래의 어느 시점에서는 자원이 사용되거나 인력이 투입되어야 하는 것이므로, <strong>부채</strong>로 인식합니다.</li>
+<li>그 다음, 마음에 드는 스타일로 좋아요 버튼을 만들어줍니다.</li>
 </ul>
-</li>
-</ul>
-<div class="table-wrapper"><table>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="cp">&lt;!doctype html&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;lyket-container&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;font-size: 19px&#34;</span>
+</span></span><span class="line"><span class="cl">             <span class="na">data-lyket-type</span><span class="o">=</span><span class="s">&#34;clap&#34;</span>
+</span></span><span class="line"><span class="cl">             <span class="na">data-lyket-id</span><span class="o">=</span><span class="s">&#34;blooming-daisy&#34;</span>
+</span></span><span class="line"><span class="cl">             <span class="na">data-lyket-namespace</span><span class="o">=</span><span class="s">&#34;blog&#34;</span>
+</span></span><span class="line"><span class="cl">             <span class="na">data-lyket-template</span><span class="o">=</span><span class="s">&#34;heart&#34;</span>
+</span></span><span class="line"><span class="cl">             <span class="na">data-lyket-color-icon </span><span class="o">=</span> <span class="s">&#34;#fcba03&#34;</span> 
+</span></span><span class="line"><span class="cl">             <span class="na">data-lyket-color-text</span><span class="o">=</span> <span class="s">&#34;#fcba03&#34;</span> 
+</span></span><span class="line"><span class="cl">             <span class="na">data-lyket-color-highlight </span><span class="o">=</span> <span class="s">&#34;#fcba03&#34;</span> 
+</span></span><span class="line"><span class="cl">             <span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;lyket-label&#34;</span><span class="p">&gt;</span> 응원의 박수💕<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"> <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+<h4 id="파라미터-정리">파라미터 정리
+</h4><div class="table-wrapper"><table>
 <thead>
 <tr>
-<th style="text-align:center">개념</th>
+<th style="text-align:center">파라미터</th>
 <th style="text-align:center">설명</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">매입채무</td>
-<td style="text-align:center">제품 제조에 사용되는 부품, 원재료, 판매상품 등을 외상으로 구매한 경우 발생하는 부채</td>
+<td style="text-align:center"><kbd>data-lyket-type</kbd></td>
+<td style="text-align:center">Lyket 버튼 유형 지정 (<code>clap</code>,<code>like</code>,<code>star</code>)</td>
 </tr>
 <tr>
-<td style="text-align:center">금융부채</td>
-<td style="text-align:center">은행 차입금, 회사채 발행 등으로 발생한 부채</td>
+<td style="text-align:center"><kbd>data-lyket-id</kbd></td>
+<td style="text-align:center">각 Lyket 버튼의 ID를 지정, 페이지별 고유값이어야 함</td>
 </tr>
 <tr>
-<td style="text-align:center">미지급금</td>
-<td style="text-align:center">수수료, 용역비, 기계류 구매 대금을 아직 지급하지 않은 상태에서 발생하는 부채</td>
+<td style="text-align:center"><kbd>data-lyket-namespace</kbd></td>
+<td style="text-align:center">Lyket 버튼의 스페이스 할당</td>
 </tr>
 <tr>
-<td style="text-align:center">선수금</td>
-<td style="text-align:center">제품/상품 납품이나 용역 제공을 약속하고 거래처로부터 대금을 미리 받은 상태</td>
+<td style="text-align:center"><kbd>data-lyket-template</kbd></td>
+<td style="text-align:center">Lyket 버튼의 스타일 지정 (<code>simple</code>,<code>twitter</code>,<code>chevron</code>..)</td>
+</tr>
+<tr>
+<td style="text-align:center"><kbd>data-lyket-color-icon</kbd></td>
+<td style="text-align:center">버튼 아이콘의 색상 지정</td>
+</tr>
+<tr>
+<td style="text-align:center"><kbd>data-lyket-color-text</kbd></td>
+<td style="text-align:center">버튼 텍스트 색상 지정</td>
+</tr>
+<tr>
+<td style="text-align:center"><kbd>data-lyket-color-highlight</kbd></td>
+<td style="text-align:center">사용자가 버튼 클릭 시 애니메이션 색상</td>
 </tr>
 </tbody>
 </table></div>
-<ul>
-<li>선수금이 유입되면 현금(자산)이 증가하고, 부채에 선수금이 잡히게 됩니다.</li>
-<li>약속한 재고자산을 납품하거나 용역을 제공하게 되면, <br>선수금 부채는 삭제되고 제품/상품/용역 매출이 발생하게 됩니다.</li>
-</ul>
-<figure>
-  <img src="선수금cycle.png" alt="선수금cycle" width="550" height="550" class="my-image">
-  <figcaption><cite>선수금 cycle</cite></figcaption>
-</figure>
-<br>
-<h3 id="부채-비교">부채 비교
-</h3><div class="table-wrapper"><table>
-<thead>
-<tr>
-<th style="text-align:center">개념</th>
-<th style="text-align:center">설명</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">장단기차입금/외상매입금</td>
-<td style="text-align:center">일정 시기에 현금 상환 필요하며, 이자 비용 지출 = 손익 감소</td>
-</tr>
-<tr>
-<td style="text-align:center">선수금</td>
-<td style="text-align:center">재고자산 제공 시, 부채였던 선수금 내역이 사라지고 매출로 기록 = 기업 손익 好</td>
-</tr>
-</tbody>
-</table></div>
-<hr>
 
 </section>
 
@@ -624,12 +554,12 @@
         <div class="article-list--compact links">
     
         <article>
-            <a href="https://product.kyobobook.co.kr/detail/S000001897880?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=googleSearch&amp;gt_network=g&amp;gt_keyword=&amp;gt_target_id=aud-901091942354:dsa-1974044869158&amp;gt_campaign_id=9979905549&amp;gt_adgroup_id=132556570510&amp;gad_source=1&amp;gclid=Cj0KCQjw8MG1BhCoARIsAHxSiQk0MGHi6gC5Y22arRvwzze6wlJQcm38Ri0owShaFmBLeMB3C14JtqIaAkdbEALw_wcB" target="_blank" rel="noopener">
+            <a href="https://lyket.dev/docs/html" target="_blank" rel="noopener">
                 <div class="article-details">
-                    <h2 class="article-title">교보문고</h2>
+                    <h2 class="article-title">Lyket</h2>
                     <footer class="article-time">
                         
-                            &lt;하마터면 회계를 모르고 일할 뻔 했다&gt; 구매처
+                            lyket document
                         
                     </footer>
                 </div>
@@ -637,8 +567,10 @@
                 
                     
                     
+                        
+                    
                     <div class="article-image">
-                        <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1625724785/noticon/kikgcizrfymsjmpjymql.png" loading="lazy">
+                        <img src="/p/github-blog%EC%97%90-lyket-%EC%A0%81%EC%9A%A9/lyket_logo.jpeg" loading="lazy">
                     </div>
                 
             </a>
@@ -648,53 +580,6 @@
     
 
     
-
-<aside class="related-content--wrapper">
-    <h2 class="section-title">관련 글도 읽어보세요 📖</h2>
-    <div class="related-content">
-        <div class="flex article-list--tile">
-            
-                
-<article class="has-image">
-    <a href="/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-3/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMyNzg4ODJ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" loading="lazy" data-key="" data-hash="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMyNzg4ODJ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">회계를 이해합시다 (3)</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-1/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="https://images.unsplash.com/photo-1706217803053-19efb3fb1ea3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI4NDk0NjZ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" loading="lazy" data-key="" data-hash="https://images.unsplash.com/photo-1706217803053-19efb3fb1ea3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI4NDk0NjZ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">회계를 이해합시다 (1)</h2>
-        </div>
-    </a>
-</article>
-
-            
-        </div>
-    </div>
-</aside>
 
      
     

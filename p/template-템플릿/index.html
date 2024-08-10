@@ -285,6 +285,7 @@
             <li><a href="#code-block-indented-with-four-spaces">Code block indented with four spaces</a></li>
             <li><a href="#code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</a></li>
             <li><a href="#code-block-with-highlightjs-shortcode">Code block with highlight.js shortcode</a></li>
+            <li><a href="#bash-code-block">Bash code block</a></li>
             <li><a href="#diff-code-block">Diff code block</a></li>
           </ol>
         </li>
@@ -647,7 +648,20 @@ def greet(name):
 greet("World")
 </code></pre>
 <script>hljs.highlightAll();</script>
-<h4 id="diff-code-block">Diff code block
+<h4 id="bash-code-block">Bash code block
+</h4><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">{{</span> <span class="k">if</span> or .Params.math .Site.Params.math <span class="o">}}</span>
+</span></span><span class="line"><span class="cl"><span class="o">{{</span> partial <span class="s2">&#34;math.html&#34;</span> . <span class="o">}}</span>
+</span></span><span class="line"><span class="cl"><span class="o">{{</span> end <span class="o">}}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="diff-code-block">Diff code block
 </h4><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -738,6 +752,9 @@ greet("World")
 	
 	
 ></a></p>
+<!-- 이런식으로도 설정 가능 -->
+<p><a class="link" href="https://google.com"  target="_blank" rel="noopener"
+    ><img src="lyket_setting1.png" alt="Lyket Settings" style="width: 550px; height: 550px; object-fit: contain;"></a></p>
 <h2 id="이미지-아래-캡션을-추가하는-방법">이미지 아래 캡션을 추가하는 방법
 </h2><!-- w와 h를 이용해서 사진 사이즈를 조절 -->
 <figure>
@@ -1228,6 +1245,56 @@ $$</p>
      
     
         
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="blooming-daisy/blooming-daisy.github.io"
+    data-repo-id="R_kgDOMZZW8Q"
+    data-category=""
+    data-category-id="DIC_kwDOMZZW8c4ChE52"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light_tritanopia"
+    data-lang="en"
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light_tritanopia');
+            } else {
+                setGiscusTheme('dark_tritanopia');
+            }
+        }
+    })();
+</script>
+
     
 
 
