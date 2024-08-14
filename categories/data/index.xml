@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Data on Leena&#39;s Place</title>
+        <link>http://localhost:1313/categories/data/</link>
+        <description>Recent content in Data on Leena&#39;s Place</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ko-kr</language>
+        <copyright>Leena</copyright>
+        <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/data/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ddd</title>
+        <link>http://localhost:1313/p/ddd/</link>
+        <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/ddd/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1667372531881-6f975b1c86db?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MjYzMTB8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post ddd" /&gt;&lt;h2 id=&#34;개요&#34;&gt;&lt;a href=&#34;#%ea%b0%9c%ec%9a%94&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;개요
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;예전에는 이렇게 &lt;code&gt;참고문서&lt;/code&gt;가 있어서, 이 문서를 참고하여 API를 가지고 왔습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;공공데이터포털_0.png&#34; alt=&#34;공공데이터포털 과거ver&#34; width=&#34;700&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;hwp 문서라니...^^..&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;어느 시점부터 Swagger-UI 기반의 OpenAPI 제공이 되기 시작했습니다.&lt;br&gt; 새로운 방식으로 API 호출하는 방법을 먼저 알아봅시다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;h2 id=&#34;swagger-ui-기반-openapi-사용하기&#34;&gt;&lt;a href=&#34;#swagger-ui-%ea%b8%b0%eb%b0%98-openapi-%ec%82%ac%ec%9a%a9%ed%95%98%ea%b8%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Swagger-UI 기반 OpenAPI 사용하기
+&lt;/h2&gt;&lt;h3 id=&#34;step-1-필요한-데이터-활용신청하기&#34;&gt;&lt;a href=&#34;#step-1-%ed%95%84%ec%9a%94%ed%95%9c-%eb%8d%b0%ec%9d%b4%ed%84%b0-%ed%99%9c%ec%9a%a9%ec%8b%a0%ec%b2%ad%ed%95%98%ea%b8%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 1: 필요한 데이터 활용신청하기
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;필요한 데이터를 검색하고, 해당 데이터를 클릭합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;공공데이터포털.png&#34; alt=&#34;공공데이터포털&#34; width=&#34;400&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;사용데이터&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;클릭하면 &lt;code&gt;데이터 상세&lt;/code&gt;가 뜨는데, 아래 &lt;kbd&gt;활용신청&lt;/kbd&gt; 버튼을 클릭합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;공공데이터포털_1_2.png&#34; alt=&#34;공공데이터포털&#34; width=&#34;700&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;활용신청&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;사유를 기재하는 칸이 나오게 되는데, 간단하게 사유를 기재해주면 됩니다. (자동승인이 됩니다.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;step-2-인증키-확인하기&#34;&gt;&lt;a href=&#34;#step-2-%ec%9d%b8%ec%a6%9d%ed%82%a4-%ed%99%95%ec%9d%b8%ed%95%98%ea%b8%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 2: 인증키 확인하기
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;kbd&gt;마이페이지 ▶ 데이터 활용 ▶ Open API ▶ 활용신청 현황&lt;/kbd&gt;에서 활용신청한 데이터 목록을 확인할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;확인하고자 하는&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;공공데이터포털_3.png&#34; alt=&#34;공공데이터포털 인증키&#34; width=&#34;600&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;인증키 목록&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;필요한-라이브러리-호출&#34;&gt;&lt;a href=&#34;#%ed%95%84%ec%9a%94%ed%95%9c-%eb%9d%bc%ec%9d%b4%eb%b8%8c%eb%9f%ac%eb%a6%ac-%ed%98%b8%ec%b6%9c&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;필요한 라이브러리 호출
+&lt;/h2&gt;&lt;head&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/tomorrow-night-bright.min.css&#34;&gt; 
+  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js&#34;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;
+import pandas as pd
+import requests
+
+import gspread
+from gspread_dataframe import set_with_dataframe
+
+from google.colab import auth
+auth.authenticate_user()
+creds, _ = default()
+gc = gspread.authorize(creds)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;script&gt;hljs.highlightAll();&lt;/script&gt;
+&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;
+sheet = gc.open(&#39;Airport &amp; Airline codes&#39;)
+
+airline_sheet = sheet.worksheet(&#39;Airline&#39;)
+airport_sheet = sheet.worksheet(&#39;Airport&#39;)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;script&gt;hljs.highlightAll();&lt;/script&gt;</description>
+        </item>
+        <item>
+        <title>Unsplash API 연결</title>
+        <link>http://localhost:1313/p/unsplash-api-%EC%97%B0%EA%B2%B0/</link>
+        <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/unsplash-api-%EC%97%B0%EA%B2%B0/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1637448025640-f609b8d2d3f1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMjQxMTN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;fm=webp" alt="Featured image of post Unsplash API 연결" /&gt;&lt;h2 id=&#34;part-1-api-key-발급받기&#34;&gt;&lt;a href=&#34;#part-1-api-key-%eb%b0%9c%ea%b8%89%eb%b0%9b%ea%b8%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Part 1: API Key 발급받기
+&lt;/h2&gt;&lt;p&gt;
+&lt;h3 id=&#34;step-1-회원가입&#34;&gt;&lt;a href=&#34;#step-1-%ed%9a%8c%ec%9b%90%ea%b0%80%ec%9e%85&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 1: 회원가입
+&lt;/h3&gt;&lt;p&gt;Access Key 발급을 받기 위해선, 먼저 &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/developers&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Unsplash Developer Page&lt;/a&gt;로 이동합니다. &lt;br&gt; 화면 맨 우측 상단에 있는 &lt;kbd&gt;Register as a developer&lt;/kbd&gt;를 눌러, 회원가입을 해줍니다.&lt;/p&gt;
+&lt;img src=&#34;step1.png&#34; alt=&#34;Step 1: Register Unsplash API account as a developer &#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;h3 id=&#34;step-2-app-build-신청서-작성하기&#34;&gt;&lt;a href=&#34;#step-2-app-build-%ec%8b%a0%ec%b2%ad%ec%84%9c-%ec%9e%91%ec%84%b1%ed%95%98%ea%b8%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 2: App Build 신청서 작성하기
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;회원가입 후, 노랑색으로 표시된 &lt;kbd&gt;Your apps&lt;/kbd&gt;를 클릭합니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;step2.png&#34; alt=&#34;Step 2: Go to &#39;Your apps&#39;&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;그럼 아래 화면처럼 뜰텐데요, &lt;kbd&gt;New Application&lt;/kbd&gt;을 눌러줍니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;step3.png&#34; alt=&#34;Step 3: Build App project &#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;code&gt;API Use and Guidelines&lt;/code&gt;에 모두 체크를 한 뒤, &lt;kbd&gt;Accept terms&lt;/kbd&gt;를 클릭합니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;step4.png&#34; alt=&#34;Step 3: Build App project &#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;code&gt;Application Information&lt;/code&gt; 팝업이 뜨면, 두 칸 모두 작성해줍니다. &lt;br&gt; 참고로, 저는 &lt;em&gt;Personal blog&lt;/em&gt; 라고 입력했습니다!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;step4-1.png&#34; alt=&#34;Step 3: Build App project &#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;h3 id=&#34;step-3-api-access-key-발급-완료&#34;&gt;&lt;a href=&#34;#step-3-api-access-key-%eb%b0%9c%ea%b8%89-%ec%99%84%eb%a3%8c&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 3: API Access Key 발급 완료
+&lt;/h3&gt;&lt;p&gt;그럼, 이렇게 Personal Access Key 발급이 됩니다. &lt;br&gt; 코드에서는 &lt;code&gt;Access Key&lt;/code&gt;를 사용하면 됩니다.&lt;/p&gt;
+&lt;img src=&#34;step5.png&#34; alt=&#34;Step 3: Build App project &#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
+&lt;p&gt;Access Key를 &lt;mark&gt;&lt;strong&gt;외부에 공개하면 안된단 것&lt;/strong&gt;&lt;/mark&gt;, 잊지 마세요❗&lt;/p&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;
+&lt;h2 id=&#34;part-2-코드-작성하기&#34;&gt;&lt;a href=&#34;#part-2-%ec%bd%94%eb%93%9c-%ec%9e%91%ec%84%b1%ed%95%98%ea%b8%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Part 2. 코드 작성하기
+&lt;/h2&gt;&lt;p&gt;이제 본격적으로, 이미지 호출 API 코드를 작성해봅시다. &lt;br&gt; API에서 제공하는 기능들 중, 우리는 &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/documentation#get-a-random-photo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Get a random photo&lt;/a&gt;를 사용하여 코드를 짜볼거예요!&lt;/p&gt;
+&lt;img src=&#34;step6.png&#34; alt=&#34;Step 3: Build App project &#34; width=&#34;550&#34; height=&#34;550&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;h3 id=&#34;step-1-필요-라이브러리-불러오기&#34;&gt;&lt;a href=&#34;#step-1-%ed%95%84%ec%9a%94-%eb%9d%bc%ec%9d%b4%eb%b8%8c%eb%9f%ac%eb%a6%ac-%eb%b6%88%eb%9f%ac%ec%98%a4%ea%b8%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 1: 필요 라이브러리 불러오기
+&lt;/h3&gt;&lt;head&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/tomorrow-night-bright.min.css&#34;&gt;
+  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js&#34;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;
+import requests
+&lt;/code&gt;&lt;/pre&gt;
+&lt;script&gt;hljs.highlightAll();&lt;/script&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;h3 id=&#34;step-2-함수-만들기---endpoint와-access-key-추가&#34;&gt;&lt;a href=&#34;#step-2-%ed%95%a8%ec%88%98-%eb%a7%8c%eb%93%a4%ea%b8%b0---endpoint%ec%99%80-access-key-%ec%b6%94%ea%b0%80&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 2: 함수 만들기 - endpoint와 access key 추가
+&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;
+
+def get_image_url(search_keyword, orientation):
+
+  # Unsplash API endpoint 및 API 키 설정
+  api_endpoint = &#34;https://api.unsplash.com/photos/random&#34;
+  access_key = YOUR ACCESS KEY # Unsplash에서 발급받은 API 키를 입력하세요.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;script&gt;hljs.highlightAll();&lt;/script&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;h3 id=&#34;step-3-함수-만들기---params-setting&#34;&gt;&lt;a href=&#34;#step-3-%ed%95%a8%ec%88%98-%eb%a7%8c%eb%93%a4%ea%b8%b0---params-setting&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 3: 함수 만들기 - params setting
+&lt;/h3&gt;&lt;p&gt;이제 파라미터 setting을 해봅시다. &lt;br&gt; &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/documentation#get-a-random-photo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Get a random photo&lt;/a&gt;에서 사용할 수 있는 파라미터는 다음과 같습니다.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Param&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;collections&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;특정 collection에 있는 사진 가지고 오기&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;topics&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;특정 주제에 관련된 사진 가지고 오기&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;query&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;특정 검색어에 관련된 사진 가지고 오기&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;count&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;가지고 올 사진의 개수 &lt;em&gt;(1~30 사이)&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;orientation&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;사진 방향 지정 (&lt;kbd&gt;landscape&lt;/kbd&gt;, &lt;kbd&gt;portrait&lt;/kbd&gt;, &lt;kbd&gt;squarish&lt;/kbd&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;content_filter&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;콘텐츠 필터 수준 지정 (&lt;kbd&gt;low&lt;/kbd&gt;, &lt;kbd&gt;high&lt;/kbd&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;username&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;특정 사용자의 사진을 가지고 올 때&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;code&gt;topics&lt;/code&gt;와 &lt;code&gt;query&lt;/code&gt;의 차이가 잘 이해가 되지 않아, Gemini에게 한번 물어봤습니다.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;특징&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Topics (주제)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Query (검색어)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;필터링 방식&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;미리 정의된 주제를 기반으로&lt;br&gt;광범위하게 필터링&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;사용자가 입력한 키워드를 기반으로&lt;br&gt;구체적으로 필터링&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;일관성&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;동일한 주제를 사용하면&lt;br&gt;일관된 스타일의 사진을 얻을 수 있음&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;검색어에 따라 결과가 달라질 수 있음&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;유연성&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;여러 주제를 조합하여 세분화된 필터링 가능&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;원하는 사진을 찾는 데 더욱 유연하게 활용 가능&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;사용 시점&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;특정 주제에 맞는 사진을 찾거나,&lt;br&gt;여러 주제를 조합하여 필터링할 때&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;특정 개체, 장소, 상황 등을 나타내는&lt;br&gt;사진을 찾을 때&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;두 가지의 param을 사용해봤을 때, &lt;code&gt;query&lt;/code&gt;가 Specific한 자료를 사용할 수 있어 편리했습니다.&lt;br&gt;
+여기에선 &lt;code&gt;query&lt;/code&gt; param을 사용해보겠습니다!&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;
+  # 요청 Params 설정 (선택 사항)
+
+ params = {
+    &#34;query&#34;: search_keyword,       # 검색 키워드 (예: nature)
+    &#34;orientation&#34;: orientation,    # 사진 방향 (예: landscape, portrait, squarish)
+    &#34;count&#34;: 1,                    # 가져올 이미지 개수
+    &#34;fm&#34;: &#34;jpg&#34;                    # 이미지 형식 요청
+    }
+
+    # API 요청 헤더 설정
+  headers = {
+      &#34;Authorization&#34;: f&#34;Client-ID {access_key}&#34;
+      }
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;script&gt;hljs.highlightAll();&lt;/script&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;h3 id=&#34;step-4-함수-만들기---api-응답-확인-및-url-추출&#34;&gt;&lt;a href=&#34;#step-4-%ed%95%a8%ec%88%98-%eb%a7%8c%eb%93%a4%ea%b8%b0---api-%ec%9d%91%eb%8b%b5-%ed%99%95%ec%9d%b8-%eb%b0%8f-url-%ec%b6%94%ec%b6%9c&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 4: 함수 만들기 - API 응답 확인 및 URL 추출
+&lt;/h3&gt;&lt;p&gt;Blog에 이미지를 바로 삽입하기 위해, &lt;code&gt;webp&lt;/code&gt; 형식으로 URL을 출력하는 코드를 작성했습니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;
+# API 요청 보내기
+  response = requests.get(api_endpoint, headers=headers, params=params)
+
+  # 응답 확인 및 이미지 URL 추출
+
+  if response.status_code == 200:
+    data = response.json()
+    image_url = data[0][&#34;urls&#34;][&#34;regular&#34;] +&#34;?fm=webp&#34; # WebP 이미지 URL
+
+    return image_url
+
+  else:
+    return (&#34;Error fetching image:&#34;, response.status_code)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;script&gt;hljs.highlightAll();&lt;/script&gt;
+&lt;h3 id=&#34;step-5-함수-사용해보기&#34;&gt;&lt;a href=&#34;#step-5-%ed%95%a8%ec%88%98-%ec%82%ac%ec%9a%a9%ed%95%b4%eb%b3%b4%ea%b8%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 5: 함수 사용해보기
+&lt;/h3&gt;&lt;p&gt;그럼 완성된 함수를 가지고, webp URL을 출력해봅시다.&lt;br&gt;가로 사진의 Paris 사진을 Argument로 넣어봤습니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;
+get_image_url(&#39;Paris&#39;, &#39;landscape&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;script&gt;hljs.highlightAll();&lt;/script&gt;
+&lt;p&gt;그럼 &lt;code&gt;webp URL&lt;/code&gt;이 출력되고, 이것을 blog img로 삽입을 해보면&amp;hellip;.&lt;/p&gt;
+&lt;!-- w와 h를 이용해서 사진 사이즈를 조절 --&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;https://images.unsplash.com/photo-1638290046742-b5030c6b56b4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMjU0MDF8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;w=500&amp;h=300?fm=webp&#34; alt=&#34;Paris&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;출처: Unsplash&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;짜잔! 예쁜 사진이 삽입이 되었습니다📸
+&lt;br&gt;&lt;br&gt;Random image는 말 그대로 이미지를 랜덤하게 보여주기 때문에,&lt;br&gt;코드를 실행할 때마다 결과값이 달라지게 됩니다. &lt;br&gt;따라서 마음에 드는 사진이 있다면, URL을 잘 간직하는 것을 추천해요 ☺️&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;h2 id=&#34;part-3-전체-코드-확인하기&#34;&gt;&lt;a href=&#34;#part-3-%ec%a0%84%ec%b2%b4-%ec%bd%94%eb%93%9c-%ed%99%95%ec%9d%b8%ed%95%98%ea%b8%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Part 3. 전체 코드 확인하기
+&lt;/h2&gt;&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;
+
+import requests
+
+def get_image_url(search_keyword, orientation):
+  # Unsplash API 엔드포인트 및 API 키 설정
+  api_endpoint = &#34;https://api.unsplash.com/photos/random&#34;
+  access_key = YOUR ACCESS KEY # Unsplash에서 발급받은 API 키를 입력하세요.
+
+  # 요청 매개변수 설정 (선택 사항)
+
+  params = {
+    &#34;query&#34;: search_keyword,       # 검색 키워드 (예: nature)
+    &#34;orientation&#34;: orientation,    # 사진 방향 (예: landscape, portrait, squarish)
+    &#34;count&#34;: 1,                    # 가져올 이미지 개수
+    &#34;fm&#34;: &#34;jpg&#34;                    # 이미지 형식 요청
+    }
+
+    # API 요청 헤더 설정
+  headers = {
+      &#34;Authorization&#34;: f&#34;Client-ID {access_key}&#34;
+      }
+
+  # API 요청 보내기
+  response = requests.get(api_endpoint, headers=headers, params=params)
+
+  # 응답 확인 및 이미지 URL 추출
+
+  if response.status_code == 200:
+    data = response.json()
+    image_url = data[0][&#34;urls&#34;][&#34;regular&#34;] +&#34;?fm=webp&#34; # WebP 이미지 URL
+
+    return image_url
+
+  else:
+    return (&#34;Error fetching image:&#34;, response.status_code)
+
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;script&gt;hljs.highlightAll();&lt;/script&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gemini.google.com/app&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/64px-Google_Gemini_logo.svg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Google Gemini&#34;
+	
+	
+&gt;&lt;/a&gt; 가 작성해준 코드를 토대로 작성하였습니다!&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
