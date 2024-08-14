@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Blog on Leena&#39;s Place</title>
+        <title>Blog on 리나의 룸코너</title>
         <link>http://localhost:1313/categories/blog/</link>
-        <description>Recent content in Blog on Leena&#39;s Place</description>
+        <description>Recent content in Blog on 리나의 룸코너</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
         <copyright>Leena</copyright>

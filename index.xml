@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Leena&#39;s Place</title>
+        <title>리나의 룸코너</title>
         <link>http://localhost:1313/</link>
-        <description>Recent content on Leena&#39;s Place</description>
+        <description>Recent content on 리나의 룸코너</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
         <copyright>Leena</copyright>
@@ -15,72 +15,96 @@
         <guid>http://localhost:1313/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-4/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1636115880089-ca43aa5e39e8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1OTE5MzN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (4)" /&gt;&lt;h2 id=&#34;용어&#34;&gt;&lt;a href=&#34;#%ec%9a%a9%ec%96%b4&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;용어
 &lt;/h2&gt;&lt;h3 id=&#34;유형자산-손상회계&#34;&gt;&lt;a href=&#34;#%ec%9c%a0%ed%98%95%ec%9e%90%ec%82%b0-%ec%86%90%ec%83%81%ed%9a%8c%ea%b3%84&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;유형자산 손상회계
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;감가와 감가상각비를 알아보기 전에, 전제를 먼저 깔아봅시다.
+&lt;/h3&gt;&lt;p&gt;
+&lt;h4 id=&#34;손상차손&#34;&gt;&lt;a href=&#34;#%ec%86%90%ec%83%81%ec%b0%a8%ec%86%90&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;손상차손
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;유형자산의 미래 가치가 장부에 있는 가치(가격)보다 &lt;strong&gt;현저하게 떨어진&lt;/strong&gt; 경우,&lt;br&gt; 재무제표에서 손실처리를 하는 것을 의미합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;자산의 가치가 급격히 하락하는 사례가 발생할 경우, 회사 장부에 반영을 해야 합니다.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;kbd&gt;@재무상태표&lt;/kbd&gt;: 기계설비에 들어가는 현금 지출을 &lt;strong&gt;일시반영&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;kbd&gt;@손익계산서&lt;/kbd&gt;: 가치 감소분을 해마다 나누어 비용에 &lt;strong&gt;분할반영&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;kbd&gt;수익과 비용의 대응원칙&lt;/kbd&gt;: 유형자산이 창출하는 수익에 대응해 비용 처리를 하는 개념&lt;/li&gt;
+&lt;li&gt;ex) 기계설비 파손, 시장 규제 등으로 인해 자산을 사용할 수 없어지게 된 경우&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;감가&#34;&gt;&lt;a href=&#34;#%ea%b0%90%ea%b0%80&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;감가
-&lt;/h4&gt;&lt;p&gt;감가는 &lt;strong&gt;시간의 흐름&lt;/strong&gt;에 따라 &lt;strong&gt;유형자산의 가치가 감소&lt;/strong&gt;하는 것입니다.&lt;/p&gt;
-&lt;h4 id=&#34;감가상각비&#34;&gt;&lt;a href=&#34;#%ea%b0%90%ea%b0%80%ec%83%81%ea%b0%81%eb%b9%84&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;감가상각비
-&lt;/h4&gt;&lt;p&gt;감가상각비는 감가된만큼 매년 장부에서 가치를 하향조정하고,&lt;br&gt;가치 감소분을 비용으로 반영하는 것입니다.&lt;/p&gt;
 &lt;figure&gt;
-  &lt;img src=&#34;감가상각회계처리.png&#34; alt=&#34;감가상각&#34; width=&#34;500&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;감가상각비 회계처리 예시&lt;/cite&gt;&lt;/figcaption&gt;
+  &lt;img src=&#34;손상차손.png&#34; alt=&#34;손상차손&#34; width=&#34;500&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;손상차손 인식 예시&lt;/cite&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;ul&gt;
+&lt;li&gt;하지만 시장 거래 가격이 하락했더라도, &lt;br&gt;&lt;mark&gt;그 자산이 회사에 가져다주는 이익이 더 큰 경우&lt;/mark&gt;에는 &lt;strong&gt;손상차손으로 인식을 하지 않습니다.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;
+&lt;h3 id=&#34;손상차손-재무제표에-반영하기&#34;&gt;&lt;a href=&#34;#%ec%86%90%ec%83%81%ec%b0%a8%ec%86%90-%ec%9e%ac%eb%ac%b4%ec%a0%9c%ed%91%9c%ec%97%90-%eb%b0%98%ec%98%81%ed%95%98%ea%b8%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;손상차손 재무제표에 반영하기
+&lt;/h3&gt;&lt;h4 id=&#34;step-1-사용가치-계산&#34;&gt;&lt;a href=&#34;#step-1-%ec%82%ac%ec%9a%a9%ea%b0%80%ec%b9%98-%ea%b3%84%ec%82%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 1: 사용가치 계산
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;kbd&gt;사용가치&lt;/kbd&gt;는 유형자산으로 제품을 생산/판매하는 경우에 예상되는 현금흐름을 의미합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;step-2-공정가치매각가치-계산&#34;&gt;&lt;a href=&#34;#step-2-%ea%b3%b5%ec%a0%95%ea%b0%80%ec%b9%98%eb%a7%a4%ea%b0%81%ea%b0%80%ec%b9%98-%ea%b3%84%ec%82%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 2: 공정가치(=매각가치) 계산
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;kbd&gt;공정가치&lt;/kbd&gt;는 유형자산을 시장에 내다 팔 경우 받을 수 있는 금액을 말합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;step-3-회수가능금액-설정&#34;&gt;&lt;a href=&#34;#step-3-%ed%9a%8c%ec%88%98%ea%b0%80%eb%8a%a5%ea%b8%88%ec%95%a1-%ec%84%a4%ec%a0%95&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 3: 회수가능금액 설정
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;kbd&gt;사용가치&lt;/kbd&gt;와 &lt;kbd&gt;공정가치&lt;/kbd&gt; 중 &lt;mark&gt;높은 가격&lt;/mark&gt;을 회수가능금액으로 설정합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;step-4-장부가격-변경&#34;&gt;&lt;a href=&#34;#step-4-%ec%9e%a5%eb%b6%80%ea%b0%80%ea%b2%a9-%eb%b3%80%ea%b2%bd&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 4: 장부가격 변경
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;유형자산의 장부가격을 &lt;kbd&gt;회수가능금액&lt;/kbd&gt;으로 변경합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;step-5-손상차손-반영&#34;&gt;&lt;a href=&#34;#step-5-%ec%86%90%ec%83%81%ec%b0%a8%ec%86%90-%eb%b0%98%ec%98%81&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 5: 손상차손 반영
+&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;ex) 기계설비 2천만 원을 5년간 사용한다는 가정 시, &lt;br&gt;월 400만 원을 비용으로 반영&lt;/p&gt;
+&lt;p&gt;기존에 기재되어 있던 &lt;kbd&gt;장부가격&lt;/kbd&gt;과 &lt;kbd&gt;회수가능금액&lt;/kbd&gt;의 차액을 &lt;kbd&gt;손상차손&lt;/kbd&gt;으로 반영합니다.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;감가상각이 종료되면 장부 상 가격 및 감가상각비는 0원이 됩니다.&lt;/p&gt;
+&lt;p&gt;이는 &lt;code&gt;영업외비용&lt;/code&gt;에 포함이 되어, &lt;code&gt;당기순이익&lt;/code&gt;에 영향을 미치게 됩니다.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;감가상각의-회계처리&#34;&gt;&lt;a href=&#34;#%ea%b0%90%ea%b0%80%ec%83%81%ea%b0%81%ec%9d%98-%ed%9a%8c%ea%b3%84%ec%b2%98%eb%a6%ac&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;감가상각의 회계처리
-&lt;/h3&gt;&lt;h4 id=&#34;step-1-내용연수&#34;&gt;&lt;a href=&#34;#step-1-%eb%82%b4%ec%9a%a9%ec%97%b0%ec%88%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 1: 내용연수
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;유형자산을 몇 년정도 사용할 수 있는지 지정하는 것입니다.&lt;/li&gt;
-&lt;li&gt;회계 상에서 유형자산의 사용 수명이라고 생각하시면 됩니다.&lt;/li&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;유형자산-손상차손-반영-실제-예시&#34;&gt;&lt;a href=&#34;#%ec%9c%a0%ed%98%95%ec%9e%90%ec%82%b0-%ec%86%90%ec%83%81%ec%b0%a8%ec%86%90-%eb%b0%98%ec%98%81-%ec%8b%a4%ec%a0%9c-%ec%98%88%ec%8b%9c&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;유형자산 손상차손 반영 실제 예시
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;한국철강의 2017년 사업보고서를 보면, &lt;br&gt;갑자기 치솟은 기타비용으로 인해 당기순손실이 발생하였습니다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;step-2-잔존가치-설정&#34;&gt;&lt;a href=&#34;#step-2-%ec%9e%94%ec%a1%b4%ea%b0%80%ec%b9%98-%ec%84%a4%ec%a0%95&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 2: 잔존가치 설정
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;내용연수 기간 이후, 유형자산의 가치를 얼마로 볼지 정하는 것입니다.&lt;/li&gt;
-&lt;li&gt;회계처리만 종료 되었을 뿐, 기계는 그대로 사용할 수 있습니다.
+&lt;figure&gt;
+  &lt;img src=&#34;한국철강_1.png&#34; alt=&#34;손상차손&#34; width=&#34;500&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;한국철강 2017년 사업보고서 dart 공시 &lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br&gt;
 &lt;ul&gt;
-&lt;li&gt;그래서 감상비 반영은 안하면서 수익 창출 활동을 할 수 있기 때문에, 이익이 많이 발생할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;상세 내용을 확인해보니, &lt;code&gt;기계장치&lt;/code&gt; 부분에서 손상차손이 반영되어 있네요.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;한국철강_2.png&#34; alt=&#34;손상차손&#34; width=&#34;600&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;한국철강 2017년 사업보고서 dart 공시 &lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;이 부분과 관련된 주석을 확인해볼까요?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;회사의 철강사업 중 단조부문의 경기침체에 따른 영업손실로 인하여 &lt;br&gt;해당 공장에 속한 자산들의 &lt;strong&gt;회수가능액을 평가&lt;/strong&gt;하였으며, &lt;br&gt;&lt;mark&gt;장부금액과의 차이를 &lt;strong&gt;손상차손&lt;/strong&gt;으로 인식&lt;/mark&gt;하였습니다.&lt;br&gt; 손상차손 114,233백만원은 &lt;strong&gt;기타비용&lt;/strong&gt;으로 계상되었습니다.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;cite&gt;한국철강 2017년 사업보고서 dart 공시 재무제표 주석 中&lt;/cite&gt;&lt;/span&gt;&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;건설중인자산&#34;&gt;&lt;a href=&#34;#%ea%b1%b4%ec%84%a4%ec%a4%91%ec%9d%b8%ec%9e%90%ec%82%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;건설중인자산
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;건설 중이거나 생산라인을 제작 중인 경우, &lt;strong&gt;건물&lt;/strong&gt;과 &lt;strong&gt;생산라인&lt;/strong&gt; 등을 유형자산으로 분류하고&lt;br&gt; 이를 &lt;kbd&gt;건설중인자산&lt;/kbd&gt;으로 귀속합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;건자의 가치에는 &lt;code&gt;투입 자재비&lt;/code&gt;, &lt;code&gt;기계구입금&lt;/code&gt;, &lt;code&gt;인건비&lt;/code&gt;, &lt;code&gt;토지비&lt;/code&gt;, &lt;code&gt;건설비용&lt;/code&gt; 등이 포함됩니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;건설/제작이 완성되면 &lt;kbd&gt;건설중인자산&lt;/kbd&gt;은 건물/구축물/기계장치 등으로 다시 분류가 됩니다.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;step-3-감가상각-방법-선택&#34;&gt;&lt;a href=&#34;#step-3-%ea%b0%90%ea%b0%80%ec%83%81%ea%b0%81-%eb%b0%a9%eb%b2%95-%ec%84%a0%ed%83%9d&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 3: 감가상각 방법 선택
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;감가상각 방법에는 두 가지가 있습니다.
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;감가상각 방법&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;정액법&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;해마다 동일 &lt;strong&gt;금액&lt;/strong&gt;을 감가상각 처리&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;정률법&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;해마다 동일 &lt;strong&gt;비율&lt;/strong&gt;을 감가상각 처리&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;건자.png&#34; alt=&#34;건설중인자산&#34; width=&#34;500&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;건설중인자산 예시&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 </description>
         </item>

@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="/scss/style.min.1d1f09eb62bc701917e8186bdbfb88ffca483deae6c14403370615dec288f3d2.css"><meta property='og:title' content="회계를 이해합시다 (4)">
 <meta property='og:description' content="<하마터면 회계를 모르고 일할 뻔 했다>에서 필요한 내용을 정리해보았습니다.">
 <meta property='og:url' content='http://localhost:1313/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-4/'>
-<meta property='og:site_name' content='Leena&#39;s Place'>
+<meta property='og:site_name' content='리나의 룸코너'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-08-14T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-08-14T00:00:00&#43;00:00'/><meta property='og:image' content='https://images.unsplash.com/photo-1636115880089-ca43aa5e39e8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1OTE5MzN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp' />
 <meta name="twitter:title" content="회계를 이해합시다 (4)">
 <meta name="twitter:description" content="<하마터면 회계를 모르고 일할 뻔 했다>에서 필요한 내용을 정리해보았습니다."><meta name="twitter:card" content="summary_large_image">
@@ -78,21 +78,21 @@
                     
                     
                         
-                        <img src="/img/avatar_hu22fca61b3041cfb7fb7107a31f6d6ac1_23010_300x0_resize_q75_box.jpg" width="300"
-                            height="291" class="site-logo" loading="lazy" alt="Avatar">
+                        <img src="/img/avatar_huaad472ea2e472e6f9070d8447d8ec27d_116367_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
                 </a>
                 
-                    <span class="emoji">🌴</span>
+                    <span class="emoji">📖</span>
                 
             </figure>
             
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/">Leena&#39;s Place</a></h1>
-            <h2 class="site-description">작은 기록들이 모여</h2>
+            <h1 class="site-name"><a href="/">리나의 룸코너</a></h1>
+            <h2 class="site-description"></h2>
         </div>
     </header><ol class="menu-social">
             
@@ -252,17 +252,20 @@
       <ol>
         <li><a href="#유형자산-손상회계">유형자산 손상회계</a>
           <ol>
-            <li><a href="#감가">감가</a></li>
-            <li><a href="#감가상각비">감가상각비</a></li>
+            <li><a href="#손상차손">손상차손</a></li>
           </ol>
         </li>
-        <li><a href="#감가상각의-회계처리">감가상각의 회계처리</a>
+        <li><a href="#손상차손-재무제표에-반영하기">손상차손 재무제표에 반영하기</a>
           <ol>
-            <li><a href="#step-1-내용연수">Step 1: 내용연수</a></li>
-            <li><a href="#step-2-잔존가치-설정">Step 2: 잔존가치 설정</a></li>
-            <li><a href="#step-3-감가상각-방법-선택">Step 3: 감가상각 방법 선택</a></li>
+            <li><a href="#step-1-사용가치-계산">Step 1: 사용가치 계산</a></li>
+            <li><a href="#step-2-공정가치매각가치-계산">Step 2: 공정가치(=매각가치) 계산</a></li>
+            <li><a href="#step-3-회수가능금액-설정">Step 3: 회수가능금액 설정</a></li>
+            <li><a href="#step-4-장부가격-변경">Step 4: 장부가격 변경</a></li>
+            <li><a href="#step-5-손상차손-반영">Step 5: 손상차손 반영</a></li>
           </ol>
         </li>
+        <li><a href="#유형자산-손상차손-반영-실제-예시">유형자산 손상차손 반영 실제 예시</a></li>
+        <li><a href="#건설중인자산">건설중인자산</a></li>
       </ol>
     </li>
   </ol>
@@ -291,7 +294,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/%ED%9A%8C%EA%B3%84/" style="background-color: #d3eb6a; color: #fff;">
+            <a href="/categories/%ED%9A%8C%EA%B3%84/" style="background-color: #b3d663; color: #fff;">
                 회계
             </a>
         
@@ -358,72 +361,96 @@
     
     <h2 id="용어"><a href="#%ec%9a%a9%ec%96%b4" class="header-anchor"></a>용어
 </h2><h3 id="유형자산-손상회계"><a href="#%ec%9c%a0%ed%98%95%ec%9e%90%ec%82%b0-%ec%86%90%ec%83%81%ed%9a%8c%ea%b3%84" class="header-anchor"></a>유형자산 손상회계
-</h3><ul>
-<li>감가와 감가상각비를 알아보기 전에, 전제를 먼저 깔아봅시다.
+</h3><p>
+<h4 id="손상차손"><a href="#%ec%86%90%ec%83%81%ec%b0%a8%ec%86%90" class="header-anchor"></a>손상차손
+</h4><ul>
+<li>
+<p>유형자산의 미래 가치가 장부에 있는 가치(가격)보다 <strong>현저하게 떨어진</strong> 경우,<br> 재무제표에서 손실처리를 하는 것을 의미합니다.</p>
+</li>
+<li>
+<p>자산의 가치가 급격히 하락하는 사례가 발생할 경우, 회사 장부에 반영을 해야 합니다.</p>
 <ul>
-<li><kbd>@재무상태표</kbd>: 기계설비에 들어가는 현금 지출을 <strong>일시반영</strong></li>
-<li><kbd>@손익계산서</kbd>: 가치 감소분을 해마다 나누어 비용에 <strong>분할반영</strong>
-<ul>
-<li><kbd>수익과 비용의 대응원칙</kbd>: 유형자산이 창출하는 수익에 대응해 비용 처리를 하는 개념</li>
+<li>ex) 기계설비 파손, 시장 규제 등으로 인해 자산을 사용할 수 없어지게 된 경우</li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<h4 id="감가"><a href="#%ea%b0%90%ea%b0%80" class="header-anchor"></a>감가
-</h4><p>감가는 <strong>시간의 흐름</strong>에 따라 <strong>유형자산의 가치가 감소</strong>하는 것입니다.</p>
-<h4 id="감가상각비"><a href="#%ea%b0%90%ea%b0%80%ec%83%81%ea%b0%81%eb%b9%84" class="header-anchor"></a>감가상각비
-</h4><p>감가상각비는 감가된만큼 매년 장부에서 가치를 하향조정하고,<br>가치 감소분을 비용으로 반영하는 것입니다.</p>
 <figure>
-  <img src="감가상각회계처리.png" alt="감가상각" width="500" height="500" class="my-image">
-  <figcaption><cite>감가상각비 회계처리 예시</cite></figcaption>
+  <img src="손상차손.png" alt="손상차손" width="500" height="500" class="my-image">
+  <figcaption><cite>손상차손 인식 예시</cite></figcaption>
 </figure>
 <ul>
+<li>하지만 시장 거래 가격이 하락했더라도, <br><mark>그 자산이 회사에 가져다주는 이익이 더 큰 경우</mark>에는 <strong>손상차손으로 인식을 하지 않습니다.</strong></li>
+</ul>
+</p>
+<br>
+<p>
+<h3 id="손상차손-재무제표에-반영하기"><a href="#%ec%86%90%ec%83%81%ec%b0%a8%ec%86%90-%ec%9e%ac%eb%ac%b4%ec%a0%9c%ed%91%9c%ec%97%90-%eb%b0%98%ec%98%81%ed%95%98%ea%b8%b0" class="header-anchor"></a>손상차손 재무제표에 반영하기
+</h3><h4 id="step-1-사용가치-계산"><a href="#step-1-%ec%82%ac%ec%9a%a9%ea%b0%80%ec%b9%98-%ea%b3%84%ec%82%b0" class="header-anchor"></a>Step 1: 사용가치 계산
+</h4><ul>
+<li><kbd>사용가치</kbd>는 유형자산으로 제품을 생산/판매하는 경우에 예상되는 현금흐름을 의미합니다.</li>
+</ul>
+<h4 id="step-2-공정가치매각가치-계산"><a href="#step-2-%ea%b3%b5%ec%a0%95%ea%b0%80%ec%b9%98%eb%a7%a4%ea%b0%81%ea%b0%80%ec%b9%98-%ea%b3%84%ec%82%b0" class="header-anchor"></a>Step 2: 공정가치(=매각가치) 계산
+</h4><ul>
+<li><kbd>공정가치</kbd>는 유형자산을 시장에 내다 팔 경우 받을 수 있는 금액을 말합니다.</li>
+</ul>
+<h4 id="step-3-회수가능금액-설정"><a href="#step-3-%ed%9a%8c%ec%88%98%ea%b0%80%eb%8a%a5%ea%b8%88%ec%95%a1-%ec%84%a4%ec%a0%95" class="header-anchor"></a>Step 3: 회수가능금액 설정
+</h4><ul>
+<li><kbd>사용가치</kbd>와 <kbd>공정가치</kbd> 중 <mark>높은 가격</mark>을 회수가능금액으로 설정합니다.</li>
+</ul>
+<h4 id="step-4-장부가격-변경"><a href="#step-4-%ec%9e%a5%eb%b6%80%ea%b0%80%ea%b2%a9-%eb%b3%80%ea%b2%bd" class="header-anchor"></a>Step 4: 장부가격 변경
+</h4><ul>
+<li>유형자산의 장부가격을 <kbd>회수가능금액</kbd>으로 변경합니다.</li>
+</ul>
+<h4 id="step-5-손상차손-반영"><a href="#step-5-%ec%86%90%ec%83%81%ec%b0%a8%ec%86%90-%eb%b0%98%ec%98%81" class="header-anchor"></a>Step 5: 손상차손 반영
+</h4><ul>
 <li>
-<p>ex) 기계설비 2천만 원을 5년간 사용한다는 가정 시, <br>월 400만 원을 비용으로 반영</p>
+<p>기존에 기재되어 있던 <kbd>장부가격</kbd>과 <kbd>회수가능금액</kbd>의 차액을 <kbd>손상차손</kbd>으로 반영합니다.</p>
 </li>
 <li>
-<p>감가상각이 종료되면 장부 상 가격 및 감가상각비는 0원이 됩니다.</p>
+<p>이는 <code>영업외비용</code>에 포함이 되어, <code>당기순이익</code>에 영향을 미치게 됩니다.</p>
 </li>
 </ul>
-<h3 id="감가상각의-회계처리"><a href="#%ea%b0%90%ea%b0%80%ec%83%81%ea%b0%81%ec%9d%98-%ed%9a%8c%ea%b3%84%ec%b2%98%eb%a6%ac" class="header-anchor"></a>감가상각의 회계처리
-</h3><h4 id="step-1-내용연수"><a href="#step-1-%eb%82%b4%ec%9a%a9%ec%97%b0%ec%88%98" class="header-anchor"></a>Step 1: 내용연수
-</h4><ul>
-<li>유형자산을 몇 년정도 사용할 수 있는지 지정하는 것입니다.</li>
-<li>회계 상에서 유형자산의 사용 수명이라고 생각하시면 됩니다.</li>
+</p>
+<br>
+<h3 id="유형자산-손상차손-반영-실제-예시"><a href="#%ec%9c%a0%ed%98%95%ec%9e%90%ec%82%b0-%ec%86%90%ec%83%81%ec%b0%a8%ec%86%90-%eb%b0%98%ec%98%81-%ec%8b%a4%ec%a0%9c-%ec%98%88%ec%8b%9c" class="header-anchor"></a>유형자산 손상차손 반영 실제 예시
+</h3><ul>
+<li>한국철강의 2017년 사업보고서를 보면, <br>갑자기 치솟은 기타비용으로 인해 당기순손실이 발생하였습니다.</li>
 </ul>
-<h4 id="step-2-잔존가치-설정"><a href="#step-2-%ec%9e%94%ec%a1%b4%ea%b0%80%ec%b9%98-%ec%84%a4%ec%a0%95" class="header-anchor"></a>Step 2: 잔존가치 설정
-</h4><ul>
-<li>내용연수 기간 이후, 유형자산의 가치를 얼마로 볼지 정하는 것입니다.</li>
-<li>회계처리만 종료 되었을 뿐, 기계는 그대로 사용할 수 있습니다.
+<figure>
+  <img src="한국철강_1.png" alt="손상차손" width="500" height="500" class="my-image">
+  <figcaption><cite>한국철강 2017년 사업보고서 dart 공시 </cite></figcaption>
+</figure>
+<br>
 <ul>
-<li>그래서 감상비 반영은 안하면서 수익 창출 활동을 할 수 있기 때문에, 이익이 많이 발생할 수 있습니다.</li>
+<li>상세 내용을 확인해보니, <code>기계장치</code> 부분에서 손상차손이 반영되어 있네요.</li>
 </ul>
+<figure>
+  <img src="한국철강_2.png" alt="손상차손" width="600" height="500" class="my-image">
+  <figcaption><cite>한국철강 2017년 사업보고서 dart 공시 </cite></figcaption>
+</figure>
+<br>
+<ul>
+<li>이 부분과 관련된 주석을 확인해볼까요?</li>
+</ul>
+<blockquote>
+    <p>회사의 철강사업 중 단조부문의 경기침체에 따른 영업손실로 인하여 <br>해당 공장에 속한 자산들의 <strong>회수가능액을 평가</strong>하였으며, <br><mark>장부금액과의 차이를 <strong>손상차손</strong>으로 인식</mark>하였습니다.<br> 손상차손 114,233백만원은 <strong>기타비용</strong>으로 계상되었습니다.</p><span class="cite"><span>― </span><cite>한국철강 2017년 사업보고서 dart 공시 재무제표 주석 中</cite></span></blockquote>
+<br>
+<h3 id="건설중인자산"><a href="#%ea%b1%b4%ec%84%a4%ec%a4%91%ec%9d%b8%ec%9e%90%ec%82%b0" class="header-anchor"></a>건설중인자산
+</h3><ul>
+<li>
+<p>건설 중이거나 생산라인을 제작 중인 경우, <strong>건물</strong>과 <strong>생산라인</strong> 등을 유형자산으로 분류하고<br> 이를 <kbd>건설중인자산</kbd>으로 귀속합니다.</p>
+</li>
+<li>
+<p>건자의 가치에는 <code>투입 자재비</code>, <code>기계구입금</code>, <code>인건비</code>, <code>토지비</code>, <code>건설비용</code> 등이 포함됩니다.</p>
+</li>
+<li>
+<p>건설/제작이 완성되면 <kbd>건설중인자산</kbd>은 건물/구축물/기계장치 등으로 다시 분류가 됩니다.</p>
 </li>
 </ul>
-<h4 id="step-3-감가상각-방법-선택"><a href="#step-3-%ea%b0%90%ea%b0%80%ec%83%81%ea%b0%81-%eb%b0%a9%eb%b2%95-%ec%84%a0%ed%83%9d" class="header-anchor"></a>Step 3: 감가상각 방법 선택
-</h4><ul>
-<li>감가상각 방법에는 두 가지가 있습니다.
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th style="text-align:center">감가상각 방법</th>
-<th style="text-align:center">설명</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">정액법</td>
-<td style="text-align:center">해마다 동일 <strong>금액</strong>을 감가상각 처리</td>
-</tr>
-<tr>
-<td style="text-align:center">정률법</td>
-<td style="text-align:center">해마다 동일 <strong>비율</strong>을 감가상각 처리</td>
-</tr>
-</tbody>
-</table></div>
-</li>
-</ul>
+<figure>
+  <img src="건자.png" alt="건설중인자산" width="500" height="500" class="my-image">
+  <figcaption><cite>건설중인자산 예시</cite></figcaption>
+</figure>
 <hr>
 
 </section>

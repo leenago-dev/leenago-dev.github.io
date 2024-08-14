@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Book on Leena&#39;s Place</title>
+        <title>Book on 리나의 룸코너</title>
         <link>http://localhost:1313/categories/book/</link>
-        <description>Recent content in Book on Leena&#39;s Place</description>
+        <description>Recent content in Book on 리나의 룸코너</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
         <copyright>Leena</copyright><atom:link href="http://localhost:1313/categories/book/index.xml" rel="self" type="application/rss+xml" />
