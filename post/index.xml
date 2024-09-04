@@ -7,7 +7,66 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
         <copyright>Leena</copyright>
-        <lastBuildDate>Fri, 23 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 22 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>회계를 이해합시다 (5)</title>
+        <link>http://localhost:1313/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-5/</link>
+        <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-5/</guid>
+        <description>&lt;img src="https://images.unsplash.com/photo-1636115798885-68e47c928729?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzNjkyNzF8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (5)" /&gt;&lt;h2 id=&#34;용어&#34;&gt;&lt;a href=&#34;#%ec%9a%a9%ec%96%b4&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;용어
+&lt;/h2&gt;&lt;h3 id=&#34;무형자산&#34;&gt;&lt;a href=&#34;#%eb%ac%b4%ed%98%95%ec%9e%90%ec%82%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;무형자산
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;기업이 보유한 자산 중,
+&lt;ul&gt;
+&lt;li&gt;① 형태는 없으나 그 자산을 소유함에 따라 미래 경제적 이익을 얻을 수 있고&lt;/li&gt;
+&lt;li&gt;② 취득에 발생하는 원가를 측정할 수 있는 것을 의미합니다. &lt;br&gt; ex) 상표권, 특허권, 사용권, 영업권, 개발비 등&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;https://images.unsplash.com/photo-1674978037981-fef8cbf2b3a2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzNjk1NzJ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp&#34; alt=&#34;나이키상표&#34; width=&#34;500&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
+  &lt;figcaption&gt;&lt;cite&gt;출처: Unsplash&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;상표권을 매입하는 이유는 해당 상표를 부착하여 수익창출을 하기 위함입니다. &lt;br&gt; (&lt;code&gt;수익창출&lt;/code&gt; &amp;gt; &lt;code&gt;상표사용권&lt;/code&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;무형자산도 유형자산과 마찬가지로 &lt;kbd&gt;상각&lt;/kbd&gt;이라는 회계처리를 하게 됩니다. (손상 발생)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;다만, 유형자산과 달리 무형자산은 시간이 지날수록 소모되어 가치가 하락하지 않으므로, &lt;code&gt;감가상각&lt;/code&gt;이란 용어가 100% 적합하지는 않습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;무형자산은 다른 회사로부터 매입 혹은 특허/상표출원등록 후 수익활동에 사용할 수 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;상표권-매입-비용-처리&#34;&gt;&lt;a href=&#34;#%ec%83%81%ed%91%9c%ea%b6%8c-%eb%a7%a4%ec%9e%85-%eb%b9%84%ec%9a%a9-%ec%b2%98%eb%a6%ac&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;상표권 매입 비용 처리
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;상표권 매입 비용을 처리하기 위해서는&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;① 추정 내용연수를 설정한 후,&lt;/li&gt;
+&lt;li&gt;② 기간을 나누어 비용을 반영해야 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이는 상표권이 수익 창출에 기여할 수 있는 기간을 한정적으로 본다는 의미이기도 합니다. &lt;br&gt; (보통 5년에서 20년 사이입니다.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ex) 상표권 추정 내용연수가 8년 = &amp;lsquo;8년동안 정액법으로 상각한다&amp;rsquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;외부에서 구입한 무형자산의 상각 시작 시점은, 이 상표권을 사용해서 제품을 생산/판매할 때부터입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;자산 상각은 자산을 통해 발생하는 수익(매출)에 대해 비용(감상비)을 대응하는 개념이기 때문입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
         <title>회계를 이해합시다 (4)</title>
         <link>http://localhost:1313/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-4/</link>
         <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
