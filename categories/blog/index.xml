@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Blog on 리나의 룸코너</title>
-        <link>http://localhost:1313/categories/blog/</link>
+        <link>https://blooming-daisy.github.io/categories/blog/</link>
         <description>Recent content in Blog on 리나의 룸코너</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
         <copyright>Leena</copyright>
-        <lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blooming-daisy.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>github blog에 lyket 적용</title>
-        <link>http://localhost:1313/p/github-blog%EC%97%90-lyket-%EC%A0%81%EC%9A%A9/</link>
+        <link>https://blooming-daisy.github.io/p/github-blog%EC%97%90-lyket-%EC%A0%81%EC%9A%A9/</link>
         <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/github-blog%EC%97%90-lyket-%EC%A0%81%EC%9A%A9/</guid>
+        <guid>https://blooming-daisy.github.io/p/github-blog%EC%97%90-lyket-%EC%A0%81%EC%9A%A9/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1654220669943-0069bb3447f6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTg3OTF8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post github blog에 lyket 적용" /&gt;&lt;p&gt;github 블로그를 개설하면서,&lt;br&gt;&lt;code&gt;giscus&lt;/code&gt; 를 추가했습니다.&lt;br&gt; &lt;em&gt;(블로그에도 소통창구가 필요하기 때문에..!)&lt;/em&gt;&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&#34;giscus.png&#34; alt=&#34;giscus&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
@@ -164,11 +164,11 @@ github 계정이 있는 사람만 반응을 남길 수 있다는 것..!&lt;/p&gt
         </item>
         <item>
         <title>[Template] 템플릿</title>
-        <link>http://localhost:1313/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/</link>
+        <link>https://blooming-daisy.github.io/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/</link>
         <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/</guid>
-        <description>&lt;img src="http://localhost:1313/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/about.jpg" alt="Featured image of post [Template] 템플릿" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
+        <guid>https://blooming-daisy.github.io/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/</guid>
+        <description>&lt;img src="https://blooming-daisy.github.io/p/template-%ED%85%9C%ED%94%8C%EB%A6%BF/about.jpg" alt="Featured image of post [Template] 템플릿" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
 &lt;p&gt;참고)&lt;/p&gt;
 &lt;p&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; 북마크 &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
 &lt;ul&gt;

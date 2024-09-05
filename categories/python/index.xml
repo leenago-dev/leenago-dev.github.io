@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Python on 리나의 룸코너</title>
-        <link>http://localhost:1313/categories/python/</link>
+        <link>https://blooming-daisy.github.io/categories/python/</link>
         <description>Recent content in Python on 리나의 룸코너</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
         <copyright>Leena</copyright>
-        <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/python/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blooming-daisy.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>ddd</title>
-        <link>http://localhost:1313/p/ddd/</link>
+        <link>https://blooming-daisy.github.io/p/ddd/</link>
         <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/ddd/</guid>
+        <guid>https://blooming-daisy.github.io/p/ddd/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1667372531881-6f975b1c86db?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MjYzMTB8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post ddd" /&gt;&lt;h2 id=&#34;개요&#34;&gt;&lt;a href=&#34;#%ea%b0%9c%ec%9a%94&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;개요
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;예전에는 이렇게 &lt;code&gt;참고문서&lt;/code&gt;가 있어서, 이 문서를 참고하여 API를 가지고 왔습니다.&lt;/li&gt;

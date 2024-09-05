@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on 리나의 룸코너</title>
-        <link>http://localhost:1313/categories/</link>
+        <link>https://blooming-daisy.github.io/categories/</link>
         <description>Recent content in Categories on 리나의 룸코너</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
         <copyright>Leena</copyright>
-        <lastBuildDate>Thu, 22 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 22 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blooming-daisy.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>회계</title>
-        <link>http://localhost:1313/categories/%ED%9A%8C%EA%B3%84/</link>
+        <link>https://blooming-daisy.github.io/categories/%ED%9A%8C%EA%B3%84/</link>
         <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/%ED%9A%8C%EA%B3%84/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/%ED%9A%8C%EA%B3%84/accounting.jpg" alt="Featured image of post 회계" /&gt;</description>
+        <guid>https://blooming-daisy.github.io/categories/%ED%9A%8C%EA%B3%84/</guid>
+        <description>&lt;img src="https://blooming-daisy.github.io/categories/%ED%9A%8C%EA%B3%84/accounting.jpg" alt="Featured image of post 회계" /&gt;</description>
         </item>
         <item>
         <title>Data</title>
-        <link>http://localhost:1313/categories/data/</link>
+        <link>https://blooming-daisy.github.io/categories/data/</link>
         <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/data/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/data/data.jpg" alt="Featured image of post Data" /&gt;</description>
+        <guid>https://blooming-daisy.github.io/categories/data/</guid>
+        <description>&lt;img src="https://blooming-daisy.github.io/categories/data/data.jpg" alt="Featured image of post Data" /&gt;</description>
         </item>
         <item>
         <title>Python</title>
-        <link>http://localhost:1313/categories/python/</link>
+        <link>https://blooming-daisy.github.io/categories/python/</link>
         <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/python/</guid>
+        <guid>https://blooming-daisy.github.io/categories/python/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1OTc2NDJ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post Python" /&gt;</description>
         </item>
         <item>
         <title>항공</title>
-        <link>http://localhost:1313/categories/%ED%95%AD%EA%B3%B5/</link>
+        <link>https://blooming-daisy.github.io/categories/%ED%95%AD%EA%B3%B5/</link>
         <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/%ED%95%AD%EA%B3%B5/</guid>
+        <guid>https://blooming-daisy.github.io/categories/%ED%95%AD%EA%B3%B5/</guid>
         <description>&lt;img src="https://images.unsplash.com/photo-1713645937765-7fae897495e7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1OTY2MDV8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 항공" /&gt;</description>
         </item>
         <item>
         <title>Blog</title>
-        <link>http://localhost:1313/categories/blog/</link>
+        <link>https://blooming-daisy.github.io/categories/blog/</link>
         <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/blog/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/blog/blog.jpg" alt="Featured image of post Blog" /&gt;</description>
+        <guid>https://blooming-daisy.github.io/categories/blog/</guid>
+        <description>&lt;img src="https://blooming-daisy.github.io/categories/blog/blog.jpg" alt="Featured image of post Blog" /&gt;</description>
         </item>
         <item>
         <title>Book</title>
-        <link>http://localhost:1313/categories/book/</link>
+        <link>https://blooming-daisy.github.io/categories/book/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/book/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/book/book.jpg" alt="Featured image of post Book" /&gt;</description>
+        <guid>https://blooming-daisy.github.io/categories/book/</guid>
+        <description>&lt;img src="https://blooming-daisy.github.io/categories/book/book.jpg" alt="Featured image of post Book" /&gt;</description>
         </item>
         
     </channel>
