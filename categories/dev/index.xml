@@ -1,4 +1,147 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev on Leena's Dev Blog</title><link>https://leenago-dev.github.io/categories/dev/</link><description>Recent content in Dev on Leena's Dev Blog</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><copyright>Leena</copyright><lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://leenago-dev.github.io/categories/dev/index.xml" rel="self" type="application/rss+xml"/><item><title>변수 초기화 (Initialization)</title><link>https://leenago-dev.github.io/p/%EB%B3%80%EC%88%98-%EC%B4%88%EA%B8%B0%ED%99%94-initialization/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/%EB%B3%80%EC%88%98-%EC%B4%88%EA%B8%B0%ED%99%94-initialization/</guid><description>&lt;img src="https://images.unsplash.com/photo-1735344836059-f5005c50edbb?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4OTUzMjN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 변수 초기화 (Initialization)" />&lt;h2 id="왜-initialization이-필요하지">&lt;a href="#%ec%99%9c-initialization%ec%9d%b4-%ed%95%84%ec%9a%94%ed%95%98%ec%a7%80" class="header-anchor">&lt;/a>왜 Initialization이 필요하지?
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev on Leena's Dev Blog</title><link>https://leenago-dev.github.io/categories/dev/</link><description>Recent content in Dev on Leena's Dev Blog</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><copyright>Leena</copyright><lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://leenago-dev.github.io/categories/dev/index.xml" rel="self" type="application/rss+xml"/><item><title>append vs extend</title><link>https://leenago-dev.github.io/p/append-vs-extend/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/append-vs-extend/</guid><description>&lt;img src="https://images.unsplash.com/photo-1735344836059-f5005c50edbb?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4OTUzMjN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post append vs extend" />&lt;h2 id="extend-넌-누구니">&lt;a href="#extend-%eb%84%8c-%eb%88%84%ea%b5%ac%eb%8b%88" class="header-anchor">&lt;/a>extend, 넌 누구니?
+&lt;/h2>&lt;p>보통 List에 데이터를 추가하려면 &lt;code>append&lt;/code>를 많이 사용합니다.
+하지만 오늘과 같은 상황에서는 달랐답니다.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl">skills_jobs: 4, all_jobs: 2
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>분명 어제 열댓 개가 return 됐는데, OOP 형식으로 변경을 하니까 한 자리 수가 나오다니요?!
+바로 Cursor AI에게 질문을 했습니다.&lt;/p>
+&lt;blockquote>
+&lt;p>The issue is in your &lt;code>add_all_jobs&lt;/code> and &lt;code>add_skills_jobs&lt;/code> methods.
+You&amp;rsquo;re appending the entire list of jobs from each page as a single item,
+ather than extending the lists with individual jobs.&lt;/p>
+&lt;/blockquote>
+&lt;p>extend 하지 않고&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">#The error occurs because region (and salary) are only assigned inside the if len(categories) &amp;gt;= 2: block, but they&amp;#39;re used outside of it. If there are fewer than 2 categories, these variables won&amp;#39;t be defined.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">#Here&amp;#39;s the fix - initialize the variables before the if statement:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># ---&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># // ... existing code ...&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="n">categories&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">job&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">find_all&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;p&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">class_&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;new-listing__categories__category&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="c1"># There are more than two categories, so we need to use &amp;#39;find_all&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="n">salary&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;N/A&amp;#34;&lt;/span>  &lt;span class="c1"># Default value&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="n">region&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;N/A&amp;#34;&lt;/span>  &lt;span class="c1"># Default value&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="k">if&lt;/span> &lt;span class="nb">len&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">categories&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">&amp;gt;=&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="n">salary_html&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">region_html&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">categories&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">:]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="n">salary&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">salary_html&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">text&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">strip&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="n">region&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">region_html&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">text&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">strip&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># // ... existing code ...&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>그리고 드는 의문 하나, &lt;strong>왜 &amp;lsquo;default value&amp;rsquo; 값을 먼저 넣어줘야 하는거지?&lt;/strong>&lt;/p>
+&lt;h2 id="그-이유는">&lt;a href="#%ea%b7%b8-%ec%9d%b4%ec%9c%a0%eb%8a%94" class="header-anchor">&lt;/a>그 이유는&amp;hellip;
+&lt;/h2>&lt;p>어떤 참석자의 &amp;lsquo;salary&amp;rsquo;와 &amp;lsquo;region&amp;rsquo; 이름표가 누락됐을 때를 대비해서, 일단 &lt;strong>모든 참석자의 이름표를 &amp;lsquo;정보 없음&amp;rsquo;으로 만들어두기위함&lt;/strong>입니다.&lt;/p>
+&lt;p>아니 이게 무슨소리냐 싶으실텐데요ㅋㅋㅋ 차근차근 알아가봅시다!&lt;/p>
+&lt;hr>
+&lt;ol>
+&lt;li>
+&lt;p>참석자 명단을 한 명씩 확인합니다.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="k">for&lt;/span> &lt;span class="n">job&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">jobs&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">categories&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">job&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">find_all&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;p&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">class_&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;new-listing__categories__category&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>참석자 신청서에 &amp;lsquo;salary&amp;rsquo;, &amp;lsquo;region&amp;rsquo; 정보가 제대로 기입됐는지 확인합니다.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>제대로 기입했다면, 그 정보를 이름표에 인쇄합니다.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 2번&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="nb">len&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">categories&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">&amp;gt;=&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">salary_html&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">region_html&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">categories&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">:]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># 3번&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">salary&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">salary_html&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">text&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">strip&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">region&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">region_html&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">text&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">strip&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">link_html&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">job&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">select_one&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;a[href^=&amp;#34;/remote-jobs/&amp;#34;]&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>그런데 만약, 위 과정에서 어떤 참석자가 2번을 빠트렸다면 어떻게 될까요?&lt;/p>
+&lt;ul>
+&lt;li>정보가 누락된 참석자의 이름표가 존재하지 않기 때문에 &lt;em>NameError&lt;/em>가 발생하면서 코드가 더이상 실행되지 않습니다.&lt;/li>
+&lt;/ul>
+&lt;p>▶️ 그렇기 때문에, &lt;strong>salary = None&lt;/strong>으로 일단 모든 참석자의 이름표를 &amp;lsquo;정보 없음&amp;rsquo;으로 생성해두는 것입니다.&lt;/p>
+&lt;ul>
+&lt;li>만약 신청자의 정보가 있다면, 3번 과정에서 실제 정보로 내용을 덮어쓰게 되는거죠!
+&lt;ul>
+&lt;li>이것이 바로 &lt;em>방어적 프로그래밍&lt;/em> 입니다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="결론">&lt;a href="#%ea%b2%b0%eb%a1%a0" class="header-anchor">&lt;/a>결론
+&lt;/h2>&lt;ul>
+&lt;li>Initialization은 데이터가 불규칙할 때 프로그램이 중간에 멈추는 것을 막아주는 &lt;strong>안전장치&lt;/strong>이다!&lt;/li>
+&lt;/ul>
+&lt;p>[[]]&lt;/p>
+&lt;h2 id="오늘의-용어사전">&lt;a href="#%ec%98%a4%eb%8a%98%ec%9d%98-%ec%9a%a9%ec%96%b4%ec%82%ac%ec%a0%84" class="header-anchor">&lt;/a>오늘의 용어사전
+&lt;/h2>&lt;blockquote>
+&lt;ul>
+&lt;li>초기화 (Initialization): 변수를 처음 만들 때, 초기의 기본값을 할당해주는 과정
+&lt;ul>
+&lt;li>ex) salary = None&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>방어적 프로그래밍 (Defensive Programming): 데이터가 없거나 형식이 다를 예외적인 경우를 미리 예상하고, 에러가 나지 않도록 코드를 안전하게 작성하는 프로그래밍 스타일&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul></description></item><item><title>변수 초기화 (Initialization)</title><link>https://leenago-dev.github.io/p/%EB%B3%80%EC%88%98-%EC%B4%88%EA%B8%B0%ED%99%94-initialization/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/%EB%B3%80%EC%88%98-%EC%B4%88%EA%B8%B0%ED%99%94-initialization/</guid><description>&lt;img src="https://images.unsplash.com/photo-1735344836059-f5005c50edbb?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4OTUzMjN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 변수 초기화 (Initialization)" />&lt;h2 id="왜-initialization이-필요하지">&lt;a href="#%ec%99%9c-initialization%ec%9d%b4-%ed%95%84%ec%9a%94%ed%95%98%ec%a7%80" class="header-anchor">&lt;/a>왜 Initialization이 필요하지?
 &lt;/h2>&lt;p>Python challenge를 진행하면서 아래와 같은 코드를 작성했습니다.&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
