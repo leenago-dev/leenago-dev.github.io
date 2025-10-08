@@ -697,7 +697,200 @@ src="https://gitlab.com/-/snippets/2349278.js"
 >talk&lt;/a> during Gopherfest, November 18, 2015.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>회계를 이해합시다 (5)</title><link>https://leenago-dev.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-5/</link><pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-5/</guid><description>&lt;img src="https://images.unsplash.com/photo-1636115798885-68e47c928729?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzNjkyNzF8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (5)" />&lt;h2 id="용어">&lt;a href="#%ec%9a%a9%ec%96%b4" class="header-anchor">&lt;/a>용어
+&lt;/div></description></item><item><title>변수 초기화 (Initialization)</title><link>https://leenago-dev.github.io/p/%EB%B3%80%EC%88%98-%EC%B4%88%EA%B8%B0%ED%99%94-initialization/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/%EB%B3%80%EC%88%98-%EC%B4%88%EA%B8%B0%ED%99%94-initialization/</guid><description>&lt;img src="https://unsplash.com/photos/black-and-white-stone-fragment-Noza-4b1xOo" alt="Featured image of post 변수 초기화 (Initialization)" />&lt;h2 id="왜-initialization이-필요하지">&lt;a href="#%ec%99%9c-initialization%ec%9d%b4-%ed%95%84%ec%9a%94%ed%95%98%ec%a7%80" class="header-anchor">&lt;/a>왜 Initialization이 필요하지?
+&lt;/h2>&lt;p>Python challenge를 진행하면서 아래와 같은 코드를 작성했습니다.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="k">for&lt;/span> &lt;span class="n">job&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">jobs&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">title&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">job&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;h3&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">class_&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;new-listing__header__title&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">text&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">strip&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">company&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">job&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;p&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">class_&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;new-listing__company-name&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">text&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">strip&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">categories&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">job&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">find_all&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;p&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">class_&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;new-listing__categories__category&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># There are more than two categories, so we need to use &amp;#39;find_all&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="nb">len&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">categories&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">&amp;gt;=&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">salary_html&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">region_html&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">categories&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">:]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">salary&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">salary_html&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">text&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">strip&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">region&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">region_html&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">text&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">strip&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">link_html&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">job&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">select_one&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;a[href^=&amp;#34;/remote-jobs/&amp;#34;]&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="n">link_html&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">link_tag&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">link_html&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;href&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">strip&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">link&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="sa">f&lt;/span>&lt;span class="s2">&amp;#34;https://weworkremotely.com&lt;/span>&lt;span class="si">{&lt;/span>&lt;span class="n">link_tag&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">else&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;No link found&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">job_data&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;title&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">title&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;company&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">company&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;salary&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">salary&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;region&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">region&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;link&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">link&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>그 때 발생한 error notification!&lt;/p>
+&lt;blockquote>
+&lt;p>Possibly using variable &amp;lsquo;region&amp;rsquo; before assignment&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;p>Cursor AI에게 왜 이 에러가 발생하는지 물어봤고, 아래와 같이 답변을 받았습니다.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">#The error occurs because region (and salary) are only assigned inside the if len(categories) &amp;gt;= 2: block, but they&amp;#39;re used outside of it. If there are fewer than 2 categories, these variables won&amp;#39;t be defined.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">#Here&amp;#39;s the fix - initialize the variables before the if statement:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># ---&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># // ... existing code ...&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="n">categories&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">job&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">find_all&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;p&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">class_&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;new-listing__categories__category&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="c1"># There are more than two categories, so we need to use &amp;#39;find_all&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="n">salary&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;N/A&amp;#34;&lt;/span>  &lt;span class="c1"># Default value&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="n">region&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;N/A&amp;#34;&lt;/span>  &lt;span class="c1"># Default value&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="k">if&lt;/span> &lt;span class="nb">len&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">categories&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">&amp;gt;=&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="n">salary_html&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">region_html&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">categories&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">:]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="n">salary&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">salary_html&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">text&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">strip&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="n">region&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">region_html&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">text&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">strip&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># // ... existing code ...&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>그리고 드는 의문 하나, &lt;strong>왜 &amp;lsquo;default value&amp;rsquo; 값을 먼저 넣어줘야 하는거지?&lt;/strong>&lt;/p>
+&lt;h2 id="그-이유는">&lt;a href="#%ea%b7%b8-%ec%9d%b4%ec%9c%a0%eb%8a%94" class="header-anchor">&lt;/a>그 이유는&amp;hellip;
+&lt;/h2>&lt;p>어떤 참석자의 &amp;lsquo;salary&amp;rsquo;와 &amp;lsquo;region&amp;rsquo; 이름표가 누락됐을 때를 대비해서, 일단 &lt;strong>모든 참석자의 이름표를 &amp;lsquo;정보 없음&amp;rsquo;으로 만들어두기위함&lt;/strong>입니다.&lt;/p>
+&lt;p>아니 이게 무슨소리냐 싶으실텐데요ㅋㅋㅋ 차근차근 알아가봅시다!&lt;/p>
+&lt;hr>
+&lt;ol>
+&lt;li>
+&lt;p>참석자 명단을 한 명씩 확인합니다.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="k">for&lt;/span> &lt;span class="n">job&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">jobs&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">categories&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">job&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">find_all&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;p&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">class_&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;new-listing__categories__category&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>참석자 신청서에 &amp;lsquo;salary&amp;rsquo;, &amp;lsquo;region&amp;rsquo; 정보가 제대로 기입됐는지 확인합니다.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>제대로 기입했다면, 그 정보를 이름표에 인쇄합니다.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 2번&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="nb">len&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">categories&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">&amp;gt;=&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">salary_html&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">region_html&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">categories&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">:]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># 3번&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">salary&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">salary_html&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">text&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">strip&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">region&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">region_html&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">text&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">strip&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">link_html&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">job&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">select_one&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;a[href^=&amp;#34;/remote-jobs/&amp;#34;]&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>그런데 만약, 위 과정에서 어떤 참석자가 2번을 빠트렸다면 어떻게 될까요?&lt;/p>
+&lt;ul>
+&lt;li>정보가 누락된 참석자의 이름표가 존재하지 않기 때문에 &lt;em>NameError&lt;/em>가 발생하면서 코드가 더이상 실행되지 않습니다.&lt;/li>
+&lt;/ul>
+&lt;p>▶️ 그렇기 때문에, &lt;strong>salary = None&lt;/strong>으로 일단 모든 참석자의 이름표를 &amp;lsquo;정보 없음&amp;rsquo;으로 생성해두는 것입니다.&lt;/p>
+&lt;ul>
+&lt;li>만약 신청자의 정보가 있다면, 3번 과정에서 실제 정보로 내용을 덮어쓰게 되는거죠!
+&lt;ul>
+&lt;li>이것이 바로 &lt;em>방어적 프로그래밍&lt;/em> 입니다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="결론">&lt;a href="#%ea%b2%b0%eb%a1%a0" class="header-anchor">&lt;/a>결론
+&lt;/h2>&lt;ul>
+&lt;li>Initialization은 데이터가 불규칙할 때 프로그램이 중간에 멈추는 것을 막아주는 &lt;strong>안전장치&lt;/strong>이다!&lt;/li>
+&lt;/ul>
+&lt;h2 id="오늘의-용어사전">&lt;a href="#%ec%98%a4%eb%8a%98%ec%9d%98-%ec%9a%a9%ec%96%b4%ec%82%ac%ec%a0%84" class="header-anchor">&lt;/a>오늘의 용어사전
+&lt;/h2>&lt;blockquote>
+&lt;ul>
+&lt;li>초기화 (Initialization): 변수를 처음 만들 때, 초기의 기본값을 할당해주는 과정
+&lt;ul>
+&lt;li>ex) salary = None&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>방어적 프로그래밍 (Defensive Programming): 데이터가 없거나 형식이 다를 예외적인 경우를 미리 예상하고, 에러가 나지 않도록 코드를 안전하게 작성하는 프로그래밍 스타일&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul></description></item><item><title>회계를 이해합시다 (5)</title><link>https://leenago-dev.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-5/</link><pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-5/</guid><description>&lt;img src="https://images.unsplash.com/photo-1636115798885-68e47c928729?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzNjkyNzF8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (5)" />&lt;h2 id="용어">&lt;a href="#%ec%9a%a9%ec%96%b4" class="header-anchor">&lt;/a>용어
 &lt;/h2>&lt;h3 id="무형자산">&lt;a href="#%eb%ac%b4%ed%98%95%ec%9e%90%ec%82%b0" class="header-anchor">&lt;/a>무형자산
 &lt;/h3>&lt;ul>
 &lt;li>기업이 보유한 자산 중,
