@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Tags on 리나의 룸코너</title>
-        <link>https://blooming-daisy.github.io/tags/</link>
-        <description>Recent content in Tags on 리나의 룸코너</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>ko-kr</language>
-        <copyright>Leena</copyright><atom:link href="https://blooming-daisy.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Leena's Dev Blog</title><link>https://leenago-dev.github.io/tags/</link><description>Recent content in Tags on Leena's Dev Blog</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><copyright>Leena</copyright><atom:link href="https://leenago-dev.github.io/tags/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

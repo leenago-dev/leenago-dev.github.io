@@ -1,87 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Python on 리나의 룸코너</title>
-        <link>https://blooming-daisy.github.io/categories/python/</link>
-        <description>Recent content in Python on 리나의 룸코너</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>ko-kr</language>
-        <copyright>Leena</copyright>
-        <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blooming-daisy.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>ddd</title>
-        <link>https://blooming-daisy.github.io/p/ddd/</link>
-        <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://blooming-daisy.github.io/p/ddd/</guid>
-        <description>&lt;img src="https://images.unsplash.com/photo-1667372531881-6f975b1c86db?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MjYzMTB8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post ddd" /&gt;&lt;h2 id=&#34;개요&#34;&gt;&lt;a href=&#34;#%ea%b0%9c%ec%9a%94&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;개요
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;예전에는 이렇게 &lt;code&gt;참고문서&lt;/code&gt;가 있어서, 이 문서를 참고하여 API를 가지고 왔습니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;공공데이터포털_0.png&#34; alt=&#34;공공데이터포털 과거ver&#34; width=&#34;700&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;hwp 문서라니...^^..&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;ul&gt;
-&lt;li&gt;어느 시점부터 Swagger-UI 기반의 OpenAPI 제공이 되기 시작했습니다.&lt;br&gt; 새로운 방식으로 API 호출하는 방법을 먼저 알아봅시다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-&lt;h2 id=&#34;swagger-ui-기반-openapi-사용하기&#34;&gt;&lt;a href=&#34;#swagger-ui-%ea%b8%b0%eb%b0%98-openapi-%ec%82%ac%ec%9a%a9%ed%95%98%ea%b8%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Swagger-UI 기반 OpenAPI 사용하기
-&lt;/h2&gt;&lt;h3 id=&#34;step-1-필요한-데이터-활용신청하기&#34;&gt;&lt;a href=&#34;#step-1-%ed%95%84%ec%9a%94%ed%95%9c-%eb%8d%b0%ec%9d%b4%ed%84%b0-%ed%99%9c%ec%9a%a9%ec%8b%a0%ec%b2%ad%ed%95%98%ea%b8%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 1: 필요한 데이터 활용신청하기
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;필요한 데이터를 검색하고, 해당 데이터를 클릭합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;공공데이터포털.png&#34; alt=&#34;공공데이터포털&#34; width=&#34;400&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;사용데이터&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;ul&gt;
-&lt;li&gt;클릭하면 &lt;code&gt;데이터 상세&lt;/code&gt;가 뜨는데, 아래 &lt;kbd&gt;활용신청&lt;/kbd&gt; 버튼을 클릭합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;공공데이터포털_1_2.png&#34; alt=&#34;공공데이터포털&#34; width=&#34;700&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;활용신청&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;ul&gt;
-&lt;li&gt;사유를 기재하는 칸이 나오게 되는데, 간단하게 사유를 기재해주면 됩니다. (자동승인이 됩니다.)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;h3 id=&#34;step-2-인증키-확인하기&#34;&gt;&lt;a href=&#34;#step-2-%ec%9d%b8%ec%a6%9d%ed%82%a4-%ed%99%95%ec%9d%b8%ed%95%98%ea%b8%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 2: 인증키 확인하기
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;kbd&gt;마이페이지 ▶ 데이터 활용 ▶ Open API ▶ 활용신청 현황&lt;/kbd&gt;에서 활용신청한 데이터 목록을 확인할 수 있습니다.&lt;/li&gt;
-&lt;li&gt;확인하고자 하는&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;공공데이터포털_3.png&#34; alt=&#34;공공데이터포털 인증키&#34; width=&#34;600&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;인증키 목록&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h2 id=&#34;필요한-라이브러리-호출&#34;&gt;&lt;a href=&#34;#%ed%95%84%ec%9a%94%ed%95%9c-%eb%9d%bc%ec%9d%b4%eb%b8%8c%eb%9f%ac%eb%a6%ac-%ed%98%b8%ec%b6%9c&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;필요한 라이브러리 호출
-&lt;/h2&gt;&lt;head&gt;
-  &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/tomorrow-night-bright.min.css&#34;&gt; 
-  &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js&#34;&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Leena's Dev Blog</title><link>https://leenago-dev.github.io/categories/python/</link><description>Recent content in Python on Leena's Dev Blog</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><copyright>Leena</copyright><lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://leenago-dev.github.io/categories/python/index.xml" rel="self" type="application/rss+xml"/><item><title>ddd</title><link>https://leenago-dev.github.io/p/ddd/</link><pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/ddd/</guid><description>&lt;img src="https://images.unsplash.com/photo-1667372531881-6f975b1c86db?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MjYzMTB8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post ddd" />&lt;h2 id="개요">&lt;a href="#%ea%b0%9c%ec%9a%94" class="header-anchor">&lt;/a>개요
+&lt;/h2>&lt;ul>
+&lt;li>예전에는 이렇게 &lt;code>참고문서&lt;/code>가 있어서, 이 문서를 참고하여 API를 가지고 왔습니다.&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="공공데이터포털_0.png" alt="공공데이터포털 과거ver" width="700" height="500" class="my-image">
+&lt;figcaption>&lt;cite>hwp 문서라니...^^..&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;ul>
+&lt;li>어느 시점부터 Swagger-UI 기반의 OpenAPI 제공이 되기 시작했습니다.&lt;br> 새로운 방식으로 API 호출하는 방법을 먼저 알아봅시다.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;h2 id="swagger-ui-기반-openapi-사용하기">&lt;a href="#swagger-ui-%ea%b8%b0%eb%b0%98-openapi-%ec%82%ac%ec%9a%a9%ed%95%98%ea%b8%b0" class="header-anchor">&lt;/a>Swagger-UI 기반 OpenAPI 사용하기
+&lt;/h2>&lt;h3 id="step-1-필요한-데이터-활용신청하기">&lt;a href="#step-1-%ed%95%84%ec%9a%94%ed%95%9c-%eb%8d%b0%ec%9d%b4%ed%84%b0-%ed%99%9c%ec%9a%a9%ec%8b%a0%ec%b2%ad%ed%95%98%ea%b8%b0" class="header-anchor">&lt;/a>Step 1: 필요한 데이터 활용신청하기
+&lt;/h3>&lt;ul>
+&lt;li>필요한 데이터를 검색하고, 해당 데이터를 클릭합니다.&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="공공데이터포털.png" alt="공공데이터포털" width="400" height="500" class="my-image">
+&lt;figcaption>&lt;cite>사용데이터&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;ul>
+&lt;li>클릭하면 &lt;code>데이터 상세&lt;/code>가 뜨는데, 아래 &lt;kbd>활용신청&lt;/kbd> 버튼을 클릭합니다.&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="공공데이터포털_1_2.png" alt="공공데이터포털" width="700" height="500" class="my-image">
+&lt;figcaption>&lt;cite>활용신청&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;ul>
+&lt;li>사유를 기재하는 칸이 나오게 되는데, 간단하게 사유를 기재해주면 됩니다. (자동승인이 됩니다.)&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;h3 id="step-2-인증키-확인하기">&lt;a href="#step-2-%ec%9d%b8%ec%a6%9d%ed%82%a4-%ed%99%95%ec%9d%b8%ed%95%98%ea%b8%b0" class="header-anchor">&lt;/a>Step 2: 인증키 확인하기
+&lt;/h3>&lt;ul>
+&lt;li>&lt;kbd>마이페이지 ▶ 데이터 활용 ▶ Open API ▶ 활용신청 현황&lt;/kbd>에서 활용신청한 데이터 목록을 확인할 수 있습니다.&lt;/li>
+&lt;li>확인하고자 하는&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="공공데이터포털_3.png" alt="공공데이터포털 인증키" width="600" height="500" class="my-image">
+&lt;figcaption>&lt;cite>인증키 목록&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;h2 id="필요한-라이브러리-호출">&lt;a href="#%ed%95%84%ec%9a%94%ed%95%9c-%eb%9d%bc%ec%9d%b4%eb%b8%8c%eb%9f%ac%eb%a6%ac-%ed%98%b8%ec%b6%9c" class="header-anchor">&lt;/a>필요한 라이브러리 호출
+&lt;/h2>&lt;head>
+&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/tomorrow-night-bright.min.css">
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js">&lt;/script>
+&lt;/head>
+&lt;pre>&lt;code class="python">
 import pandas as pd
 import requests
-
 import gspread
 from gspread_dataframe import set_with_dataframe
-
 from google.colab import auth
 auth.authenticate_user()
 creds, _ = default()
 gc = gspread.authorize(creds)
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;script&gt;hljs.highlightAll();&lt;/script&gt;
-&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;
-sheet = gc.open(&#39;Airport &amp; Airline codes&#39;)
-
-airline_sheet = sheet.worksheet(&#39;Airline&#39;)
-airport_sheet = sheet.worksheet(&#39;Airport&#39;)
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;script&gt;hljs.highlightAll();&lt;/script&gt;</description>
-        </item>
-        
-    </channel>
-</rss>
+&lt;/code>&lt;/pre>
+&lt;script>hljs.highlightAll();&lt;/script>
+&lt;pre>&lt;code class="python">
+sheet = gc.open('Airport &amp; Airline codes')
+airline_sheet = sheet.worksheet('Airline')
+airport_sheet = sheet.worksheet('Airport')
+&lt;/code>&lt;/pre>
+&lt;script>hljs.highlightAll();&lt;/script></description></item></channel></rss>

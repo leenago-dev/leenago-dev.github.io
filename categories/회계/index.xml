@@ -1,718 +1,662 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>회계 on 리나의 룸코너</title>
-        <link>https://blooming-daisy.github.io/categories/%ED%9A%8C%EA%B3%84/</link>
-        <description>Recent content in 회계 on 리나의 룸코너</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>ko-kr</language>
-        <copyright>Leena</copyright>
-        <lastBuildDate>Thu, 22 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blooming-daisy.github.io/categories/%ED%9A%8C%EA%B3%84/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>회계를 이해합시다 (5)</title>
-        <link>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-5/</link>
-        <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-5/</guid>
-        <description>&lt;img src="https://images.unsplash.com/photo-1636115798885-68e47c928729?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzNjkyNzF8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (5)" /&gt;&lt;h2 id=&#34;용어&#34;&gt;&lt;a href=&#34;#%ec%9a%a9%ec%96%b4&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;용어
-&lt;/h2&gt;&lt;h3 id=&#34;무형자산&#34;&gt;&lt;a href=&#34;#%eb%ac%b4%ed%98%95%ec%9e%90%ec%82%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;무형자산
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;기업이 보유한 자산 중,
-&lt;ul&gt;
-&lt;li&gt;① 형태는 없으나 그 자산을 소유함에 따라 미래 경제적 이익을 얻을 수 있고&lt;/li&gt;
-&lt;li&gt;② 취득에 발생하는 원가를 측정할 수 있는 것을 의미합니다. &lt;br&gt; ex) 상표권, 특허권, 사용권, 영업권, 개발비 등&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;https://images.unsplash.com/photo-1674978037981-fef8cbf2b3a2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzNjk1NzJ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp&#34; alt=&#34;나이키상표&#34; width=&#34;500&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;출처: Unsplash&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;상표권을 매입하는 이유는 해당 상표를 부착하여 수익창출을 하기 위함입니다. &lt;br&gt; (&lt;code&gt;수익창출&lt;/code&gt; &amp;gt; &lt;code&gt;상표사용권&lt;/code&gt;)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;무형자산도 유형자산과 마찬가지로 &lt;kbd&gt;상각&lt;/kbd&gt;이라는 회계처리를 하게 됩니다. (손상 발생)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;다만, 유형자산과 달리 무형자산은 시간이 지날수록 소모되어 가치가 하락하지 않으므로, &lt;code&gt;감가상각&lt;/code&gt;이란 용어가 100% 적합하지는 않습니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;무형자산은 다른 회사로부터 매입 혹은 특허/상표출원등록 후 수익활동에 사용할 수 있습니다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;상표권-매입-비용-처리&#34;&gt;&lt;a href=&#34;#%ec%83%81%ed%91%9c%ea%b6%8c-%eb%a7%a4%ec%9e%85-%eb%b9%84%ec%9a%a9-%ec%b2%98%eb%a6%ac&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;상표권 매입 비용 처리
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;상표권 매입 비용을 처리하기 위해서는&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;① 추정 내용연수를 설정한 후,&lt;/li&gt;
-&lt;li&gt;② 기간을 나누어 비용을 반영해야 합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;이는 상표권이 수익 창출에 기여할 수 있는 기간을 한정적으로 본다는 의미이기도 합니다. &lt;br&gt; (보통 5년에서 20년 사이입니다.)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ex) 상표권 추정 내용연수가 8년 = &amp;lsquo;8년동안 정액법으로 상각한다&amp;rsquo;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;외부에서 구입한 무형자산의 상각 시작 시점은, 이 상표권을 사용해서 제품을 생산/판매할 때부터입니다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;자산 상각은 자산을 통해 발생하는 수익(매출)에 대해 비용(감상비)을 대응하는 개념이기 때문입니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-</description>
-        </item>
-        <item>
-        <title>회계를 이해합시다 (4)</title>
-        <link>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-4/</link>
-        <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-4/</guid>
-        <description>&lt;img src="https://images.unsplash.com/photo-1636115880089-ca43aa5e39e8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1OTE5MzN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (4)" /&gt;&lt;h2 id=&#34;용어&#34;&gt;&lt;a href=&#34;#%ec%9a%a9%ec%96%b4&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;용어
-&lt;/h2&gt;&lt;h3 id=&#34;유형자산-손상회계&#34;&gt;&lt;a href=&#34;#%ec%9c%a0%ed%98%95%ec%9e%90%ec%82%b0-%ec%86%90%ec%83%81%ed%9a%8c%ea%b3%84&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;유형자산 손상회계
-&lt;/h3&gt;&lt;p&gt;
-&lt;h4 id=&#34;손상차손&#34;&gt;&lt;a href=&#34;#%ec%86%90%ec%83%81%ec%b0%a8%ec%86%90&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;손상차손
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;유형자산의 미래 가치가 장부에 있는 가치(가격)보다 &lt;strong&gt;현저하게 떨어진&lt;/strong&gt; 경우,&lt;br&gt; 재무제표에서 손실처리를 하는 것을 의미합니다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;자산의 가치가 급격히 하락하는 사례가 발생할 경우, 회사 장부에 반영을 해야 합니다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ex) 기계설비 파손, 시장 규제 등으로 인해 자산을 사용할 수 없어지게 된 경우&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;손상차손.png&#34; alt=&#34;손상차손&#34; width=&#34;500&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;손상차손 인식 예시&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;ul&gt;
-&lt;li&gt;하지만 시장 거래 가격이 하락했더라도, &lt;br&gt;&lt;mark&gt;그 자산이 회사에 가져다주는 이익이 더 큰 경우&lt;/mark&gt;에는 &lt;strong&gt;손상차손으로 인식을 하지 않습니다.&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;br&gt;
-&lt;p&gt;
-&lt;h3 id=&#34;손상차손-재무제표에-반영하기&#34;&gt;&lt;a href=&#34;#%ec%86%90%ec%83%81%ec%b0%a8%ec%86%90-%ec%9e%ac%eb%ac%b4%ec%a0%9c%ed%91%9c%ec%97%90-%eb%b0%98%ec%98%81%ed%95%98%ea%b8%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;손상차손 재무제표에 반영하기
-&lt;/h3&gt;&lt;h4 id=&#34;step-1-사용가치-계산&#34;&gt;&lt;a href=&#34;#step-1-%ec%82%ac%ec%9a%a9%ea%b0%80%ec%b9%98-%ea%b3%84%ec%82%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 1: 사용가치 계산
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;kbd&gt;사용가치&lt;/kbd&gt;는 유형자산으로 제품을 생산/판매하는 경우에 예상되는 현금흐름을 의미합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;step-2-공정가치매각가치-계산&#34;&gt;&lt;a href=&#34;#step-2-%ea%b3%b5%ec%a0%95%ea%b0%80%ec%b9%98%eb%a7%a4%ea%b0%81%ea%b0%80%ec%b9%98-%ea%b3%84%ec%82%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 2: 공정가치(=매각가치) 계산
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;kbd&gt;공정가치&lt;/kbd&gt;는 유형자산을 시장에 내다 팔 경우 받을 수 있는 금액을 말합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;step-3-회수가능금액-설정&#34;&gt;&lt;a href=&#34;#step-3-%ed%9a%8c%ec%88%98%ea%b0%80%eb%8a%a5%ea%b8%88%ec%95%a1-%ec%84%a4%ec%a0%95&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 3: 회수가능금액 설정
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;kbd&gt;사용가치&lt;/kbd&gt;와 &lt;kbd&gt;공정가치&lt;/kbd&gt; 중 &lt;mark&gt;높은 가격&lt;/mark&gt;을 회수가능금액으로 설정합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;step-4-장부가격-변경&#34;&gt;&lt;a href=&#34;#step-4-%ec%9e%a5%eb%b6%80%ea%b0%80%ea%b2%a9-%eb%b3%80%ea%b2%bd&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 4: 장부가격 변경
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;유형자산의 장부가격을 &lt;kbd&gt;회수가능금액&lt;/kbd&gt;으로 변경합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;step-5-손상차손-반영&#34;&gt;&lt;a href=&#34;#step-5-%ec%86%90%ec%83%81%ec%b0%a8%ec%86%90-%eb%b0%98%ec%98%81&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 5: 손상차손 반영
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;기존에 기재되어 있던 &lt;kbd&gt;장부가격&lt;/kbd&gt;과 &lt;kbd&gt;회수가능금액&lt;/kbd&gt;의 차액을 &lt;kbd&gt;손상차손&lt;/kbd&gt;으로 반영합니다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;이는 &lt;code&gt;영업외비용&lt;/code&gt;에 포함이 되어, &lt;code&gt;당기순이익&lt;/code&gt;에 영향을 미치게 됩니다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;유형자산-손상차손-반영-실제-예시&#34;&gt;&lt;a href=&#34;#%ec%9c%a0%ed%98%95%ec%9e%90%ec%82%b0-%ec%86%90%ec%83%81%ec%b0%a8%ec%86%90-%eb%b0%98%ec%98%81-%ec%8b%a4%ec%a0%9c-%ec%98%88%ec%8b%9c&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;유형자산 손상차손 반영 실제 예시
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;한국철강의 2017년 사업보고서를 보면, &lt;br&gt;갑자기 치솟은 기타비용으로 인해 당기순손실이 발생하였습니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;한국철강_1.png&#34; alt=&#34;손상차손&#34; width=&#34;500&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;한국철강 2017년 사업보고서 dart 공시 &lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;상세 내용을 확인해보니, &lt;code&gt;기계장치&lt;/code&gt; 부분에서 손상차손이 반영되어 있네요.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;한국철강_2.png&#34; alt=&#34;손상차손&#34; width=&#34;600&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;한국철강 2017년 사업보고서 dart 공시 &lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;이 부분과 관련된 주석을 확인해볼까요?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-    &lt;p&gt;회사의 철강사업 중 단조부문의 경기침체에 따른 영업손실로 인하여 &lt;br&gt;해당 공장에 속한 자산들의 &lt;strong&gt;회수가능액을 평가&lt;/strong&gt;하였으며, &lt;br&gt;&lt;mark&gt;장부금액과의 차이를 &lt;strong&gt;손상차손&lt;/strong&gt;으로 인식&lt;/mark&gt;하였습니다.&lt;br&gt; 손상차손 114,233백만원은 &lt;strong&gt;기타비용&lt;/strong&gt;으로 계상되었습니다.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;cite&gt;한국철강 2017년 사업보고서 dart 공시 재무제표 주석 中&lt;/cite&gt;&lt;/span&gt;&lt;/blockquote&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;건설중인자산&#34;&gt;&lt;a href=&#34;#%ea%b1%b4%ec%84%a4%ec%a4%91%ec%9d%b8%ec%9e%90%ec%82%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;건설중인자산
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;건설 중이거나 생산라인을 제작 중인 경우, &lt;strong&gt;건물&lt;/strong&gt;과 &lt;strong&gt;생산라인&lt;/strong&gt; 등을 유형자산으로 분류하고&lt;br&gt; 이를 &lt;kbd&gt;건설중인자산&lt;/kbd&gt;으로 귀속합니다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;건자의 가치에는 &lt;code&gt;투입 자재비&lt;/code&gt;, &lt;code&gt;기계구입금&lt;/code&gt;, &lt;code&gt;인건비&lt;/code&gt;, &lt;code&gt;토지비&lt;/code&gt;, &lt;code&gt;건설비용&lt;/code&gt; 등이 포함됩니다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;건설/제작이 완성되면 &lt;kbd&gt;건설중인자산&lt;/kbd&gt;은 건물/구축물/기계장치 등으로 다시 분류가 됩니다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;건자.png&#34; alt=&#34;건설중인자산&#34; width=&#34;500&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;건설중인자산 예시&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;hr&gt;
-</description>
-        </item>
-        <item>
-        <title>회계를 이해합시다 (3)</title>
-        <link>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-3/</link>
-        <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-3/</guid>
-        <description>&lt;img src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMyNzg4ODJ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (3)" /&gt;&lt;h2 id=&#34;용어&#34;&gt;&lt;a href=&#34;#%ec%9a%a9%ec%96%b4&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;용어
-&lt;/h2&gt;&lt;h3 id=&#34;감가와-감가상각비&#34;&gt;&lt;a href=&#34;#%ea%b0%90%ea%b0%80%ec%99%80-%ea%b0%90%ea%b0%80%ec%83%81%ea%b0%81%eb%b9%84&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;감가와 감가상각비
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;감가와 감가상각비를 알아보기 전에, 전제를 먼저 깔아봅시다.
-&lt;ul&gt;
-&lt;li&gt;&lt;kbd&gt;@재무상태표&lt;/kbd&gt;: 기계설비에 들어가는 현금 지출을 &lt;strong&gt;일시반영&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;kbd&gt;@손익계산서&lt;/kbd&gt;: 가치 감소분을 해마다 나누어 비용에 &lt;strong&gt;분할반영&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;kbd&gt;수익과 비용의 대응원칙&lt;/kbd&gt;: 유형자산이 창출하는 수익에 대응해 비용 처리를 하는 개념&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;감가&#34;&gt;&lt;a href=&#34;#%ea%b0%90%ea%b0%80&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;감가
-&lt;/h4&gt;&lt;p&gt;감가는 &lt;strong&gt;시간의 흐름&lt;/strong&gt;에 따라 &lt;strong&gt;유형자산의 가치가 감소&lt;/strong&gt;하는 것입니다.&lt;/p&gt;
-&lt;h4 id=&#34;감가상각비&#34;&gt;&lt;a href=&#34;#%ea%b0%90%ea%b0%80%ec%83%81%ea%b0%81%eb%b9%84&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;감가상각비
-&lt;/h4&gt;&lt;p&gt;감가상각비는 감가된만큼 매년 장부에서 가치를 하향조정하고,&lt;br&gt;가치 감소분을 비용으로 반영하는 것입니다.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;감가상각회계처리.png&#34; alt=&#34;감가상각&#34; width=&#34;500&#34; height=&#34;500&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;감가상각비 회계처리 예시&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;ex) 기계설비 2천만 원을 5년간 사용한다는 가정 시, &lt;br&gt;월 400만 원을 비용으로 반영&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;감가상각이 종료되면 장부 상 가격 및 감가상각비는 0원이 됩니다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;감가상각의-회계처리&#34;&gt;&lt;a href=&#34;#%ea%b0%90%ea%b0%80%ec%83%81%ea%b0%81%ec%9d%98-%ed%9a%8c%ea%b3%84%ec%b2%98%eb%a6%ac&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;감가상각의 회계처리
-&lt;/h3&gt;&lt;h4 id=&#34;step-1-내용연수&#34;&gt;&lt;a href=&#34;#step-1-%eb%82%b4%ec%9a%a9%ec%97%b0%ec%88%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 1: 내용연수
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;유형자산을 몇 년정도 사용할 수 있는지 지정하는 것입니다.&lt;/li&gt;
-&lt;li&gt;회계 상에서 유형자산의 사용 수명이라고 생각하시면 됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;step-2-잔존가치-설정&#34;&gt;&lt;a href=&#34;#step-2-%ec%9e%94%ec%a1%b4%ea%b0%80%ec%b9%98-%ec%84%a4%ec%a0%95&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 2: 잔존가치 설정
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;내용연수 기간 이후, 유형자산의 가치를 얼마로 볼지 정하는 것입니다.&lt;/li&gt;
-&lt;li&gt;회계처리만 종료 되었을 뿐, 기계는 그대로 사용할 수 있습니다.
-&lt;ul&gt;
-&lt;li&gt;그래서 감상비 반영은 안하면서 수익 창출 활동을 할 수 있기 때문에, 이익이 많이 발생할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;step-3-감가상각-방법-선택&#34;&gt;&lt;a href=&#34;#step-3-%ea%b0%90%ea%b0%80%ec%83%81%ea%b0%81-%eb%b0%a9%eb%b2%95-%ec%84%a0%ed%83%9d&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;Step 3: 감가상각 방법 선택
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;감가상각 방법에는 두 가지가 있습니다.
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;감가상각 방법&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;정액법&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;해마다 동일 &lt;strong&gt;금액&lt;/strong&gt;을 감가상각 처리&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;정률법&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;해마다 동일 &lt;strong&gt;비율&lt;/strong&gt;을 감가상각 처리&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-</description>
-        </item>
-        <item>
-        <title>회계를 이해합시다 (2)</title>
-        <link>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-2/</link>
-        <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-2/</guid>
-        <description>&lt;img src="https://images.unsplash.com/photo-1523839699072-5ec088b61a21?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwNzIzODN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (2)" /&gt;&lt;h2 id=&#34;복습&#34;&gt;&lt;a href=&#34;#%eb%b3%b5%ec%8a%b5&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;복습
-&lt;/h2&gt;&lt;h3 id=&#34;회계항등식&#34;&gt;&lt;a href=&#34;#%ed%9a%8c%ea%b3%84%ed%95%ad%eb%93%b1%ec%8b%9d&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;회계항등식
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;자산 = 부채 + 자본&lt;/strong&gt;&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;회계항등식.png&#34; alt=&#34;회계항등식&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;회계항등식&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;가장 기본이 되는 공식이므로, 꼭 알고 가야합니다.&lt;/p&gt;
-&lt;h4 id=&#34;아파트와-회계항등식&#34;&gt;&lt;a href=&#34;#%ec%95%84%ed%8c%8c%ed%8a%b8%ec%99%80-%ed%9a%8c%ea%b3%84%ed%95%ad%eb%93%b1%ec%8b%9d&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;아파트와 회계항등식
-&lt;/h4&gt;&lt;figure&gt;
-  &lt;img src=&#34;아파트와_회계항등식.png&#34; alt=&#34;아파트와 회계항등식&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;아파트와 회계항등식 간 관련성&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;자산&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;kbd&gt;자산&lt;/kbd&gt;은 나에게 &lt;mark&gt;경제적 효과 또는 이익을 가져다주는 것&lt;/mark&gt;입니다.&lt;/li&gt;
-&lt;li&gt;아파트가 가져다주는 경제적 효과 또는 이익은 크게 다음과 같습니다.
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;소유권&lt;/code&gt;, &lt;code&gt;월세&lt;/code&gt;, &lt;code&gt;매각대금&lt;/code&gt;
-&lt;ul&gt;
-&lt;li&gt;회계에서는 &lt;kbd&gt;소유권&lt;/kbd&gt;을 &lt;kbd&gt;배타적 통제권&lt;/kbd&gt;이라고 합니다.
-&lt;ul&gt;
-&lt;li&gt;소유권은 &amp;lsquo;나&amp;rsquo;만 가질 수 있는 것이기 때문에 그렇게 부르는 것으로 추측해봅니다!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;내가 실거주를 하게 되면 &lt;strong&gt;월세&lt;/strong&gt; 부담이 없고, 임대할 경우 &lt;strong&gt;임대 수익&lt;/strong&gt;이 발생합니다.&lt;/li&gt;
-&lt;li&gt;또한 아파트를 매매하는 경우, &lt;strong&gt;현금&lt;/strong&gt;이 발생하게 됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;부채&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;보통 대출을 일으켜 아파트를 구매합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;자본&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;자본은 아파트의 자산가치에서 대출을 뺀 금액입니다.&lt;/li&gt;
-&lt;li&gt;아파트의 자산가치 상승은 자본가치의 상승으로 연결됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;제품의-종류&#34;&gt;&lt;a href=&#34;#%ec%a0%9c%ed%92%88%ec%9d%98-%ec%a2%85%eb%a5%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;제품의 종류
-&lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;개념&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;제품&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;완성 후 판매 대기 상태&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;반제품&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;최종 완성은 아니지만, 그 상태로도 판매가 가능한 것&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;재공품&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;최종 완성이 아니고, 그 상태로 판매가 불가능한 것&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;미착품&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;구매했으나 아직 도착하지 않은 상품&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;용어&#34;&gt;&lt;a href=&#34;#%ec%9a%a9%ec%96%b4&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;용어
-&lt;/h2&gt;&lt;h3 id=&#34;유동자산-vs-비유동자산&#34;&gt;&lt;a href=&#34;#%ec%9c%a0%eb%8f%99%ec%9e%90%ec%82%b0-vs-%eb%b9%84%ec%9c%a0%eb%8f%99%ec%9e%90%ec%82%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;유동자산 vs 비유동자산
-&lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;비교&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;유동자산&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;- 재무상태표 기준일 시점에서, 1년 미만에 현금화가 가능하거나 만기가 도래하는 경우&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;비유동자산&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;재무상태표 기준일 시점에서, 1년 미만에 현금화가 가능하거나 만기가 도래하는 경우&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;ul&gt;
-&lt;li&gt;Dart에는 현금화 가능 기간이 짧은 순으로 고시하는데, 이를 &lt;kbd&gt; 유동성 배열법 &lt;/kbd&gt;이라고 합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;유동자산비유동자산.png&#34; alt=&#34;유동비유동자산&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;노랑풍선 2024년 1분기 dart 공시&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h3 id=&#34;업종에-따라-달라지는-자산의-구성&#34;&gt;&lt;a href=&#34;#%ec%97%85%ec%a2%85%ec%97%90-%eb%94%b0%eb%9d%bc-%eb%8b%ac%eb%9d%bc%ec%a7%80%eb%8a%94-%ec%9e%90%ec%82%b0%ec%9d%98-%ea%b5%ac%ec%84%b1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;업종에 따라 달라지는 자산의 구성
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;업종에 따라 자산의 구성은 달라집니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-&lt;h4 id=&#34;lg화학&#34;&gt;&lt;a href=&#34;#lg%ed%99%94%ed%95%99&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;LG화학
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;LG화학&lt;/strong&gt;은 석유화학/첨단소재/생명과학사업을 하고 있습니다. &lt;br&gt;이런 업종의 특성상, LG화학은 &lt;code&gt;기계&lt;/code&gt;, &lt;code&gt;차량운반구&lt;/code&gt;, &lt;code&gt;공기구&lt;/code&gt; 등의 유형자산을 보유하고 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;lg화학_유형자산.png&#34; alt=&#34;LG화학유형자산&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;LG화학 2024년 1분기 dart 공시&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;h4 id=&#34;호텔신라&#34;&gt;&lt;a href=&#34;#%ed%98%b8%ed%85%94%ec%8b%a0%eb%9d%bc&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;호텔신라
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;호텔신라&lt;/strong&gt;는 면세 및 여행사업을 하고 있습니다. &lt;br&gt; 호텔신라는 면세점, 호텔의 기반이 되는 &lt;code&gt;토지/건물&lt;/code&gt;, 그리고 호텔 객실에 들어가는 &lt;code&gt;가구집기비품&lt;/code&gt; 등의 유형자산을 보유하고 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;호텔신라_유형자산(취득원가).png&#34; alt=&#34;호텔신라유형자산&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;호텔신라 2024년 1분기 dart 공시&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;ul&gt;
-&lt;li&gt;호텔신라 재무제표를 보면, 재고자산 세부내역 중 &lt;code&gt;상품에 포함된 고객에서 상품을 회수할 권리&lt;/code&gt; 라는 내역이 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;호텔신라_재고자산.png&#34; alt=&#34;호텔신라재고자산&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;호텔신라 2024년 1분기 dart 공시&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;ul&gt;
-&lt;li&gt;반품이 예상되는 제품은 &lt;kbd&gt;환불부채&lt;/kbd&gt;로 인식을 하는데, &lt;br&gt; 그 중 기업이 고객으로부터 상품을 회수할 권리인 &lt;kbd&gt;반환제품회수권&lt;/kbd&gt;은 자산으로 인식합니다.&lt;/li&gt;
-&lt;li&gt;&lt;kbd&gt;반환제품회수권&lt;/kbd&gt;은 회수에 들어가는 원가와 반품 제품의 감가를 반영하여 측정합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;노랑풍선&#34;&gt;&lt;a href=&#34;#%eb%85%b8%eb%9e%91%ed%92%8d%ec%84%a0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;노랑풍선
-&lt;/h4&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;착한부채-선수금&#34;&gt;&lt;a href=&#34;#%ec%b0%a9%ed%95%9c%eb%b6%80%ec%b1%84-%ec%84%a0%ec%88%98%ea%b8%88&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;착한부채-선수금
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;회계에서 &lt;kbd&gt;부채(Liability)&lt;/kbd&gt;는 미래에 상환해야 하는 돈, 혹은 회사 소유의 자원을 사용해 &lt;strong&gt;이행해야 할 의무&lt;/strong&gt;입니다.
-&lt;ul&gt;
-&lt;li&gt;이런 관점에서 &lt;kbd&gt;선수금&lt;/kbd&gt;은 미래의 어느 시점에서는 자원이 사용되거나 인력이 투입되어야 하는 것이므로, &lt;strong&gt;부채&lt;/strong&gt;로 인식합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;개념&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;매입채무&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;제품 제조에 사용되는 부품, 원재료, 판매상품 등을 외상으로 구매한 경우 발생하는 부채&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;금융부채&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;은행 차입금, 회사채 발행 등으로 발생한 부채&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;미지급금&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;수수료, 용역비, 기계류 구매 대금을 아직 지급하지 않은 상태에서 발생하는 부채&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;선수금&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;제품/상품 납품이나 용역 제공을 약속하고 거래처로부터 대금을 미리 받은 상태&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;ul&gt;
-&lt;li&gt;선수금이 유입되면 현금(자산)이 증가하고, 부채에 선수금이 잡히게 됩니다.&lt;/li&gt;
-&lt;li&gt;약속한 재고자산을 납품하거나 용역을 제공하게 되면, &lt;br&gt;선수금 부채는 삭제되고 제품/상품/용역 매출이 발생하게 됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;선수금cycle.png&#34; alt=&#34;선수금cycle&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;선수금 cycle&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;부채-비교&#34;&gt;&lt;a href=&#34;#%eb%b6%80%ec%b1%84-%eb%b9%84%ea%b5%90&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;부채 비교
-&lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;개념&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;장단기차입금/외상매입금&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;일정 시기에 현금 상환 필요하며, 이자 비용 지출 = 손익 감소&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;선수금&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;재고자산 제공 시, 부채였던 선수금 내역이 사라지고 매출로 기록 = 기업 손익 好&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-</description>
-        </item>
-        <item>
-        <title>회계를 이해합시다 (1)</title>
-        <link>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-1/</link>
-        <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://blooming-daisy.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-1/</guid>
-        <description>&lt;img src="https://images.unsplash.com/photo-1706217803053-19efb3fb1ea3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI4NDk0NjZ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (1)" /&gt;&lt;h2 id=&#34;재무제표의-구성&#34;&gt;&lt;a href=&#34;#%ec%9e%ac%eb%ac%b4%ec%a0%9c%ed%91%9c%ec%9d%98-%ea%b5%ac%ec%84%b1&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;재무제표의 구성
-&lt;/h2&gt;&lt;p&gt;재무제표는 크게 다섯 part로 구성이 되어 있습니다.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;재무상태표 - &lt;em&gt;자산, 부채, 자본현황&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;손익계산서 - &lt;em&gt;매출, 영업이익, 당기순이익 등&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;자본변동표 - &lt;em&gt;자본금, 이익잉여금 등&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;현금흐름표 - &lt;em&gt;기업의 현금 보유/운용 현황&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;주석 - &lt;em&gt;관련 항목에 대한 상세 내용&lt;/em&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;용어&#34;&gt;&lt;a href=&#34;#%ec%9a%a9%ec%96%b4&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;용어
-&lt;/h2&gt;&lt;h3 id=&#34;재고자산&#34;&gt;&lt;a href=&#34;#%ec%9e%ac%ea%b3%a0%ec%9e%90%ec%82%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;재고자산
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;창고에 보관중인 제품/상품 외에, &lt;br&gt; 생산라인에서 막 생산 완료된 제품도 재고자산으로 인식합니다.&lt;/li&gt;
-&lt;li&gt;생산 시점 무관, &lt;mark&gt;판매 대기 제품&lt;/mark&gt;은 &lt;mark&gt;재고&lt;/mark&gt;로 인식합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;재고자산 상세&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;상품&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;외부에서 구매를 하여 다시 판매&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;제품&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;직접 제조하여 판매&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;제조 중인 제품&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;원재료&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;유형자산&#34;&gt;&lt;a href=&#34;#%ec%9c%a0%ed%98%95%ec%9e%90%ec%82%b0&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;유형자산
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;형태가 있는 자산으로, 기계설비 등이 이에 해당됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;손익거래와-비손익거래&#34;&gt;&lt;a href=&#34;#%ec%86%90%ec%9d%b5%ea%b1%b0%eb%9e%98%ec%99%80-%eb%b9%84%ec%86%90%ec%9d%b5%ea%b1%b0%eb%9e%98&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;손익거래와 비손익거래
-&lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;개념&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;예시&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;손익거래&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;자산/부채의 변화 有 → 자본 변화 有&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;재고 판매 &lt;em&gt;(재고자산 -)&lt;/em&gt; 후 이익이 발생 &lt;em&gt;(자본 +)&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;비손익거래&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;자산/부채의 변화 有 → 자본 변화 無&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;은행 대출&lt;br&gt;&lt;em&gt;(자산과 부채에만 영향)&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;📒&lt;strong&gt;Note&lt;/strong&gt; &lt;br&gt;
-손익이 발생하지 않는 거래 중, 자본에 변화가 생기는 경우도 있습니다. &lt;br&gt;
-&lt;em&gt;ex) 유상증자&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;손익계산서에서&#34;&gt;&lt;a href=&#34;#%ec%86%90%ec%9d%b5%ea%b3%84%ec%82%b0%ec%84%9c%ec%97%90%ec%84%9c&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;손익계산서에서&amp;hellip;
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;아래 둘은 &lt;kbd&gt;자본&lt;/kbd&gt; 항목으로 이동을 합니다.
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;개념&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;이익잉여금&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;이익이 발생한 경우/&lt;br&gt; 회사의 당기순이익을 해마다 자본에 누적한 수치&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;결손금&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;손실이 발생한 경우&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;수익-vs-이익&#34;&gt;&lt;a href=&#34;#%ec%88%98%ec%9d%b5-vs-%ec%9d%b4%ec%9d%b5&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;수익 vs 이익
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;회계에서는 &lt;kbd&gt;수익&lt;/kbd&gt;과 &lt;kbd&gt;이익&lt;/kbd&gt;을 다른 것으로 구분합니다.
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;개념&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;수익 (收益)&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;벌어들인 돈&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;이익 (利益)&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;남긴 돈&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;제조원가-vs-매출원가&#34;&gt;&lt;a href=&#34;#%ec%a0%9c%ec%a1%b0%ec%9b%90%ea%b0%80-vs-%eb%a7%a4%ec%b6%9c%ec%9b%90%ea%b0%80&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;제조원가 vs 매출원가
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;생산에 들어간 비용은 처음에 회사의 &lt;kbd&gt;자산&lt;/kbd&gt;으로 인식이 되었다가,&lt;br&gt; 판매가 되면 &lt;kbd&gt;매출원가&lt;/kbd&gt;로 전환이 됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;개념&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;제조원가&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;상품을 만드는 데 들어간 비용&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;매출원가&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;매출이 발생한 제품의 원가 &lt;br&gt; &lt;em&gt;(제품1개의 제조원가 X 판매 갯수)&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;ul&gt;
-&lt;li&gt;손익계산서에 &lt;kbd&gt;매출원가&lt;/kbd&gt;는 나와있지만, &lt;kbd&gt;제조원가&lt;/kbd&gt;는 나와있지 않습니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;인건비의-인식&#34;&gt;&lt;a href=&#34;#%ec%9d%b8%ea%b1%b4%eb%b9%84%ec%9d%98-%ec%9d%b8%ec%8b%9d&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;인건비의 인식
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;생산에 들어간 인건비 역시 처음에 회사의 &lt;kbd&gt;자산&lt;/kbd&gt;으로 인식이 되었다가,&lt;br&gt; 판매가 되면 &lt;kbd&gt;매출원가&lt;/kbd&gt;로 전환이 됩니다.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;구분&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;생산현장 인건비&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;제품 생산에 직접 투입이 되어 &lt;strong&gt;제조원가&lt;/strong&gt;로 인식&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;그 외 인건비&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;제품 생산에 직접 투입이 되지 않아 &lt;strong&gt;판매관리비&lt;/strong&gt;로 인식&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&amp;lt;비용의 성격별 분류&amp;gt;에는 &lt;kbd&gt;매출원가&lt;/kbd&gt;에 포함된 비용과 &lt;br&gt; &lt;kbd&gt;판관비&lt;/kbd&gt;로 포함된 비용이 합쳐져 있습니다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;비용의_성격별_분류.png&#34; alt=&#34;삼성전자 dart 공시&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;삼성전자 2024년 1분기 dart 공시&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;재고자산의-변동&#34;&gt;&lt;a href=&#34;#%ec%9e%ac%ea%b3%a0%ec%9e%90%ec%82%b0%ec%9d%98-%eb%b3%80%eb%8f%99&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;재고자산의 변동
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;kbd&gt;재고자산&lt;/kbd&gt;이 판매가 되어 &lt;kbd&gt;매출원가&lt;/kbd&gt;로 변동이 되었다는 의미입니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;재고자산의_변동.png&#34; alt=&#34;삼성전자 dart 공시&#34; width=&#34;550&#34; height=&#34;550&#34;  class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;삼성전자 2024년 1분기 dart 공시&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;호텔신라-재료비의-정체&#34;&gt;&lt;a href=&#34;#%ed%98%b8%ed%85%94%ec%8b%a0%eb%9d%bc-%ec%9e%ac%eb%a3%8c%eb%b9%84%ec%9d%98-%ec%a0%95%ec%b2%b4&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;호텔신라 &amp;lsquo;재료비&amp;rsquo;의 정체
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;호텔신라의 재무제표에는 &lt;kbd&gt;매출원가&lt;/kbd&gt;가 아닌 &lt;kbd&gt;재료비&lt;/kbd&gt;라는 항목이 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;호텔신라_재료비_손익계산서.png&#34; alt=&#34;호텔신라 dart 공시&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;호텔신라 2024년 1분기 dart 공시&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;ul&gt;
-&lt;li&gt;이 &lt;kbd&gt;재료비&lt;/kbd&gt;는 면세점 구매 상품 중 판매가 이루어진 상품에서 발생한 비용(매출원가)입니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;호텔신라_재료비_주석.png&#34; alt=&#34;호텔신라 dart 공시&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;호텔신라 2024년 1분기 dart 공시&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;게임업체의-지급수수료-정체&#34;&gt;&lt;a href=&#34;#%ea%b2%8c%ec%9e%84%ec%97%85%ec%b2%b4%ec%9d%98-%ec%a7%80%ea%b8%89%ec%88%98%ec%88%98%eb%a3%8c-%ec%a0%95%ec%b2%b4&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;게임업체의 &amp;lsquo;지급수수료&amp;rsquo; 정체
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;게임업체의 경우, 기존 업체들의 지급수수료에서 추가되는 항목들이 존재합니다.
-&lt;ul&gt;
-&lt;li&gt;기존 지급수수료: &lt;kbd&gt;감사/법률 자문료&lt;/kbd&gt;, &lt;kbd&gt;용역대금&lt;/kbd&gt;, &lt;kbd&gt;시스템 구축/운영비용&lt;/kbd&gt; 외&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&#34;게임업체_지급수수료.png&#34; alt=&#34;게임업체 지급수수료 추가&#34; width=&#34;550&#34; height=&#34;550&#34; class=&#34;my-image&#34;&gt;
-  &lt;figcaption&gt;&lt;cite&gt;게임업체의 지급수수료 추가 항목&lt;/cite&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;판매방식에-따라-달라지는-매출인식&#34;&gt;&lt;a href=&#34;#%ed%8c%90%eb%a7%a4%eb%b0%a9%ec%8b%9d%ec%97%90-%eb%94%b0%eb%9d%bc-%eb%8b%ac%eb%9d%bc%ec%a7%80%eb%8a%94-%eb%a7%a4%ec%b6%9c%ec%9d%b8%ec%8b%9d&#34; class=&#34;header-anchor&#34;&gt;&lt;/a&gt;판매방식에 따라 달라지는 매출인식
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;회계기준에서는 동일 상품이더라도 &lt;mark&gt;판매하는 방식에 따라 매출 인식이 달라집니다.&lt;/mark&gt;&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;구분&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;직매입 판매&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;판매 금액 전체&lt;/strong&gt;가 매출로 인식&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;입점업체 판매&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;일정 판매(거래)수수료&lt;/strong&gt;만 매출로 인식 &lt;br&gt; &lt;em&gt;(매출원가 無)&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;매출인식기준을 변경하게 될 경우, &lt;kbd&gt;성장 착시 현상&lt;/kbd&gt;이 발생하기도 합니다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-</description>
-        </item>
-        
-    </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>회계 on Leena's Dev Blog</title><link>https://leenago-dev.github.io/categories/%ED%9A%8C%EA%B3%84/</link><description>Recent content in 회계 on Leena's Dev Blog</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><copyright>Leena</copyright><lastBuildDate>Thu, 22 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://leenago-dev.github.io/categories/%ED%9A%8C%EA%B3%84/index.xml" rel="self" type="application/rss+xml"/><item><title>회계를 이해합시다 (5)</title><link>https://leenago-dev.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-5/</link><pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-5/</guid><description>&lt;img src="https://images.unsplash.com/photo-1636115798885-68e47c928729?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzNjkyNzF8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (5)" />&lt;h2 id="용어">&lt;a href="#%ec%9a%a9%ec%96%b4" class="header-anchor">&lt;/a>용어
+&lt;/h2>&lt;h3 id="무형자산">&lt;a href="#%eb%ac%b4%ed%98%95%ec%9e%90%ec%82%b0" class="header-anchor">&lt;/a>무형자산
+&lt;/h3>&lt;ul>
+&lt;li>기업이 보유한 자산 중,
+&lt;ul>
+&lt;li>① 형태는 없으나 그 자산을 소유함에 따라 미래 경제적 이익을 얻을 수 있고&lt;/li>
+&lt;li>② 취득에 발생하는 원가를 측정할 수 있는 것을 의미합니다. &lt;br> ex) 상표권, 특허권, 사용권, 영업권, 개발비 등&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="https://images.unsplash.com/photo-1674978037981-fef8cbf2b3a2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzNjk1NzJ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="나이키상표" width="500" height="500" class="my-image">
+&lt;figcaption>&lt;cite>출처: Unsplash&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;ul>
+&lt;li>
+&lt;p>상표권을 매입하는 이유는 해당 상표를 부착하여 수익창출을 하기 위함입니다. &lt;br> (&lt;code>수익창출&lt;/code> &amp;gt; &lt;code>상표사용권&lt;/code>)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>무형자산도 유형자산과 마찬가지로 &lt;kbd>상각&lt;/kbd>이라는 회계처리를 하게 됩니다. (손상 발생)&lt;/p>
+&lt;ul>
+&lt;li>다만, 유형자산과 달리 무형자산은 시간이 지날수록 소모되어 가치가 하락하지 않으므로, &lt;code>감가상각&lt;/code>이란 용어가 100% 적합하지는 않습니다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>무형자산은 다른 회사로부터 매입 혹은 특허/상표출원등록 후 수익활동에 사용할 수 있습니다.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="상표권-매입-비용-처리">&lt;a href="#%ec%83%81%ed%91%9c%ea%b6%8c-%eb%a7%a4%ec%9e%85-%eb%b9%84%ec%9a%a9-%ec%b2%98%eb%a6%ac" class="header-anchor">&lt;/a>상표권 매입 비용 처리
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>상표권 매입 비용을 처리하기 위해서는&lt;/p>
+&lt;ul>
+&lt;li>① 추정 내용연수를 설정한 후,&lt;/li>
+&lt;li>② 기간을 나누어 비용을 반영해야 합니다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>이는 상표권이 수익 창출에 기여할 수 있는 기간을 한정적으로 본다는 의미이기도 합니다. &lt;br> (보통 5년에서 20년 사이입니다.)&lt;/p>
+&lt;ul>
+&lt;li>ex) 상표권 추정 내용연수가 8년 = &amp;lsquo;8년동안 정액법으로 상각한다&amp;rsquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>외부에서 구입한 무형자산의 상각 시작 시점은, 이 상표권을 사용해서 제품을 생산/판매할 때부터입니다.&lt;/p>
+&lt;ul>
+&lt;li>자산 상각은 자산을 통해 발생하는 수익(매출)에 대해 비용(감상비)을 대응하는 개념이기 때문입니다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr></description></item><item><title>회계를 이해합시다 (4)</title><link>https://leenago-dev.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-4/</link><pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-4/</guid><description>&lt;img src="https://images.unsplash.com/photo-1636115880089-ca43aa5e39e8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1OTE5MzN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (4)" />&lt;h2 id="용어">&lt;a href="#%ec%9a%a9%ec%96%b4" class="header-anchor">&lt;/a>용어
+&lt;/h2>&lt;h3 id="유형자산-손상회계">&lt;a href="#%ec%9c%a0%ed%98%95%ec%9e%90%ec%82%b0-%ec%86%90%ec%83%81%ed%9a%8c%ea%b3%84" class="header-anchor">&lt;/a>유형자산 손상회계
+&lt;/h3>&lt;p>
+&lt;h4 id="손상차손">&lt;a href="#%ec%86%90%ec%83%81%ec%b0%a8%ec%86%90" class="header-anchor">&lt;/a>손상차손
+&lt;/h4>&lt;ul>
+&lt;li>
+&lt;p>유형자산의 미래 가치가 장부에 있는 가치(가격)보다 &lt;strong>현저하게 떨어진&lt;/strong> 경우,&lt;br> 재무제표에서 손실처리를 하는 것을 의미합니다.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>자산의 가치가 급격히 하락하는 사례가 발생할 경우, 회사 장부에 반영을 해야 합니다.&lt;/p>
+&lt;ul>
+&lt;li>ex) 기계설비 파손, 시장 규제 등으로 인해 자산을 사용할 수 없어지게 된 경우&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="손상차손.png" alt="손상차손" width="500" height="500" class="my-image">
+&lt;figcaption>&lt;cite>손상차손 인식 예시&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;ul>
+&lt;li>하지만 시장 거래 가격이 하락했더라도, &lt;br>&lt;mark>그 자산이 회사에 가져다주는 이익이 더 큰 경우&lt;/mark>에는 &lt;strong>손상차손으로 인식을 하지 않습니다.&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;br>
+&lt;p>
+&lt;h3 id="손상차손-재무제표에-반영하기">&lt;a href="#%ec%86%90%ec%83%81%ec%b0%a8%ec%86%90-%ec%9e%ac%eb%ac%b4%ec%a0%9c%ed%91%9c%ec%97%90-%eb%b0%98%ec%98%81%ed%95%98%ea%b8%b0" class="header-anchor">&lt;/a>손상차손 재무제표에 반영하기
+&lt;/h3>&lt;h4 id="step-1-사용가치-계산">&lt;a href="#step-1-%ec%82%ac%ec%9a%a9%ea%b0%80%ec%b9%98-%ea%b3%84%ec%82%b0" class="header-anchor">&lt;/a>Step 1: 사용가치 계산
+&lt;/h4>&lt;ul>
+&lt;li>&lt;kbd>사용가치&lt;/kbd>는 유형자산으로 제품을 생산/판매하는 경우에 예상되는 현금흐름을 의미합니다.&lt;/li>
+&lt;/ul>
+&lt;h4 id="step-2-공정가치매각가치-계산">&lt;a href="#step-2-%ea%b3%b5%ec%a0%95%ea%b0%80%ec%b9%98%eb%a7%a4%ea%b0%81%ea%b0%80%ec%b9%98-%ea%b3%84%ec%82%b0" class="header-anchor">&lt;/a>Step 2: 공정가치(=매각가치) 계산
+&lt;/h4>&lt;ul>
+&lt;li>&lt;kbd>공정가치&lt;/kbd>는 유형자산을 시장에 내다 팔 경우 받을 수 있는 금액을 말합니다.&lt;/li>
+&lt;/ul>
+&lt;h4 id="step-3-회수가능금액-설정">&lt;a href="#step-3-%ed%9a%8c%ec%88%98%ea%b0%80%eb%8a%a5%ea%b8%88%ec%95%a1-%ec%84%a4%ec%a0%95" class="header-anchor">&lt;/a>Step 3: 회수가능금액 설정
+&lt;/h4>&lt;ul>
+&lt;li>&lt;kbd>사용가치&lt;/kbd>와 &lt;kbd>공정가치&lt;/kbd> 중 &lt;mark>높은 가격&lt;/mark>을 회수가능금액으로 설정합니다.&lt;/li>
+&lt;/ul>
+&lt;h4 id="step-4-장부가격-변경">&lt;a href="#step-4-%ec%9e%a5%eb%b6%80%ea%b0%80%ea%b2%a9-%eb%b3%80%ea%b2%bd" class="header-anchor">&lt;/a>Step 4: 장부가격 변경
+&lt;/h4>&lt;ul>
+&lt;li>유형자산의 장부가격을 &lt;kbd>회수가능금액&lt;/kbd>으로 변경합니다.&lt;/li>
+&lt;/ul>
+&lt;h4 id="step-5-손상차손-반영">&lt;a href="#step-5-%ec%86%90%ec%83%81%ec%b0%a8%ec%86%90-%eb%b0%98%ec%98%81" class="header-anchor">&lt;/a>Step 5: 손상차손 반영
+&lt;/h4>&lt;ul>
+&lt;li>
+&lt;p>기존에 기재되어 있던 &lt;kbd>장부가격&lt;/kbd>과 &lt;kbd>회수가능금액&lt;/kbd>의 차액을 &lt;kbd>손상차손&lt;/kbd>으로 반영합니다.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>이는 &lt;code>영업외비용&lt;/code>에 포함이 되어, &lt;code>당기순이익&lt;/code>에 영향을 미치게 됩니다.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;br>
+&lt;h3 id="유형자산-손상차손-반영-실제-예시">&lt;a href="#%ec%9c%a0%ed%98%95%ec%9e%90%ec%82%b0-%ec%86%90%ec%83%81%ec%b0%a8%ec%86%90-%eb%b0%98%ec%98%81-%ec%8b%a4%ec%a0%9c-%ec%98%88%ec%8b%9c" class="header-anchor">&lt;/a>유형자산 손상차손 반영 실제 예시
+&lt;/h3>&lt;ul>
+&lt;li>한국철강의 2017년 사업보고서를 보면, &lt;br>갑자기 치솟은 기타비용으로 인해 당기순손실이 발생하였습니다.&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="한국철강_1.png" alt="손상차손" width="500" height="500" class="my-image">
+&lt;figcaption>&lt;cite>한국철강 2017년 사업보고서 dart 공시 &lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;br>
+&lt;ul>
+&lt;li>상세 내용을 확인해보니, &lt;code>기계장치&lt;/code> 부분에서 손상차손이 반영되어 있네요.&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="한국철강_2.png" alt="손상차손" width="600" height="500" class="my-image">
+&lt;figcaption>&lt;cite>한국철강 2017년 사업보고서 dart 공시 &lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;br>
+&lt;ul>
+&lt;li>이 부분과 관련된 주석을 확인해볼까요?&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>회사의 철강사업 중 단조부문의 경기침체에 따른 영업손실로 인하여 &lt;br>해당 공장에 속한 자산들의 &lt;strong>회수가능액을 평가&lt;/strong>하였으며, &lt;br>&lt;mark>장부금액과의 차이를 &lt;strong>손상차손&lt;/strong>으로 인식&lt;/mark>하였습니다.&lt;br> 손상차손 114,233백만원은 &lt;strong>기타비용&lt;/strong>으로 계상되었습니다.&lt;/p>&lt;span class="cite">&lt;span>― &lt;/span>&lt;cite>한국철강 2017년 사업보고서 dart 공시 재무제표 주석 中&lt;/cite>&lt;/span>&lt;/blockquote>
+&lt;br>
+&lt;h3 id="건설중인자산">&lt;a href="#%ea%b1%b4%ec%84%a4%ec%a4%91%ec%9d%b8%ec%9e%90%ec%82%b0" class="header-anchor">&lt;/a>건설중인자산
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>건설 중이거나 생산라인을 제작 중인 경우, &lt;strong>건물&lt;/strong>과 &lt;strong>생산라인&lt;/strong> 등을 유형자산으로 분류하고&lt;br> 이를 &lt;kbd>건설중인자산&lt;/kbd>으로 귀속합니다.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>건자의 가치에는 &lt;code>투입 자재비&lt;/code>, &lt;code>기계구입금&lt;/code>, &lt;code>인건비&lt;/code>, &lt;code>토지비&lt;/code>, &lt;code>건설비용&lt;/code> 등이 포함됩니다.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>건설/제작이 완성되면 &lt;kbd>건설중인자산&lt;/kbd>은 건물/구축물/기계장치 등으로 다시 분류가 됩니다.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="건자.png" alt="건설중인자산" width="500" height="500" class="my-image">
+&lt;figcaption>&lt;cite>건설중인자산 예시&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;hr></description></item><item><title>회계를 이해합시다 (3)</title><link>https://leenago-dev.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-3/</link><pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-3/</guid><description>&lt;img src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMyNzg4ODJ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (3)" />&lt;h2 id="용어">&lt;a href="#%ec%9a%a9%ec%96%b4" class="header-anchor">&lt;/a>용어
+&lt;/h2>&lt;h3 id="감가와-감가상각비">&lt;a href="#%ea%b0%90%ea%b0%80%ec%99%80-%ea%b0%90%ea%b0%80%ec%83%81%ea%b0%81%eb%b9%84" class="header-anchor">&lt;/a>감가와 감가상각비
+&lt;/h3>&lt;ul>
+&lt;li>감가와 감가상각비를 알아보기 전에, 전제를 먼저 깔아봅시다.
+&lt;ul>
+&lt;li>&lt;kbd>@재무상태표&lt;/kbd>: 기계설비에 들어가는 현금 지출을 &lt;strong>일시반영&lt;/strong>&lt;/li>
+&lt;li>&lt;kbd>@손익계산서&lt;/kbd>: 가치 감소분을 해마다 나누어 비용에 &lt;strong>분할반영&lt;/strong>
+&lt;ul>
+&lt;li>&lt;kbd>수익과 비용의 대응원칙&lt;/kbd>: 유형자산이 창출하는 수익에 대응해 비용 처리를 하는 개념&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="감가">&lt;a href="#%ea%b0%90%ea%b0%80" class="header-anchor">&lt;/a>감가
+&lt;/h4>&lt;p>감가는 &lt;strong>시간의 흐름&lt;/strong>에 따라 &lt;strong>유형자산의 가치가 감소&lt;/strong>하는 것입니다.&lt;/p>
+&lt;h4 id="감가상각비">&lt;a href="#%ea%b0%90%ea%b0%80%ec%83%81%ea%b0%81%eb%b9%84" class="header-anchor">&lt;/a>감가상각비
+&lt;/h4>&lt;p>감가상각비는 감가된만큼 매년 장부에서 가치를 하향조정하고,&lt;br>가치 감소분을 비용으로 반영하는 것입니다.&lt;/p>
+&lt;figure>
+&lt;img src="감가상각회계처리.png" alt="감가상각" width="500" height="500" class="my-image">
+&lt;figcaption>&lt;cite>감가상각비 회계처리 예시&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;ul>
+&lt;li>
+&lt;p>ex) 기계설비 2천만 원을 5년간 사용한다는 가정 시, &lt;br>월 400만 원을 비용으로 반영&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>감가상각이 종료되면 장부 상 가격 및 감가상각비는 0원이 됩니다.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="감가상각의-회계처리">&lt;a href="#%ea%b0%90%ea%b0%80%ec%83%81%ea%b0%81%ec%9d%98-%ed%9a%8c%ea%b3%84%ec%b2%98%eb%a6%ac" class="header-anchor">&lt;/a>감가상각의 회계처리
+&lt;/h3>&lt;h4 id="step-1-내용연수">&lt;a href="#step-1-%eb%82%b4%ec%9a%a9%ec%97%b0%ec%88%98" class="header-anchor">&lt;/a>Step 1: 내용연수
+&lt;/h4>&lt;ul>
+&lt;li>유형자산을 몇 년정도 사용할 수 있는지 지정하는 것입니다.&lt;/li>
+&lt;li>회계 상에서 유형자산의 사용 수명이라고 생각하시면 됩니다.&lt;/li>
+&lt;/ul>
+&lt;h4 id="step-2-잔존가치-설정">&lt;a href="#step-2-%ec%9e%94%ec%a1%b4%ea%b0%80%ec%b9%98-%ec%84%a4%ec%a0%95" class="header-anchor">&lt;/a>Step 2: 잔존가치 설정
+&lt;/h4>&lt;ul>
+&lt;li>내용연수 기간 이후, 유형자산의 가치를 얼마로 볼지 정하는 것입니다.&lt;/li>
+&lt;li>회계처리만 종료 되었을 뿐, 기계는 그대로 사용할 수 있습니다.
+&lt;ul>
+&lt;li>그래서 감상비 반영은 안하면서 수익 창출 활동을 할 수 있기 때문에, 이익이 많이 발생할 수 있습니다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="step-3-감가상각-방법-선택">&lt;a href="#step-3-%ea%b0%90%ea%b0%80%ec%83%81%ea%b0%81-%eb%b0%a9%eb%b2%95-%ec%84%a0%ed%83%9d" class="header-anchor">&lt;/a>Step 3: 감가상각 방법 선택
+&lt;/h4>&lt;ul>
+&lt;li>감가상각 방법에는 두 가지가 있습니다.
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">감가상각 방법&lt;/th>
+&lt;th style="text-align:center">설명&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">정액법&lt;/td>
+&lt;td style="text-align:center">해마다 동일 &lt;strong>금액&lt;/strong>을 감가상각 처리&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">정률법&lt;/td>
+&lt;td style="text-align:center">해마다 동일 &lt;strong>비율&lt;/strong>을 감가상각 처리&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/li>
+&lt;/ul>
+&lt;hr></description></item><item><title>회계를 이해합시다 (2)</title><link>https://leenago-dev.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-2/</link><pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-2/</guid><description>&lt;img src="https://images.unsplash.com/photo-1523839699072-5ec088b61a21?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwNzIzODN8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (2)" />&lt;h2 id="복습">&lt;a href="#%eb%b3%b5%ec%8a%b5" class="header-anchor">&lt;/a>복습
+&lt;/h2>&lt;h3 id="회계항등식">&lt;a href="#%ed%9a%8c%ea%b3%84%ed%95%ad%eb%93%b1%ec%8b%9d" class="header-anchor">&lt;/a>회계항등식
+&lt;/h3>&lt;p>&lt;strong>자산 = 부채 + 자본&lt;/strong>&lt;/p>
+&lt;figure>
+&lt;img src="회계항등식.png" alt="회계항등식" width="550" height="550" class="my-image">
+&lt;figcaption>&lt;cite>회계항등식&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;p>가장 기본이 되는 공식이므로, 꼭 알고 가야합니다.&lt;/p>
+&lt;h4 id="아파트와-회계항등식">&lt;a href="#%ec%95%84%ed%8c%8c%ed%8a%b8%ec%99%80-%ed%9a%8c%ea%b3%84%ed%95%ad%eb%93%b1%ec%8b%9d" class="header-anchor">&lt;/a>아파트와 회계항등식
+&lt;/h4>&lt;figure>
+&lt;img src="아파트와_회계항등식.png" alt="아파트와 회계항등식" width="550" height="550" class="my-image">
+&lt;figcaption>&lt;cite>아파트와 회계항등식 간 관련성&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;ol>
+&lt;li>
+&lt;p>자산&lt;/p>
+&lt;ul>
+&lt;li>&lt;kbd>자산&lt;/kbd>은 나에게 &lt;mark>경제적 효과 또는 이익을 가져다주는 것&lt;/mark>입니다.&lt;/li>
+&lt;li>아파트가 가져다주는 경제적 효과 또는 이익은 크게 다음과 같습니다.
+&lt;ul>
+&lt;li>&lt;code>소유권&lt;/code>, &lt;code>월세&lt;/code>, &lt;code>매각대금&lt;/code>
+&lt;ul>
+&lt;li>회계에서는 &lt;kbd>소유권&lt;/kbd>을 &lt;kbd>배타적 통제권&lt;/kbd>이라고 합니다.
+&lt;ul>
+&lt;li>소유권은 &amp;lsquo;나&amp;rsquo;만 가질 수 있는 것이기 때문에 그렇게 부르는 것으로 추측해봅니다!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>내가 실거주를 하게 되면 &lt;strong>월세&lt;/strong> 부담이 없고, 임대할 경우 &lt;strong>임대 수익&lt;/strong>이 발생합니다.&lt;/li>
+&lt;li>또한 아파트를 매매하는 경우, &lt;strong>현금&lt;/strong>이 발생하게 됩니다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>부채&lt;/p>
+&lt;ul>
+&lt;li>보통 대출을 일으켜 아파트를 구매합니다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>자본&lt;/p>
+&lt;ul>
+&lt;li>자본은 아파트의 자산가치에서 대출을 뺀 금액입니다.&lt;/li>
+&lt;li>아파트의 자산가치 상승은 자본가치의 상승으로 연결됩니다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="제품의-종류">&lt;a href="#%ec%a0%9c%ed%92%88%ec%9d%98-%ec%a2%85%eb%a5%98" class="header-anchor">&lt;/a>제품의 종류
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">개념&lt;/th>
+&lt;th style="text-align:center">설명&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">제품&lt;/td>
+&lt;td style="text-align:center">완성 후 판매 대기 상태&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">반제품&lt;/td>
+&lt;td style="text-align:center">최종 완성은 아니지만, 그 상태로도 판매가 가능한 것&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">재공품&lt;/td>
+&lt;td style="text-align:center">최종 완성이 아니고, 그 상태로 판매가 불가능한 것&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">미착품&lt;/td>
+&lt;td style="text-align:center">구매했으나 아직 도착하지 않은 상품&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;br>
+&lt;h2 id="용어">&lt;a href="#%ec%9a%a9%ec%96%b4" class="header-anchor">&lt;/a>용어
+&lt;/h2>&lt;h3 id="유동자산-vs-비유동자산">&lt;a href="#%ec%9c%a0%eb%8f%99%ec%9e%90%ec%82%b0-vs-%eb%b9%84%ec%9c%a0%eb%8f%99%ec%9e%90%ec%82%b0" class="header-anchor">&lt;/a>유동자산 vs 비유동자산
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">비교&lt;/th>
+&lt;th style="text-align:center">설명&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">유동자산&lt;/td>
+&lt;td style="text-align:center">- 재무상태표 기준일 시점에서, 1년 미만에 현금화가 가능하거나 만기가 도래하는 경우&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">비유동자산&lt;/td>
+&lt;td style="text-align:center">재무상태표 기준일 시점에서, 1년 미만에 현금화가 가능하거나 만기가 도래하는 경우&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>Dart에는 현금화 가능 기간이 짧은 순으로 고시하는데, 이를 &lt;kbd> 유동성 배열법 &lt;/kbd>이라고 합니다.&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="유동자산비유동자산.png" alt="유동비유동자산" width="550" height="550" class="my-image">
+&lt;figcaption>&lt;cite>노랑풍선 2024년 1분기 dart 공시&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;h3 id="업종에-따라-달라지는-자산의-구성">&lt;a href="#%ec%97%85%ec%a2%85%ec%97%90-%eb%94%b0%eb%9d%bc-%eb%8b%ac%eb%9d%bc%ec%a7%80%eb%8a%94-%ec%9e%90%ec%82%b0%ec%9d%98-%ea%b5%ac%ec%84%b1" class="header-anchor">&lt;/a>업종에 따라 달라지는 자산의 구성
+&lt;/h3>&lt;ul>
+&lt;li>업종에 따라 자산의 구성은 달라집니다.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;h4 id="lg화학">&lt;a href="#lg%ed%99%94%ed%95%99" class="header-anchor">&lt;/a>LG화학
+&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>LG화학&lt;/strong>은 석유화학/첨단소재/생명과학사업을 하고 있습니다. &lt;br>이런 업종의 특성상, LG화학은 &lt;code>기계&lt;/code>, &lt;code>차량운반구&lt;/code>, &lt;code>공기구&lt;/code> 등의 유형자산을 보유하고 있습니다.&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="lg화학_유형자산.png" alt="LG화학유형자산" width="550" height="550" class="my-image">
+&lt;figcaption>&lt;cite>LG화학 2024년 1분기 dart 공시&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;h4 id="호텔신라">&lt;a href="#%ed%98%b8%ed%85%94%ec%8b%a0%eb%9d%bc" class="header-anchor">&lt;/a>호텔신라
+&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>호텔신라&lt;/strong>는 면세 및 여행사업을 하고 있습니다. &lt;br> 호텔신라는 면세점, 호텔의 기반이 되는 &lt;code>토지/건물&lt;/code>, 그리고 호텔 객실에 들어가는 &lt;code>가구집기비품&lt;/code> 등의 유형자산을 보유하고 있습니다.&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="호텔신라_유형자산(취득원가).png" alt="호텔신라유형자산" width="550" height="550" class="my-image">
+&lt;figcaption>&lt;cite>호텔신라 2024년 1분기 dart 공시&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;ul>
+&lt;li>호텔신라 재무제표를 보면, 재고자산 세부내역 중 &lt;code>상품에 포함된 고객에서 상품을 회수할 권리&lt;/code> 라는 내역이 있습니다.&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="호텔신라_재고자산.png" alt="호텔신라재고자산" width="550" height="550" class="my-image">
+&lt;figcaption>&lt;cite>호텔신라 2024년 1분기 dart 공시&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;ul>
+&lt;li>반품이 예상되는 제품은 &lt;kbd>환불부채&lt;/kbd>로 인식을 하는데, &lt;br> 그 중 기업이 고객으로부터 상품을 회수할 권리인 &lt;kbd>반환제품회수권&lt;/kbd>은 자산으로 인식합니다.&lt;/li>
+&lt;li>&lt;kbd>반환제품회수권&lt;/kbd>은 회수에 들어가는 원가와 반품 제품의 감가를 반영하여 측정합니다.&lt;/li>
+&lt;/ul>
+&lt;h4 id="노랑풍선">&lt;a href="#%eb%85%b8%eb%9e%91%ed%92%8d%ec%84%a0" class="header-anchor">&lt;/a>노랑풍선
+&lt;/h4>&lt;/p>
+&lt;br>
+&lt;h3 id="착한부채-선수금">&lt;a href="#%ec%b0%a9%ed%95%9c%eb%b6%80%ec%b1%84-%ec%84%a0%ec%88%98%ea%b8%88" class="header-anchor">&lt;/a>착한부채-선수금
+&lt;/h3>&lt;ul>
+&lt;li>회계에서 &lt;kbd>부채(Liability)&lt;/kbd>는 미래에 상환해야 하는 돈, 혹은 회사 소유의 자원을 사용해 &lt;strong>이행해야 할 의무&lt;/strong>입니다.
+&lt;ul>
+&lt;li>이런 관점에서 &lt;kbd>선수금&lt;/kbd>은 미래의 어느 시점에서는 자원이 사용되거나 인력이 투입되어야 하는 것이므로, &lt;strong>부채&lt;/strong>로 인식합니다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">개념&lt;/th>
+&lt;th style="text-align:center">설명&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">매입채무&lt;/td>
+&lt;td style="text-align:center">제품 제조에 사용되는 부품, 원재료, 판매상품 등을 외상으로 구매한 경우 발생하는 부채&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">금융부채&lt;/td>
+&lt;td style="text-align:center">은행 차입금, 회사채 발행 등으로 발생한 부채&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">미지급금&lt;/td>
+&lt;td style="text-align:center">수수료, 용역비, 기계류 구매 대금을 아직 지급하지 않은 상태에서 발생하는 부채&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">선수금&lt;/td>
+&lt;td style="text-align:center">제품/상품 납품이나 용역 제공을 약속하고 거래처로부터 대금을 미리 받은 상태&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>선수금이 유입되면 현금(자산)이 증가하고, 부채에 선수금이 잡히게 됩니다.&lt;/li>
+&lt;li>약속한 재고자산을 납품하거나 용역을 제공하게 되면, &lt;br>선수금 부채는 삭제되고 제품/상품/용역 매출이 발생하게 됩니다.&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="선수금cycle.png" alt="선수금cycle" width="550" height="550" class="my-image">
+&lt;figcaption>&lt;cite>선수금 cycle&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;br>
+&lt;h3 id="부채-비교">&lt;a href="#%eb%b6%80%ec%b1%84-%eb%b9%84%ea%b5%90" class="header-anchor">&lt;/a>부채 비교
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">개념&lt;/th>
+&lt;th style="text-align:center">설명&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">장단기차입금/외상매입금&lt;/td>
+&lt;td style="text-align:center">일정 시기에 현금 상환 필요하며, 이자 비용 지출 = 손익 감소&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">선수금&lt;/td>
+&lt;td style="text-align:center">재고자산 제공 시, 부채였던 선수금 내역이 사라지고 매출로 기록 = 기업 손익 好&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr></description></item><item><title>회계를 이해합시다 (1)</title><link>https://leenago-dev.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-1/</link><pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/%ED%9A%8C%EA%B3%84%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%A9%EC%8B%9C%EB%8B%A4-1/</guid><description>&lt;img src="https://images.unsplash.com/photo-1706217803053-19efb3fb1ea3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI4NDk0NjZ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 회계를 이해합시다 (1)" />&lt;h2 id="재무제표의-구성">&lt;a href="#%ec%9e%ac%eb%ac%b4%ec%a0%9c%ed%91%9c%ec%9d%98-%ea%b5%ac%ec%84%b1" class="header-anchor">&lt;/a>재무제표의 구성
+&lt;/h2>&lt;p>재무제표는 크게 다섯 part로 구성이 되어 있습니다.&lt;/p>
+&lt;ol>
+&lt;li>재무상태표 - &lt;em>자산, 부채, 자본현황&lt;/em>&lt;/li>
+&lt;li>손익계산서 - &lt;em>매출, 영업이익, 당기순이익 등&lt;/em>&lt;/li>
+&lt;li>자본변동표 - &lt;em>자본금, 이익잉여금 등&lt;/em>&lt;/li>
+&lt;li>현금흐름표 - &lt;em>기업의 현금 보유/운용 현황&lt;/em>&lt;/li>
+&lt;li>주석 - &lt;em>관련 항목에 대한 상세 내용&lt;/em>&lt;/li>
+&lt;/ol>
+&lt;br>
+&lt;h2 id="용어">&lt;a href="#%ec%9a%a9%ec%96%b4" class="header-anchor">&lt;/a>용어
+&lt;/h2>&lt;h3 id="재고자산">&lt;a href="#%ec%9e%ac%ea%b3%a0%ec%9e%90%ec%82%b0" class="header-anchor">&lt;/a>재고자산
+&lt;/h3>&lt;ul>
+&lt;li>창고에 보관중인 제품/상품 외에, &lt;br> 생산라인에서 막 생산 완료된 제품도 재고자산으로 인식합니다.&lt;/li>
+&lt;li>생산 시점 무관, &lt;mark>판매 대기 제품&lt;/mark>은 &lt;mark>재고&lt;/mark>로 인식합니다.&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">재고자산 상세&lt;/th>
+&lt;th style="text-align:center">설명&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">상품&lt;/td>
+&lt;td style="text-align:center">외부에서 구매를 하여 다시 판매&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">제품&lt;/td>
+&lt;td style="text-align:center">직접 제조하여 판매&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">제조 중인 제품&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">원재료&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="유형자산">&lt;a href="#%ec%9c%a0%ed%98%95%ec%9e%90%ec%82%b0" class="header-anchor">&lt;/a>유형자산
+&lt;/h3>&lt;ul>
+&lt;li>형태가 있는 자산으로, 기계설비 등이 이에 해당됩니다.&lt;/li>
+&lt;/ul>
+&lt;br>
+&lt;h3 id="손익거래와-비손익거래">&lt;a href="#%ec%86%90%ec%9d%b5%ea%b1%b0%eb%9e%98%ec%99%80-%eb%b9%84%ec%86%90%ec%9d%b5%ea%b1%b0%eb%9e%98" class="header-anchor">&lt;/a>손익거래와 비손익거래
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">개념&lt;/th>
+&lt;th style="text-align:center">설명&lt;/th>
+&lt;th style="text-align:center">예시&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">손익거래&lt;/td>
+&lt;td style="text-align:center">자산/부채의 변화 有 → 자본 변화 有&lt;/td>
+&lt;td style="text-align:center">재고 판매 &lt;em>(재고자산 -)&lt;/em> 후 이익이 발생 &lt;em>(자본 +)&lt;/em>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">비손익거래&lt;/td>
+&lt;td style="text-align:center">자산/부채의 변화 有 → 자본 변화 無&lt;/td>
+&lt;td style="text-align:center">은행 대출&lt;br>&lt;em>(자산과 부채에만 영향)&lt;/em>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;blockquote>
+&lt;p>📒&lt;strong>Note&lt;/strong> &lt;br>
+손익이 발생하지 않는 거래 중, 자본에 변화가 생기는 경우도 있습니다. &lt;br>
+&lt;em>ex) 유상증자&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;/blockquote>
+&lt;br>
+&lt;h3 id="손익계산서에서">&lt;a href="#%ec%86%90%ec%9d%b5%ea%b3%84%ec%82%b0%ec%84%9c%ec%97%90%ec%84%9c" class="header-anchor">&lt;/a>손익계산서에서&amp;hellip;
+&lt;/h3>&lt;ul>
+&lt;li>아래 둘은 &lt;kbd>자본&lt;/kbd> 항목으로 이동을 합니다.
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">개념&lt;/th>
+&lt;th style="text-align:center">설명&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">이익잉여금&lt;/td>
+&lt;td style="text-align:center">이익이 발생한 경우/&lt;br> 회사의 당기순이익을 해마다 자본에 누적한 수치&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">결손금&lt;/td>
+&lt;td style="text-align:center">손실이 발생한 경우&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/li>
+&lt;/ul>
+&lt;br>
+&lt;h3 id="수익-vs-이익">&lt;a href="#%ec%88%98%ec%9d%b5-vs-%ec%9d%b4%ec%9d%b5" class="header-anchor">&lt;/a>수익 vs 이익
+&lt;/h3>&lt;ul>
+&lt;li>회계에서는 &lt;kbd>수익&lt;/kbd>과 &lt;kbd>이익&lt;/kbd>을 다른 것으로 구분합니다.
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">개념&lt;/th>
+&lt;th style="text-align:center">설명&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">수익 (收益)&lt;/td>
+&lt;td style="text-align:center">벌어들인 돈&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">이익 (利益)&lt;/td>
+&lt;td style="text-align:center">남긴 돈&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/li>
+&lt;/ul>
+&lt;br>
+&lt;h3 id="제조원가-vs-매출원가">&lt;a href="#%ec%a0%9c%ec%a1%b0%ec%9b%90%ea%b0%80-vs-%eb%a7%a4%ec%b6%9c%ec%9b%90%ea%b0%80" class="header-anchor">&lt;/a>제조원가 vs 매출원가
+&lt;/h3>&lt;ul>
+&lt;li>생산에 들어간 비용은 처음에 회사의 &lt;kbd>자산&lt;/kbd>으로 인식이 되었다가,&lt;br> 판매가 되면 &lt;kbd>매출원가&lt;/kbd>로 전환이 됩니다.&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">개념&lt;/th>
+&lt;th style="text-align:center">설명&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">제조원가&lt;/td>
+&lt;td style="text-align:center">상품을 만드는 데 들어간 비용&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">매출원가&lt;/td>
+&lt;td style="text-align:center">매출이 발생한 제품의 원가 &lt;br> &lt;em>(제품1개의 제조원가 X 판매 갯수)&lt;/em>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>손익계산서에 &lt;kbd>매출원가&lt;/kbd>는 나와있지만, &lt;kbd>제조원가&lt;/kbd>는 나와있지 않습니다.&lt;/li>
+&lt;/ul>
+&lt;br>
+&lt;h3 id="인건비의-인식">&lt;a href="#%ec%9d%b8%ea%b1%b4%eb%b9%84%ec%9d%98-%ec%9d%b8%ec%8b%9d" class="header-anchor">&lt;/a>인건비의 인식
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>생산에 들어간 인건비 역시 처음에 회사의 &lt;kbd>자산&lt;/kbd>으로 인식이 되었다가,&lt;br> 판매가 되면 &lt;kbd>매출원가&lt;/kbd>로 전환이 됩니다.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">구분&lt;/th>
+&lt;th style="text-align:center">설명&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">생산현장 인건비&lt;/td>
+&lt;td style="text-align:center">제품 생산에 직접 투입이 되어 &lt;strong>제조원가&lt;/strong>로 인식&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">그 외 인건비&lt;/td>
+&lt;td style="text-align:center">제품 생산에 직접 투입이 되지 않아 &lt;strong>판매관리비&lt;/strong>로 인식&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/li>
+&lt;li>
+&lt;p>&amp;lt;비용의 성격별 분류&amp;gt;에는 &lt;kbd>매출원가&lt;/kbd>에 포함된 비용과 &lt;br> &lt;kbd>판관비&lt;/kbd>로 포함된 비용이 합쳐져 있습니다.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="비용의_성격별_분류.png" alt="삼성전자 dart 공시" width="550" height="550" class="my-image">
+&lt;figcaption>&lt;cite>삼성전자 2024년 1분기 dart 공시&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;br>
+&lt;h3 id="재고자산의-변동">&lt;a href="#%ec%9e%ac%ea%b3%a0%ec%9e%90%ec%82%b0%ec%9d%98-%eb%b3%80%eb%8f%99" class="header-anchor">&lt;/a>재고자산의 변동
+&lt;/h3>&lt;ul>
+&lt;li>&lt;kbd>재고자산&lt;/kbd>이 판매가 되어 &lt;kbd>매출원가&lt;/kbd>로 변동이 되었다는 의미입니다.&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="재고자산의_변동.png" alt="삼성전자 dart 공시" width="550" height="550" class="my-image">
+&lt;figcaption>&lt;cite>삼성전자 2024년 1분기 dart 공시&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;br>
+&lt;h3 id="호텔신라-재료비의-정체">&lt;a href="#%ed%98%b8%ed%85%94%ec%8b%a0%eb%9d%bc-%ec%9e%ac%eb%a3%8c%eb%b9%84%ec%9d%98-%ec%a0%95%ec%b2%b4" class="header-anchor">&lt;/a>호텔신라 &amp;lsquo;재료비&amp;rsquo;의 정체
+&lt;/h3>&lt;ul>
+&lt;li>호텔신라의 재무제표에는 &lt;kbd>매출원가&lt;/kbd>가 아닌 &lt;kbd>재료비&lt;/kbd>라는 항목이 있습니다.&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="호텔신라_재료비_손익계산서.png" alt="호텔신라 dart 공시" width="550" height="550" class="my-image">
+&lt;figcaption>&lt;cite>호텔신라 2024년 1분기 dart 공시&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;ul>
+&lt;li>이 &lt;kbd>재료비&lt;/kbd>는 면세점 구매 상품 중 판매가 이루어진 상품에서 발생한 비용(매출원가)입니다.&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="호텔신라_재료비_주석.png" alt="호텔신라 dart 공시" width="550" height="550" class="my-image">
+&lt;figcaption>&lt;cite>호텔신라 2024년 1분기 dart 공시&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;br>
+&lt;h3 id="게임업체의-지급수수료-정체">&lt;a href="#%ea%b2%8c%ec%9e%84%ec%97%85%ec%b2%b4%ec%9d%98-%ec%a7%80%ea%b8%89%ec%88%98%ec%88%98%eb%a3%8c-%ec%a0%95%ec%b2%b4" class="header-anchor">&lt;/a>게임업체의 &amp;lsquo;지급수수료&amp;rsquo; 정체
+&lt;/h3>&lt;ul>
+&lt;li>게임업체의 경우, 기존 업체들의 지급수수료에서 추가되는 항목들이 존재합니다.
+&lt;ul>
+&lt;li>기존 지급수수료: &lt;kbd>감사/법률 자문료&lt;/kbd>, &lt;kbd>용역대금&lt;/kbd>, &lt;kbd>시스템 구축/운영비용&lt;/kbd> 외&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="게임업체_지급수수료.png" alt="게임업체 지급수수료 추가" width="550" height="550" class="my-image">
+&lt;figcaption>&lt;cite>게임업체의 지급수수료 추가 항목&lt;/cite>&lt;/figcaption>
+&lt;/figure>
+&lt;br>
+&lt;h3 id="판매방식에-따라-달라지는-매출인식">&lt;a href="#%ed%8c%90%eb%a7%a4%eb%b0%a9%ec%8b%9d%ec%97%90-%eb%94%b0%eb%9d%bc-%eb%8b%ac%eb%9d%bc%ec%a7%80%eb%8a%94-%eb%a7%a4%ec%b6%9c%ec%9d%b8%ec%8b%9d" class="header-anchor">&lt;/a>판매방식에 따라 달라지는 매출인식
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>회계기준에서는 동일 상품이더라도 &lt;mark>판매하는 방식에 따라 매출 인식이 달라집니다.&lt;/mark>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">구분&lt;/th>
+&lt;th style="text-align:center">설명&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">직매입 판매&lt;/td>
+&lt;td style="text-align:center">&lt;strong>판매 금액 전체&lt;/strong>가 매출로 인식&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">입점업체 판매&lt;/td>
+&lt;td style="text-align:center">&lt;strong>일정 판매(거래)수수료&lt;/strong>만 매출로 인식 &lt;br> &lt;em>(매출원가 無)&lt;/em>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/li>
+&lt;li>
+&lt;p>매출인식기준을 변경하게 될 경우, &lt;kbd>성장 착시 현상&lt;/kbd>이 발생하기도 합니다.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr></description></item></channel></rss>
