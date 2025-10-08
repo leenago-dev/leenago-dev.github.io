@@ -1,21 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Leena's Dev Blog</title><link>https://leenago-dev.github.io/categories/blog/</link><description>Recent content in Blog on Leena's Dev Blog</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><copyright>Leena</copyright><lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://leenago-dev.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>github블로그 &amp; Obsidian 연동</title><link>https://leenago-dev.github.io/p/github%EB%B8%94%EB%A1%9C%EA%B7%B8-obsidian-%EC%97%B0%EB%8F%99/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/github%EB%B8%94%EB%A1%9C%EA%B7%B8-obsidian-%EC%97%B0%EB%8F%99/</guid><description>&lt;img src="https://images.unsplash.com/photo-1742402983116-190c24ecc181?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4OTU2NTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post github블로그 &amp; Obsidian 연동" />&lt;h2 id="왜-github-블로그를-다시-살리게-되었을까">&lt;a href="#%ec%99%9c-github-%eb%b8%94%eb%a1%9c%ea%b7%b8%eb%a5%bc-%eb%8b%a4%ec%8b%9c-%ec%82%b4%eb%a6%ac%ea%b2%8c-%eb%90%98%ec%97%88%ec%9d%84%ea%b9%8c" class="header-anchor">&lt;/a>왜 github 블로그를 다시 살리게 되었을까?
-&lt;/h2>&lt;p>2024년에 열심히 만들어뒀다가, 결국은 오랫동안 사용하지 않았던 나의 github 블로그.
-항상 &amp;lsquo;써야지~&amp;rsquo; 말만 했을 뿐, 실행으로 옮기지는 못하고 있었어요.&lt;/p>
-&lt;p>그러다가 우연한 기회로 회사에서 **&lt;mark>AI Proudct Engineer&lt;/mark>로서 일할 수 있는 기회를 얻게 되었어요.
-예전에 Python을 배운 가닥(?)이 있어서 이 기회를 잡을 수 있게 됐답니다.&lt;/p>
-&lt;p>AI의 도움을 받아 프로젝트 하나를 소소하게 완성 시켰는데,
-그간 겪은 시행착오를 꼭 글로 남겨야겠단 생각이 들었어요.&lt;/p>
-&lt;h2 id="obsidian이랑-연동을-한-이유">&lt;a href="#obsidian%ec%9d%b4%eb%9e%91-%ec%97%b0%eb%8f%99%ec%9d%84-%ed%95%9c-%ec%9d%b4%ec%9c%a0" class="header-anchor">&lt;/a>Obsidian이랑 연동을 한 이유?
-&lt;/h2>&lt;h4 id="youtube">&lt;a href="#youtube" class="header-anchor">&lt;/a>YouTube
-&lt;/h4>&lt;div class="video-wrapper">
-&lt;iframe loading="lazy"
-src="https://www.youtube.com/embed/8wT0ovsaaoc"
-allowfullscreen
-title="YouTube Video"
->
-&lt;/iframe>
-&lt;/div>
-&lt;br></description></item><item><title>github blog에 lyket 적용</title><link>https://leenago-dev.github.io/p/github-blog%EC%97%90-lyket-%EC%A0%81%EC%9A%A9/</link><pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/github-blog%EC%97%90-lyket-%EC%A0%81%EC%9A%A9/</guid><description>&lt;img src="https://images.unsplash.com/photo-1654220669943-0069bb3447f6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTg3OTF8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post github blog에 lyket 적용" />&lt;p>github 블로그를 개설하면서,&lt;br>&lt;code>giscus&lt;/code> 를 추가했습니다.&lt;br> &lt;em>(블로그에도 소통창구가 필요하기 때문에..!)&lt;/em>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Leena's Dev Blog</title><link>https://leenago-dev.github.io/categories/blog/</link><description>Recent content in Blog on Leena's Dev Blog</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><copyright>Leena</copyright><lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://leenago-dev.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>github blog에 lyket 적용</title><link>https://leenago-dev.github.io/p/github-blog%EC%97%90-lyket-%EC%A0%81%EC%9A%A9/</link><pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/github-blog%EC%97%90-lyket-%EC%A0%81%EC%9A%A9/</guid><description>&lt;img src="https://images.unsplash.com/photo-1654220669943-0069bb3447f6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTg3OTF8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post github blog에 lyket 적용" />&lt;p>github 블로그를 개설하면서,&lt;br>&lt;code>giscus&lt;/code> 를 추가했습니다.&lt;br> &lt;em>(블로그에도 소통창구가 필요하기 때문에..!)&lt;/em>&lt;/p>
 &lt;figure>
 &lt;img src="giscus.png" alt="giscus" width="550" height="550" class="my-image">
 &lt;figcaption>&lt;cite>giscus comment&lt;/cite>&lt;/figcaption>
