@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leena's Dev Blog</title><link>https://leenago-dev.github.io/</link><description>Recent content on Leena's Dev Blog</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><copyright>Leena</copyright><lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://leenago-dev.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>변수 초기화 (Initialization)</title><link>https://leenago-dev.github.io/p/%EB%B3%80%EC%88%98-%EC%B4%88%EA%B8%B0%ED%99%94-initialization/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/%EB%B3%80%EC%88%98-%EC%B4%88%EA%B8%B0%ED%99%94-initialization/</guid><description>&lt;img src="https://images.unsplash.com/photo-1735344836059-f5005c50edbb?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4OTUzMjN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 변수 초기화 (Initialization)" />&lt;h2 id="왜-initialization이-필요하지">&lt;a href="#%ec%99%9c-initialization%ec%9d%b4-%ed%95%84%ec%9a%94%ed%95%98%ec%a7%80" class="header-anchor">&lt;/a>왜 Initialization이 필요하지?
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leena's Dev Blog</title><link>https://leenago-dev.github.io/</link><description>Recent content on Leena's Dev Blog</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><copyright>Leena</copyright><lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://leenago-dev.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>변수 초기화 (Initialization)</title><link>https://leenago-dev.github.io/p/%EB%B3%80%EC%88%98-%EC%B4%88%EA%B8%B0%ED%99%94-initialization/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/%EB%B3%80%EC%88%98-%EC%B4%88%EA%B8%B0%ED%99%94-initialization/</guid><description>&lt;img src="https://images.unsplash.com/photo-1735344836059-f5005c50edbb?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4OTUzMjN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 변수 초기화 (Initialization)" />&lt;h2 id="왜-initialization이-필요하지">&lt;a href="#%ec%99%9c-initialization%ec%9d%b4-%ed%95%84%ec%9a%94%ed%95%98%ec%a7%80" class="header-anchor">&lt;/a>왜 Initialization이 필요하지?
 &lt;/h2>&lt;p>Python challenge를 진행하면서 아래와 같은 코드를 작성했습니다.&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -334,69 +334,7 @@
 &lt;img src="건자.png" alt="건설중인자산" width="500" height="500" class="my-image">
 &lt;figcaption>&lt;cite>건설중인자산 예시&lt;/cite>&lt;/figcaption>
 &lt;/figure>
-&lt;hr></description></item><item><title>ddd</title><link>https://leenago-dev.github.io/p/ddd/</link><pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/ddd/</guid><description>&lt;img src="https://images.unsplash.com/photo-1667372531881-6f975b1c86db?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MjYzMTB8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post ddd" />&lt;h2 id="개요">&lt;a href="#%ea%b0%9c%ec%9a%94" class="header-anchor">&lt;/a>개요
-&lt;/h2>&lt;ul>
-&lt;li>예전에는 이렇게 &lt;code>참고문서&lt;/code>가 있어서, 이 문서를 참고하여 API를 가지고 왔습니다.&lt;/li>
-&lt;/ul>
-&lt;figure>
-&lt;img src="공공데이터포털_0.png" alt="공공데이터포털 과거ver" width="700" height="500" class="my-image">
-&lt;figcaption>&lt;cite>hwp 문서라니...^^..&lt;/cite>&lt;/figcaption>
-&lt;/figure>
-&lt;ul>
-&lt;li>어느 시점부터 Swagger-UI 기반의 OpenAPI 제공이 되기 시작했습니다.&lt;br> 새로운 방식으로 API 호출하는 방법을 먼저 알아봅시다.&lt;/li>
-&lt;/ul>
-&lt;p>
-&lt;h2 id="swagger-ui-기반-openapi-사용하기">&lt;a href="#swagger-ui-%ea%b8%b0%eb%b0%98-openapi-%ec%82%ac%ec%9a%a9%ed%95%98%ea%b8%b0" class="header-anchor">&lt;/a>Swagger-UI 기반 OpenAPI 사용하기
-&lt;/h2>&lt;h3 id="step-1-필요한-데이터-활용신청하기">&lt;a href="#step-1-%ed%95%84%ec%9a%94%ed%95%9c-%eb%8d%b0%ec%9d%b4%ed%84%b0-%ed%99%9c%ec%9a%a9%ec%8b%a0%ec%b2%ad%ed%95%98%ea%b8%b0" class="header-anchor">&lt;/a>Step 1: 필요한 데이터 활용신청하기
-&lt;/h3>&lt;ul>
-&lt;li>필요한 데이터를 검색하고, 해당 데이터를 클릭합니다.&lt;/li>
-&lt;/ul>
-&lt;figure>
-&lt;img src="공공데이터포털.png" alt="공공데이터포털" width="400" height="500" class="my-image">
-&lt;figcaption>&lt;cite>사용데이터&lt;/cite>&lt;/figcaption>
-&lt;/figure>
-&lt;ul>
-&lt;li>클릭하면 &lt;code>데이터 상세&lt;/code>가 뜨는데, 아래 &lt;kbd>활용신청&lt;/kbd> 버튼을 클릭합니다.&lt;/li>
-&lt;/ul>
-&lt;figure>
-&lt;img src="공공데이터포털_1_2.png" alt="공공데이터포털" width="700" height="500" class="my-image">
-&lt;figcaption>&lt;cite>활용신청&lt;/cite>&lt;/figcaption>
-&lt;/figure>
-&lt;ul>
-&lt;li>사유를 기재하는 칸이 나오게 되는데, 간단하게 사유를 기재해주면 됩니다. (자동승인이 됩니다.)&lt;/li>
-&lt;/ul>
-&lt;/p>
-&lt;h3 id="step-2-인증키-확인하기">&lt;a href="#step-2-%ec%9d%b8%ec%a6%9d%ed%82%a4-%ed%99%95%ec%9d%b8%ed%95%98%ea%b8%b0" class="header-anchor">&lt;/a>Step 2: 인증키 확인하기
-&lt;/h3>&lt;ul>
-&lt;li>&lt;kbd>마이페이지 ▶ 데이터 활용 ▶ Open API ▶ 활용신청 현황&lt;/kbd>에서 활용신청한 데이터 목록을 확인할 수 있습니다.&lt;/li>
-&lt;li>확인하고자 하는&lt;/li>
-&lt;/ul>
-&lt;figure>
-&lt;img src="공공데이터포털_3.png" alt="공공데이터포털 인증키" width="600" height="500" class="my-image">
-&lt;figcaption>&lt;cite>인증키 목록&lt;/cite>&lt;/figcaption>
-&lt;/figure>
-&lt;h2 id="필요한-라이브러리-호출">&lt;a href="#%ed%95%84%ec%9a%94%ed%95%9c-%eb%9d%bc%ec%9d%b4%eb%b8%8c%eb%9f%ac%eb%a6%ac-%ed%98%b8%ec%b6%9c" class="header-anchor">&lt;/a>필요한 라이브러리 호출
-&lt;/h2>&lt;head>
-&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/tomorrow-night-bright.min.css">
-&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js">&lt;/script>
-&lt;/head>
-&lt;pre>&lt;code class="python">
-import pandas as pd
-import requests
-import gspread
-from gspread_dataframe import set_with_dataframe
-from google.colab import auth
-auth.authenticate_user()
-creds, _ = default()
-gc = gspread.authorize(creds)
-&lt;/code>&lt;/pre>
-&lt;script>hljs.highlightAll();&lt;/script>
-&lt;pre>&lt;code class="python">
-sheet = gc.open('Airport &amp; Airline codes')
-airline_sheet = sheet.worksheet('Airline')
-airport_sheet = sheet.worksheet('Airport')
-&lt;/code>&lt;/pre>
-&lt;script>hljs.highlightAll();&lt;/script></description></item><item><title>국제 공항 &amp; 항공사 코드 정리 (1)</title><link>https://leenago-dev.github.io/p/%EA%B5%AD%EC%A0%9C-%EA%B3%B5%ED%95%AD-%ED%95%AD%EA%B3%B5%EC%82%AC-%EC%BD%94%EB%93%9C-%EC%A0%95%EB%A6%AC-1/</link><pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/%EA%B5%AD%EC%A0%9C-%EA%B3%B5%ED%95%AD-%ED%95%AD%EA%B3%B5%EC%82%AC-%EC%BD%94%EB%93%9C-%EC%A0%95%EB%A6%AC-1/</guid><description>&lt;img src="https://images.unsplash.com/photo-1504723246034-0977641ea907?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MjQ4MTB8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 국제 공항 &amp; 항공사 코드 정리 (1)" />&lt;h2 id="국제-공항-코드">&lt;a href="#%ea%b5%ad%ec%a0%9c-%ea%b3%b5%ed%95%ad-%ec%bd%94%eb%93%9c" class="header-anchor">&lt;/a>국제 공항 코드
+&lt;hr></description></item><item><title>국제 공항 &amp; 항공사 코드 정리 (1)</title><link>https://leenago-dev.github.io/p/%EA%B5%AD%EC%A0%9C-%EA%B3%B5%ED%95%AD-%ED%95%AD%EA%B3%B5%EC%82%AC-%EC%BD%94%EB%93%9C-%EC%A0%95%EB%A6%AC-1/</link><pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/%EA%B5%AD%EC%A0%9C-%EA%B3%B5%ED%95%AD-%ED%95%AD%EA%B3%B5%EC%82%AC-%EC%BD%94%EB%93%9C-%EC%A0%95%EB%A6%AC-1/</guid><description>&lt;img src="https://images.unsplash.com/photo-1504723246034-0977641ea907?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MjQ4MTB8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post 국제 공항 &amp; 항공사 코드 정리 (1)" />&lt;h2 id="국제-공항-코드">&lt;a href="#%ea%b5%ad%ec%a0%9c-%ea%b3%b5%ed%95%ad-%ec%bd%94%eb%93%9c" class="header-anchor">&lt;/a>국제 공항 코드
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
