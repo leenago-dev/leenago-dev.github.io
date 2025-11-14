@@ -121,7 +121,24 @@ loading="lazy"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">hugo version
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>끝.&lt;/p></description></item><item><title>업로드 테스트 포스트 (1)</title><link>https://leenago-dev.github.io/p/upload-test-2/</link><pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/upload-test-2/</guid><description>&lt;h2 id="업로드-테스트">&lt;a href="#%ec%97%85%eb%a1%9c%eb%93%9c-%ed%85%8c%ec%8a%a4%ed%8a%b8" class="header-anchor">&lt;/a>업로드 테스트
+&lt;/div>&lt;p>끝.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="sb">```python
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sb">pip install test
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>업로드 테스트 포스트 (1)</title><link>https://leenago-dev.github.io/p/upload-test-2/</link><pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/upload-test-2/</guid><description>&lt;h2 id="업로드-테스트">&lt;a href="#%ec%97%85%eb%a1%9c%eb%93%9c-%ed%85%8c%ec%8a%a4%ed%8a%b8" class="header-anchor">&lt;/a>업로드 테스트
 &lt;/h2>&lt;ul>
 &lt;li>
 &lt;p>이 포스트는 파이프라인 검증을 위한 짧은 업로드 테스트입니다.&lt;/p>
