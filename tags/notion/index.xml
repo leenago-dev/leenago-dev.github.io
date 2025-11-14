@@ -37,7 +37,7 @@
 loading="lazy"
 >&lt;/p>
 &lt;h3 id="마무리">&lt;a href="#%eb%a7%88%eb%ac%b4%eb%a6%ac" class="header-anchor">&lt;/a>마무리
-&lt;/h3>&lt;p>필요하면 이 텍스트를 지우고 실제 본문을 작성하세요. 저장 후 워크플로가 content/posts/block-mode-example/index.md를 생성합니다.&lt;/p></description></item><item><title>업로드 테스트 포스트</title><link>https://leenago-dev.github.io/p/upload-test-1/</link><pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/upload-test-1/</guid><description>&lt;h2 id="업로드-테스트">&lt;a href="#%ec%97%85%eb%a1%9c%eb%93%9c-%ed%85%8c%ec%8a%a4%ed%8a%b8" class="header-anchor">&lt;/a>업로드 테스트
+&lt;/h3>&lt;p>필요하면 이 텍스트를 지우고 실제 본문을 작성하세요. 저장 후 워크플로가 content/posts/block-mode-example/index.md를 생성합니다.&lt;/p></description></item><item><title>업로드 테스트 포스트</title><link>https://leenago-dev.github.io/posts/upload-test-1/</link><pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/posts/upload-test-1/</guid><description>&lt;h2 id="업로드-테스트">&lt;a href="#%ec%97%85%eb%a1%9c%eb%93%9c-%ed%85%8c%ec%8a%a4%ed%8a%b8" class="header-anchor">&lt;/a>업로드 테스트
 &lt;/h2>&lt;ul>
 &lt;li>
 &lt;p>이 포스트는 파이프라인 검증을 위한 짧은 업로드 테스트입니다.&lt;/p>
@@ -66,7 +66,7 @@ loading="lazy"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">hugo version
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>끝.&lt;/p></description></item><item><title>업로드 테스트 포스트</title><link>https://leenago-dev.github.io/posts/upload-test-1/</link><pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/posts/upload-test-1/</guid><description>&lt;h2 id="업로드-테스트">&lt;a href="#%ec%97%85%eb%a1%9c%eb%93%9c-%ed%85%8c%ec%8a%a4%ed%8a%b8" class="header-anchor">&lt;/a>업로드 테스트
+&lt;/div>&lt;p>끝.&lt;/p></description></item><item><title>진짜 찐테스트입니다!!!</title><link>https://leenago-dev.github.io/p/upload-test-1/</link><pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/upload-test-1/</guid><description>&lt;h2 id="업로드-테스트">&lt;a href="#%ec%97%85%eb%a1%9c%eb%93%9c-%ed%85%8c%ec%8a%a4%ed%8a%b8" class="header-anchor">&lt;/a>업로드 테스트
 &lt;/h2>&lt;ul>
 &lt;li>
 &lt;p>이 포스트는 파이프라인 검증을 위한 짧은 업로드 테스트입니다.&lt;/p>
