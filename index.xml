@@ -1,46 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leena's Dev Blog</title><link>https://leenago-dev.github.io/</link><description>Recent content on Leena's Dev Blog</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><copyright>Leena</copyright><lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://leenago-dev.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 파이프라인 테스트 포스트</title><link>https://leenago-dev.github.io/posts/hello-notion-to-hugo/</link><pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/posts/hello-notion-to-hugo/</guid><description>&lt;img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Golden_Gate_Bridge_as_seen_from_Battery_East.jpg" alt="Featured image of post Hugo 파이프라인 테스트 포스트" />&lt;h2 id="목적">&lt;a href="#%eb%aa%a9%ec%a0%81" class="header-anchor">&lt;/a>목적
-&lt;/h2>&lt;p>이 포스트는 Notion → Hugo 동기화 파이프라인이 올바르게 작동하는지 테스트하기 위한 샘플입니다.&lt;/p>
-&lt;h3 id="체크리스트">&lt;a href="#%ec%b2%b4%ed%81%ac%eb%a6%ac%ec%8a%a4%ed%8a%b8" class="header-anchor">&lt;/a>체크리스트
-&lt;/h3>&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Slug 가 content/posts/hello-notion-to-hugo/index.md 로 생성되는지&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Front Matter 에 title, date, tags, summary, image 가 들어가는지&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> 본문 마크다운이 정상 반영되는지&lt;/li>
-&lt;/ul>
-&lt;h3 id="코드-블록-예시">&lt;a href="#%ec%bd%94%eb%93%9c-%eb%b8%94%eb%a1%9d-%ec%98%88%ec%8b%9c" class="header-anchor">&lt;/a>코드 블록 예시
-&lt;/h3>&lt;p>bash
-hugo version&lt;/p>
-&lt;h3 id="이미지-예시">&lt;a href="#%ec%9d%b4%eb%af%b8%ec%a7%80-%ec%98%88%ec%8b%9c" class="header-anchor">&lt;/a>이미지 예시
-&lt;/h3>&lt;p>!샘플 이미지&lt;/p>
-&lt;p>끝.&lt;/p></description></item><item><title>업로드 테스트 포스트</title><link>https://leenago-dev.github.io/posts/upload-test-1/</link><pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/posts/upload-test-1/</guid><description>&lt;h2 id="업로드-테스트">&lt;a href="#%ec%97%85%eb%a1%9c%eb%93%9c-%ed%85%8c%ec%8a%a4%ed%8a%b8" class="header-anchor">&lt;/a>업로드 테스트
-&lt;/h2>&lt;ul>
-&lt;li>
-&lt;p>이 포스트는 파이프라인 검증을 위한 짧은 업로드 테스트입니다.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>본문 블록 모드로 작성되었습니다.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="체크">&lt;a href="#%ec%b2%b4%ed%81%ac" class="header-anchor">&lt;/a>체크
-&lt;/h3>&lt;ul>
-&lt;li>
-&lt;p>&lt;input checked="" disabled="" type="checkbox"> Posts DB에 행 생성&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;input checked="" disabled="" type="checkbox"> Status = Published&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;input checked="" disabled="" type="checkbox"> Slug = upload-test-1&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">hugo version
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>끝.&lt;/p></description></item><item><title>테스트</title><link>https://leenago-dev.github.io/posts/test/</link><pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/posts/test/</guid><description>&lt;p>노션 빌드 테스트&lt;/p></description></item><item><title>append vs extend</title><link>https://leenago-dev.github.io/p/append-vs-extend/</link><pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/append-vs-extend/</guid><description>&lt;img src="https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAxNjMzNzJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post append vs extend" />&lt;h2 id="extend-넌-누구니">&lt;a href="#extend-%eb%84%8c-%eb%88%84%ea%b5%ac%eb%8b%88" class="header-anchor">&lt;/a>extend, 넌 누구니?
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leena's Dev Blog</title><link>https://leenago-dev.github.io/</link><description>Recent content on Leena's Dev Blog</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><copyright>Leena</copyright><lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://leenago-dev.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>append vs extend</title><link>https://leenago-dev.github.io/p/append-vs-extend/</link><pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate><guid>https://leenago-dev.github.io/p/append-vs-extend/</guid><description>&lt;img src="https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzcxNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAxNjMzNzJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080?fm=webp" alt="Featured image of post append vs extend" />&lt;h2 id="extend-넌-누구니">&lt;a href="#extend-%eb%84%8c-%eb%88%84%ea%b5%ac%eb%8b%88" class="header-anchor">&lt;/a>extend, 넌 누구니?
 &lt;/h2>&lt;p>보통 List에 데이터를 추가하려면 &lt;code>append&lt;/code>를 많이 사용합니다.
 하지만 오늘과 같은 상황에서는 달랐답니다.&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
